@@ -1,0 +1,231 @@
+
+Version 1.36  2017-03-08
+  * correct getFileContentEx read bytes
+
+Version 1.35  2017-03-02
+  * logger judge log_level in function log_it_ex and log_it_ex1
+  * add php extension function: fastcommon_file_put_contents
+  * add function fc_safe_read and fc_safe_write
+  * add function fc_ftok
+  * add function fc_trim to avoid conflict with trim
+  * ini_file_reader support annotataion map set incrementally
+  * init context support dynamic annotations and build-in annotations
+  * ini_file_reader disable shell execute in default
+
+Version 1.34  2017-02-06
+  * ini_file_reader: LOCAL_IP support CIDR addresses
+  * ini_file_reader: return the last when get single value,
+    such as iniGetStrValue and iniGetIntValue
+  * ini_file_reader support #@set directive
+  * ini_file_reader use extra context for compatible
+
+Version 1.33  2017-01-04
+  * add function hash_get_prime_capacity
+  * refine getFileContent log info
+  * show resource label when setrlimit fail
+
+Version 1.32  2016-12-01
+  * downgrade log level from warning to debug
+
+Version 1.31  2016-11-26
+  * move SET_SOCKOPT_NOSIGPIPE from sockopt.c to sockopt.h
+  * add function get_time_item_from_str
+  * add file trylock functions
+  * add files: char_converter.h and char_converter.c
+  * add files: char_convert_loader.h and char_convert_loader.c
+
+Version 1.30  2016-10-31
+  * modify php-fastcommon/test.php
+  * php7_ext_wrapper.h: fix memory leak in php 7
+  * setsockopt SO_NOSIGPIPE when nessary
+  * add function iovent_add_to_deleted_list
+  * fixbug for select with microseconds
+  * id generator support file mode
+
+Version 1.29  2016-06-17
+  * ini_file_reader support #@if
+  * ini_file_reader support #@for
+  * add function id_generator_get_timestamp
+
+Version 1.28  2016-06-08
+  * id generator support extra bits
+  * change inet_aton to inet_pton
+  * connect by ip and connection pool support ipv6
+  * id generator in php extension support multi instance
+  * add function http_parse_url_params
+  * check g_free_queue.head == NULL before free_queue_realloc()
+
+Version 1.27  2016-04-15
+  * add function fd_set_cloexec
+  * php-fastcommon.spec.in support PHP 7
+  * add file lock and unlock functions
+  * add id generator for multi processes
+  * php extension support id generator
+
+Version 1.26  2016-03-16
+  * add logger parameter: compress_log_days_before
+
+Version 1.25  2016-03-01
+  * php7_ext_wrapper.h add more macro defines
+  * compile passed in FreeBSD 10.2
+  * bugfixed: free task point correctly in free_queue_destroy
+  * logger support compress the log file
+
+Version 1.24  2016-02-15
+  * php extension compiled on PHP 7
+  * add skiplist which support stable sort
+  * make.sh: use sed to replace perl
+  * support get local mac addresses
+  * add system_info.h and system_info.c
+  * add function get_mounted_filesystems
+  * add function get_processes for Linux
+  * ini_file_reader add iniGetSectionNames and iniGetSectionItems
+  * add fast_blocked_queue.[hc]
+  * iovent bug fixed for FreeBSD
+  * sysinfo for FreeBSD
+  * add php7_ext_wrapper.h for php7 migration
+
+Version 1.23  2015-11-16
+  * sched_thread.c: task can execute in a new thread
+  * sched_thread.c: support delay tasks
+  * add function get_current_time_us and get_current_time_ms
+  * mblock add stat function
+  * add function get_sys_total_mem_size and get_sys_cpu_count,
+    ONLY support Linux and FreeBSD
+  * delay task can execute in a new thread
+  * fast_mblock reclaimed object pool
+  * add fast_allocator
+  * add fast_buffer
+
+Version 1.22  2015-10-10
+  * export php function: fastcommon_get_first_local_ip
+  * add function is_private_ip
+  * add function get_next_local_ip
+  * export php function: fastcommon_get_next_local_ip
+  * export php function: fastcommon_is_private_ip
+
+Version 1.21  2015-09-14
+  * ini_file_reader support annotation function
+  * correct PTHREAD_MUTEX_ERRORCHECK define
+  * support 32 bit OS
+  * allow_ips support CIDR addresses such as 172.16.12.0/22
+  * add function get_first_local_ip
+  * ioevent for BSD ok
+  * iniGetValues use iniGetValuesEx
+
+Version 1.20  2015-08-06
+  * add GEO function get_line_distance_km
+
+Version 1.19  2015-07-24
+  * correct logger rotate time near 0 clock
+
+Version 1.18  2015-07-15
+  * OS macro defines put in _os_define.h
+  * remove file _os_bits.h
+  * schedule task support second field
+
+Version 1.17  2015-07-14
+  * ini_file_reader.c change PJWHash to Time33Hash and increase capacity
+  * ini_file_reader.c realloc change to malloc and memcpy
+
+Version 1.16  2015-07-01
+  * fast_mblock add fast_mblock_delay_free
+  * add fast_mpool.h and fast_mpool.c
+
+Version 1.15  2015-06-16
+  * fast_mblock.c support none lock
+  * ioevent support set timeout
+  * fast_mblock support alloc and free object
+  * ini_file_reader set global section before and after directive #include
+
+Version 1.14  2015-06-12
+  * fast_task_info support set_buffer_size and realloc_buffer
+  * use file lock when write logger header
+  * bugfixed: sockopt.c correct fsbytes to sbytes in FreeBSD
+  * macro FDFS_WRITE_BUFF_SIZE change to FAST_WRITE_BUFF_SIZE
+  * logger.c call log_check_rotate in lock
+  * bug fixed: log header correctly when rotate
+
+Version 1.13  2015-02-27
+  * support php extension
+  * php extention export simple_hash and time33_hash
+  * set_run_by log more info
+
+Version 1.12  2014-12-05
+  * bug fixed: must check the return value of vsnprintf
+  * can call sched_add_entries many times before schedule
+
+Version 1.11  2014-11-20
+  * remove usleep call in logger.c
+  * bug fixed: NOT set last_block->next when realloc
+
+Version 1.10  2014-10-31
+  * correct iovent macro define
+  * must set timeout entry's dlink to NULL because NOT in time wheel
+
+Version 1.09  2014-10-26
+  * Version struct add variable: patch
+  * get local ipaddr support interface based 1
+  * mblock support alloc_init_func
+
+Version 1.08  2014-10-09
+  * sched_thread.c: calculate next_call_time correctly
+
+Version 1.07  2014-09-16
+  * increment alloc task buffer
+  * add function free_queue_alloc_connections
+  * check file size before log access header
+  * conn_pool_destroy close connections and free memory
+  * delete log old files with any time format affix
+
+Version 1.06  2014-08-27
+  * update source code from FastDFS V5.02
+  * add function short2buff and buff2short
+  * add object memory pool (fast_mblock.h and fast_mblock.c)
+  * add member thread_loop_callback in nio_thread_data
+  * bug fixed: ini_file_reader.c can't include relative path sub config,
+    such as #include ../../conf/common.conf
+  * add get_url_content_ex to support buffer passed by caller
+  * logger can set rotate time format
+  * add connection pool
+  * logger can log header line
+  * #include <stdbool.h> to use C99 bool
+  * add libfastcommon.spec for building RPM
+  * logger can delete old rotated files
+  * bug fixed: connection pool should NOT increase counter when connect fail
+  * logger.c do NOT call fsync after write
+  * sockopt.c add tcprecvdata_nb_ms to support millisecond timeout
+  * change req_count from int to int64_t
+  * logger can take over stderr and stdout
+  * replace INT64_PRINTF_FORMAT with PRId64
+  * support OS Darwin
+  * socket send and recv ignore erno EINTR
+  * http_parse_query_ex support binary buffer, and set both lengths of key and name
+  * add function ioevent_remove
+  * add function log_reopen_ex
+  * extern function log_rotate
+  * add function log_set_fd_flags
+
+Version 1.05  2012-07-08
+  * update source code from FastDFS V3.09
+
+Version 1.04  2011-01-31
+  * update source code from FastDFS V2.08
+
+Version 1.03  2010-11-16
+  * add local ip functions local_ip_func.c
+
+Version 1.02  2010-07-02
+  * sockopt.c: tcprecvfile and tcpdiscard add parameter total_recv_bytes
+  * sockopt.h add non-block connect function connectserverbyip_nb
+  * log_init set log to cache to false (no cache)
+
+Version 1.01  2010-05-15
+  * source file move to directory src
+  * header files add comments
+  * logger.h: correct function name from log_destory_ex to log_destroy_ex
+  * shared_func.h: getExeAbsolutePath change to getAbsolutePath
+
+Version 1.00  2010-05-08
+  * first version
+

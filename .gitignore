@@ -1,6 +1,3 @@
-# Prerequisites
-*.d
-
 # Compiled Object files
 *.slo
 *.lo
@@ -30,3 +27,6 @@
 *.exe
 *.out
 *.app
+
+# others
+push.sh

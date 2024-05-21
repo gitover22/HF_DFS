@@ -1,0 +1,67 @@
+.SUFFIXES: .c .o .lo
+
+COMPILE = $(CC) -Wall -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -g -O3
+INC_PATH = 
+LIB_PATH = -lm
+
+FAST_SHARED_OBJS = hash.lo chain.lo shared_func.lo ini_file_reader.lo \
+                   logger.lo sockopt.lo base64.lo sched_thread.lo \
+                   http_func.lo md5.lo pthread_func.lo local_ip_func.lo \
+                   avl_tree.lo ioevent.lo ioevent_loop.lo fast_task_queue.lo \
+                   fast_timer.lo process_ctrl.lo fast_mblock.lo \
+                   connection_pool.lo fast_mpool.lo fast_allocator.lo  \
+                   fast_buffer.lo multi_skiplist.lo flat_skiplist.lo \
+                   system_info.lo fast_blocked_queue.lo id_generator.lo \
+				   char_converter.lo char_convert_loader.lo
+
+FAST_STATIC_OBJS = hash.o chain.o shared_func.o ini_file_reader.o \
+                   logger.o sockopt.o base64.o sched_thread.o \
+                   http_func.o md5.o pthread_func.o local_ip_func.o \
+                   avl_tree.o ioevent.o ioevent_loop.o fast_task_queue.o \
+                   fast_timer.o process_ctrl.o fast_mblock.o \
+                   connection_pool.o fast_mpool.o fast_allocator.o \
+                   fast_buffer.o multi_skiplist.o flat_skiplist.o  \
+                   system_info.o fast_blocked_queue.o id_generator.o \
+				   char_converter.o char_convert_loader.o
+
+HEADER_FILES = common_define.h hash.h chain.h logger.h base64.h \
+               shared_func.h pthread_func.h ini_file_reader.h _os_define.h \
+               sockopt.h sched_thread.h http_func.h md5.h local_ip_func.h \
+               avl_tree.h ioevent.h ioevent_loop.h fast_task_queue.h \
+               fast_timer.h process_ctrl.h fast_mblock.h \
+               connection_pool.h fast_mpool.h fast_allocator.h \
+               fast_buffer.h skiplist.h multi_skiplist.h flat_skiplist.h \
+               skiplist_common.h system_info.h fast_blocked_queue.h \
+               php7_ext_wrapper.h id_generator.h char_converter.h \
+			   char_convert_loader.h
+
+ALL_OBJS = $(FAST_STATIC_OBJS) $(FAST_SHARED_OBJS)
+
+ALL_PRGS = 
+SHARED_LIBS = libfastcommon.so
+STATIC_LIBS = libfastcommon.a
+ALL_LIBS = $(SHARED_LIBS) $(STATIC_LIBS)
+
+all: $(ALL_OBJS) $(ALL_PRGS) $(ALL_LIBS)
+libfastcommon.so:
+	$(COMPILE) -o $@ $< -shared $(FAST_SHARED_OBJS) $(LIB_PATH)
+libfastcommon.a: $(FAST_STATIC_OBJS)
+	ar rcs $@ $(FAST_STATIC_OBJS)
+.o:
+	$(COMPILE) -o $@ $<  $(FAST_STATIC_OBJS) $(LIB_PATH) $(INC_PATH)
+.c:
+	$(COMPILE) -o $@ $<  $(FAST_STATIC_OBJS) $(LIB_PATH) $(INC_PATH)
+.c.o:
+	$(COMPILE) -c -o $@ $<  $(INC_PATH)
+.c.lo:
+	$(COMPILE) -c -fPIC -o $@ $<  $(INC_PATH)
+install:
+	mkdir -p $(DESTDIR)/usr/lib64
+	mkdir -p $(DESTDIR)/usr/lib
+	install -m 755 $(SHARED_LIBS) $(DESTDIR)/usr/lib64
+	install -m 755 $(SHARED_LIBS) $(DESTDIR)/usr/lib
+	mkdir -p $(DESTDIR)/usr/include/fastcommon
+	install -m 644 $(HEADER_FILES) $(DESTDIR)/usr/include/fastcommon
+clean:
+	rm -f $(ALL_OBJS) $(ALL_PRGS) $(ALL_LIBS)
+
