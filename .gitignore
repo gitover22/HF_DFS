@@ -29,4 +29,5 @@
 *.app
 
 # others
-push.sh
+./push.sh
+./fastDFS/config/*
