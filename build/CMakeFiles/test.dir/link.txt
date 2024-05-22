@@ -1,1 +1,0 @@
-gcc -rdynamic CMakeFiles/test.dir/fdfs_upload.c.o CMakeFiles/test.dir/main.c.o -o test   -L/home/huafeng/HF_DFS/fastDFS/fastdfs-5.10/client  -L/home/huafeng/HF_DFS/fastDFS/libfastcommon-master/src  -Wl,-rpath,/home/huafeng/HF_DFS/fastDFS/fastdfs-5.10/client:/home/huafeng/HF_DFS/fastDFS/libfastcommon-master/src -lfdfsclient -lfastcommon 

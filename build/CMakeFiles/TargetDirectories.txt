@@ -1,3 +1,0 @@
-/home/huafeng/HF_DFS/build/CMakeFiles/test.dir
-/home/huafeng/HF_DFS/build/CMakeFiles/edit_cache.dir
-/home/huafeng/HF_DFS/build/CMakeFiles/rebuild_cache.dir
