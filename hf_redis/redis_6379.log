@@ -1,0 +1,30 @@
+126201:C 22 May 14:42:24.255 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+126201:C 22 May 14:42:24.255 # Redis version=4.0.8, bits=64, commit=382acf39, modified=1, pid=126201, just started
+126201:C 22 May 14:42:24.255 # Configuration loaded
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 4.0.8 (382acf39/1) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6379
+ |    `-._   `._    /     _.-'    |     PID: 126202
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+126202:M 22 May 14:42:24.256 # Server initialized
+126202:M 22 May 14:42:24.256 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+126202:M 22 May 14:42:24.256 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+126202:M 22 May 14:42:24.256 * Ready to accept connections
+126202:M 22 May 14:50:53.894 # User requested shutdown...
+126202:M 22 May 14:50:53.894 * Saving the final RDB snapshot before exiting.
+126202:M 22 May 14:50:53.900 * DB saved on disk
+126202:M 22 May 14:50:53.900 * Removing the pid file.
+126202:M 22 May 14:50:53.900 # Redis is now ready to exit, bye bye...
