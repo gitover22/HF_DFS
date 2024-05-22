@@ -29,7 +29,7 @@
 *.app
 
 # others
-./push.sh
-./fastDFS/config/*
-./build/*
-./.vscode/*
+push.sh
+fastDFS/config/
+build/
+.vscode/
