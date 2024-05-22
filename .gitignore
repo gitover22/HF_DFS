@@ -31,3 +31,5 @@
 # others
 ./push.sh
 ./fastDFS/config/*
+./build/*
+./.vscode/*
