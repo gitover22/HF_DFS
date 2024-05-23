@@ -17,13 +17,17 @@ include_directories("/home/huafeng/HF_DFS/fastDFS/fastdfs-5.10/client/")
 include_directories("/home/huafeng/HF_DFS/fastDFS/fastdfs-5.10/tracker/")
 include_directories("/home/huafeng/HF_DFS/fastDFS/fastdfs-5.10/common/")
 include_directories("/home/huafeng/HF_DFS/fastDFS/libfastcommon-master/src/")
+include_directories("/home/huafeng/HF_DFS/hiredis-master/")
 
 # 添加链接库的搜索路径  .so等搜索路径 也需要把库名添加到 target_link_libraries 中
 link_directories("/home/huafeng/HF_DFS/fastDFS/fastdfs-5.10/client/") 
 link_directories("/home/huafeng/HF_DFS/fastDFS/libfastcommon-master/src/") 
+link_directories("/home/huafeng/HF_DFS/hiredis-master/") 
 
 # 添加可执行文件生成规则
 add_executable(test fdfs_upload.c main.c)
+add_executable(redis redisDemo.c)
 
 # 链接所需的库
 target_link_libraries(test fdfsclient fastcommon)
+target_link_libraries(redis hiredis)
