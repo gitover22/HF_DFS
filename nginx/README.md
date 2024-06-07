@@ -1,0 +1,1 @@
+Nginx依赖于：Openssl ZLib pcre
