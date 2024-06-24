@@ -1,0 +1,164 @@
+--------------------
+./configure
+Fri Jun  7 14:35:28 CST 2024
+=== ztest229014.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+cc -c ztest229014.c
+... using gcc
+
+Checking for obsessive-compulsive compiler options...
+=== ztest229014.c ===
+int foo() { return 0; }
+===
+cc -c -O2 -fomit-frame-pointer -pipe ztest229014.c
+
+Checking for shared library support...
+=== ztest229014.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+cc -w -c -O2 -fomit-frame-pointer -pipe -fPIC ztest229014.c
+cc -shared -Wl,-soname,libz.so.1,--version-script,zlib.map -O2 -fomit-frame-pointer -pipe -fPIC -o ztest229014.so ztest229014.o
+Building shared library libz.so.1.2.11 with cc.
+
+=== ztest229014.c ===
+#include <stdio.h>
+#include <stdlib.h>
+size_t dummy = 0;
+===
+cc -c -O2 -fomit-frame-pointer -pipe ztest229014.c
+Checking for size_t... Yes.
+
+
+=== ztest229014.c ===
+#include <sys/types.h>
+off64_t dummy = 0;
+===
+cc -c -O2 -fomit-frame-pointer -pipe -D_LARGEFILE64_SOURCE=1 ztest229014.c
+Checking for off64_t... Yes.
+Checking for fseeko... Yes.
+
+=== ztest229014.c ===
+#include <string.h>
+#include <errno.h>
+int main() { return strlen(strerror(errno)); }
+===
+cc -O2 -fomit-frame-pointer -pipe -D_LARGEFILE64_SOURCE=1 -o ztest229014 ztest229014.c
+Checking for strerror... Yes.
+
+=== ztest229014.c ===
+#include <unistd.h>
+int main() { return 0; }
+===
+cc -c -O2 -fomit-frame-pointer -pipe -D_LARGEFILE64_SOURCE=1 ztest229014.c
+Checking for unistd.h... Yes.
+
+=== ztest229014.c ===
+#include <stdarg.h>
+int main() { return 0; }
+===
+cc -c -O2 -fomit-frame-pointer -pipe -D_LARGEFILE64_SOURCE=1 ztest229014.c
+Checking for stdarg.h... Yes.
+
+=== ztest229014.c ===
+#include <stdio.h>
+#include <stdarg.h>
+#include "zconf.h"
+int main()
+{
+#ifndef STDC
+  choke me
+#endif
+  return 0;
+}
+===
+cc -c -O2 -fomit-frame-pointer -pipe -D_LARGEFILE64_SOURCE=1 ztest229014.c
+Checking whether to use vs[n]printf() or s[n]printf()... using vs[n]printf().
+
+=== ztest229014.c ===
+#include <stdio.h>
+#include <stdarg.h>
+int mytest(const char *fmt, ...)
+{
+  char buf[20];
+  va_list ap;
+  va_start(ap, fmt);
+  vsnprintf(buf, sizeof(buf), fmt, ap);
+  va_end(ap);
+  return 0;
+}
+int main()
+{
+  return (mytest("Hello%d\n", 1));
+}
+===
+cc -O2 -fomit-frame-pointer -pipe -D_LARGEFILE64_SOURCE=1 -o ztest229014 ztest229014.c
+Checking for vsnprintf() in stdio.h... Yes.
+
+=== ztest229014.c ===
+#include <stdio.h>
+#include <stdarg.h>
+int mytest(const char *fmt, ...)
+{
+  int n;
+  char buf[20];
+  va_list ap;
+  va_start(ap, fmt);
+  n = vsnprintf(buf, sizeof(buf), fmt, ap);
+  va_end(ap);
+  return n;
+}
+int main()
+{
+  return (mytest("Hello%d\n", 1));
+}
+===
+cc -c -O2 -fomit-frame-pointer -pipe -D_LARGEFILE64_SOURCE=1 ztest229014.c
+Checking for return value of vsnprintf()... Yes.
+
+=== ztest229014.c ===
+#define ZLIB_INTERNAL __attribute__((visibility ("hidden")))
+int ZLIB_INTERNAL foo;
+int main()
+{
+  return 0;
+}
+===
+cc -c -O2 -fomit-frame-pointer -pipe -D_LARGEFILE64_SOURCE=1 ztest229014.c
+Checking for attribute(visibility) support... Yes.
+
+ALL = static shared all64
+AR = ar
+ARFLAGS = rc
+CC = cc
+CFLAGS = -O2 -fomit-frame-pointer -pipe -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN
+CPP = cc -E
+EXE =
+LDCONFIG = ldconfig
+LDFLAGS =
+LDSHARED = cc -shared -Wl,-soname,libz.so.1,--version-script,zlib.map
+LDSHAREDLIBC = -lc
+OBJC = $(OBJZ) $(OBJG)
+PIC_OBJC = $(PIC_OBJZ) $(PIC_OBJG)
+RANLIB = ranlib
+SFLAGS = -O2 -fomit-frame-pointer -pipe -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN
+SHAREDLIB = libz.so
+SHAREDLIBM = libz.so.1
+SHAREDLIBV = libz.so.1.2.11
+STATICLIB = libz.a
+TEST = all teststatic testshared test64
+VER = 1.2.11
+Z_U4 =
+SRCDIR =
+exec_prefix = ${prefix}
+includedir = ${prefix}/include
+libdir = ${exec_prefix}/lib
+mandir = ${prefix}/share/man
+prefix = /usr/local
+sharedlibdir = ${libdir}
+uname = Linux
+--------------------
+
+
