@@ -1,0 +1,266 @@
+[2024-06-26 09:29:22]--[src_cgi/myfiles_cgi.c:40]--mysql:[user=root,pwd=huafeng,database=cloud_disk][2024-06-26 09:30:17]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2024-06-26 09:30:17]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "14e1d74659bf441a0be5bcf08630de0e",
+    "user": "huafeng"
+}
+
+[2024-06-26 09:30:17]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="huafeng" 操作失败
+[2024-06-26 09:30:17]--[src_cgi/myfiles_cgi.c:176]--line = 0
+[2024-06-26 09:33:43]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2024-06-26 09:33:43]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "63ead8072826e363a5297954aa9c0635",
+    "user": "huafeng"
+}
+
+[2024-06-26 09:33:43]--[src_cgi/myfiles_cgi.c:176]--line = 1
+[2024-06-26 09:33:43]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2024-06-26 09:33:43]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "63ead8072826e363a5297954aa9c0635",
+    "user": "huafeng"
+}
+
+[2024-06-26 09:33:43]--[src_cgi/myfiles_cgi.c:548]--user = huafeng, token = 63ead8072826e363a5297954aa9c0635, start = 0, count = 1
+[2024-06-26 09:33:43]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'huafeng' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2024-06-26 09:33:43]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"huafeng",
+			"md5":	"09a9d1824ea6b9d82ba2bb8cf2303629",
+			"time":	"2024-06-26 09:30:37",
+			"filename":	"cat.jpg",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.181.1:80/group1/M00/00/00/wKi1AWZ7bz2AVGF6AABAxuJNm8o185.jpg",
+			"size":	16582,
+			"type":	"jpg"
+		}]
+}
+[2024-06-26 09:34:28]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2024-06-26 09:34:28]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "9c5b132579cc5957b8a3d4478ae46035",
+    "user": "huafeng"
+}
+
+[2024-06-26 09:34:28]--[src_cgi/myfiles_cgi.c:176]--line = 1
+[2024-06-26 09:34:28]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2024-06-26 09:34:28]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "9c5b132579cc5957b8a3d4478ae46035",
+    "user": "huafeng"
+}
+
+[2024-06-26 09:34:28]--[src_cgi/myfiles_cgi.c:548]--user = huafeng, token = 9c5b132579cc5957b8a3d4478ae46035, start = 0, count = 1
+[2024-06-26 09:34:28]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'huafeng' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2024-06-26 09:34:28]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"huafeng",
+			"md5":	"09a9d1824ea6b9d82ba2bb8cf2303629",
+			"time":	"2024-06-26 09:30:37",
+			"filename":	"cat.jpg",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.181.1:80/group1/M00/00/00/wKi1AWZ7bz2AVGF6AABAxuJNm8o185.jpg",
+			"size":	16582,
+			"type":	"jpg"
+		}]
+}
+[2024-06-26 09:47:35]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2024-06-26 09:47:35]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "92cd5d2be89c7b91b0005b8e2b811431",
+    "user": "huafeng"
+}
+
+[2024-06-26 09:47:35]--[src_cgi/myfiles_cgi.c:176]--line = 1
+[2024-06-26 09:47:35]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2024-06-26 09:47:35]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "92cd5d2be89c7b91b0005b8e2b811431",
+    "user": "huafeng"
+}
+
+[2024-06-26 09:47:35]--[src_cgi/myfiles_cgi.c:548]--user = huafeng, token = 92cd5d2be89c7b91b0005b8e2b811431, start = 0, count = 1
+[2024-06-26 09:47:35]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'huafeng' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2024-06-26 09:47:35]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"huafeng",
+			"md5":	"09a9d1824ea6b9d82ba2bb8cf2303629",
+			"time":	"2024-06-26 09:30:37",
+			"filename":	"cat.jpg",
+			"share_status":	0,
+			"pv":	1,
+			"url":	"http://192.168.181.1:80/group1/M00/00/00/wKi1AWZ7bz2AVGF6AABAxuJNm8o185.jpg",
+			"size":	16582,
+			"type":	"jpg"
+		}]
+}
+[2024-06-26 09:55:06]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2024-06-26 09:55:06]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "ddf91316d0946dd0abf95826a235a044",
+    "user": "huafeng"
+}
+
+[2024-06-26 09:55:06]--[src_cgi/myfiles_cgi.c:176]--line = 2
+[2024-06-26 09:55:06]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2024-06-26 09:55:06]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 2,
+    "start": 0,
+    "token": "ddf91316d0946dd0abf95826a235a044",
+    "user": "huafeng"
+}
+
+[2024-06-26 09:55:06]--[src_cgi/myfiles_cgi.c:548]--user = huafeng, token = ddf91316d0946dd0abf95826a235a044, start = 0, count = 2
+[2024-06-26 09:55:06]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'huafeng' and file_info.md5 = user_file_list.md5 limit 0, 2 在操作
+[2024-06-26 09:55:06]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"huafeng",
+			"md5":	"09a9d1824ea6b9d82ba2bb8cf2303629",
+			"time":	"2024-06-26 09:30:37",
+			"filename":	"cat.jpg",
+			"share_status":	0,
+			"pv":	1,
+			"url":	"http://192.168.181.1:80/group1/M00/00/00/wKi1AWZ7bz2AVGF6AABAxuJNm8o185.jpg",
+			"size":	16582,
+			"type":	"jpg"
+		}, {
+			"user":	"huafeng",
+			"md5":	"83026f4d86f7d8d2d057df5587d7600e",
+			"time":	"2024-06-26 09:47:57",
+			"filename":	"想法.txt",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.181.1:80/group1/M00/00/00/wKi1AWZ7c02AVi3fAAACTV-b1us149.txt",
+			"size":	589,
+			"type":	"txt"
+		}]
+}
+[2024-06-26 09:56:01]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2024-06-26 09:56:01]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "222005bbd72bbcfe342cd535529f55a9",
+    "user": "123"
+}
+
+[2024-06-26 09:56:01]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="123" 操作失败
+[2024-06-26 09:56:01]--[src_cgi/myfiles_cgi.c:176]--line = 0
+[2024-06-26 09:57:07]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2024-06-26 09:57:07]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "19d8049e1109eff696bcfe4c48e60520",
+    "user": "123"
+}
+
+[2024-06-26 09:57:07]--[src_cgi/myfiles_cgi.c:176]--line = 1
+[2024-06-26 09:57:07]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2024-06-26 09:57:07]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "19d8049e1109eff696bcfe4c48e60520",
+    "user": "123"
+}
+
+[2024-06-26 09:57:07]--[src_cgi/myfiles_cgi.c:548]--user = 123, token = 19d8049e1109eff696bcfe4c48e60520, start = 0, count = 1
+[2024-06-26 09:57:07]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = '123' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2024-06-26 09:57:07]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"123",
+			"md5":	"09a9d1824ea6b9d82ba2bb8cf2303629",
+			"time":	"2024-06-26 09:56:16",
+			"filename":	"cat.jpg",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.181.1:80/group1/M00/00/00/wKi1AWZ7bz2AVGF6AABAxuJNm8o185.jpg",
+			"size":	16582,
+			"type":	"jpg"
+		}]
+}
+[2024-06-26 10:43:40]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2024-06-26 10:43:40]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "ff16153d64366ee0ebee7e6ba80e0347",
+    "user": "123"
+}
+
+[2024-06-26 10:43:40]--[src_cgi/myfiles_cgi.c:176]--line = 1
+[2024-06-26 10:43:40]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2024-06-26 10:43:40]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "ff16153d64366ee0ebee7e6ba80e0347",
+    "user": "123"
+}
+
+[2024-06-26 10:43:40]--[src_cgi/myfiles_cgi.c:548]--user = 123, token = ff16153d64366ee0ebee7e6ba80e0347, start = 0, count = 1
+[2024-06-26 10:43:40]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = '123' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2024-06-26 10:43:40]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"123",
+			"md5":	"09a9d1824ea6b9d82ba2bb8cf2303629",
+			"time":	"2024-06-26 09:56:16",
+			"filename":	"cat.jpg",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.181.1:80/group1/M00/00/00/wKi1AWZ7bz2AVGF6AABAxuJNm8o185.jpg",
+			"size":	16582,
+			"type":	"jpg"
+		}]
+}
+[2024-06-26 10:49:10]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2024-06-26 10:49:10]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "ba036f374b52c6a1f0ab72f97e461846",
+    "user": "123"
+}
+
+[2024-06-26 10:49:10]--[src_cgi/myfiles_cgi.c:176]--line = 1
+[2024-06-26 10:49:10]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2024-06-26 10:49:10]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "ba036f374b52c6a1f0ab72f97e461846",
+    "user": "123"
+}
+
+[2024-06-26 10:49:10]--[src_cgi/myfiles_cgi.c:548]--user = 123, token = ba036f374b52c6a1f0ab72f97e461846, start = 0, count = 1
+[2024-06-26 10:49:10]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = '123' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2024-06-26 10:49:10]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"123",
+			"md5":	"09a9d1824ea6b9d82ba2bb8cf2303629",
+			"time":	"2024-06-26 09:56:16",
+			"filename":	"cat.jpg",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.181.1:80/group1/M00/00/00/wKi1AWZ7bz2AVGF6AABAxuJNm8o185.jpg",
+			"size":	16582,
+			"type":	"jpg"
+		}]
+}
+[2024-06-26 11:17:17]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2024-06-26 11:17:17]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "2c72c562613e179bbd1bea474e38f8c7",
+    "user": "123"
+}
+
+[2024-06-26 11:17:17]--[src_cgi/myfiles_cgi.c:176]--line = 1
+[2024-06-26 11:17:17]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2024-06-26 11:17:17]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "2c72c562613e179bbd1bea474e38f8c7",
+    "user": "123"
+}
+
+[2024-06-26 11:17:17]--[src_cgi/myfiles_cgi.c:548]--user = 123, token = 2c72c562613e179bbd1bea474e38f8c7, start = 0, count = 1
+[2024-06-26 11:17:17]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = '123' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2024-06-26 11:17:17]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"123",
+			"md5":	"09a9d1824ea6b9d82ba2bb8cf2303629",
+			"time":	"2024-06-26 09:56:16",
+			"filename":	"cat.jpg",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.181.1:80/group1/M00/00/00/wKi1AWZ7bz2AVGF6AABAxuJNm8o185.jpg",
+			"size":	16582,
+			"type":	"jpg"
+		}]
+}
