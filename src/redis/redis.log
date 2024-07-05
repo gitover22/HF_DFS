@@ -92,3 +92,112 @@
 213260:C 26 Jun 11:17:17.569 * DB saved on disk
 213260:C 26 Jun 11:17:17.569 * RDB: 0 MB of memory used by copy-on-write
 168902:M 26 Jun 11:17:17.663 * Background saving terminated with success
+279957:C 26 Jun 13:51:41.387 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+279957:C 26 Jun 13:51:41.387 # Redis version=4.0.8, bits=64, commit=4678a407, modified=1, pid=279957, just started
+279957:C 26 Jun 13:51:41.387 # Configuration loaded
+279958:M 26 Jun 13:51:41.388 * Running mode=standalone, port=6379.
+279958:M 26 Jun 13:51:41.388 # Server initialized
+279958:M 26 Jun 13:51:41.388 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+279958:M 26 Jun 13:51:41.388 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+279958:M 26 Jun 13:51:41.388 * DB loaded from disk: 0.000 seconds
+279958:M 26 Jun 13:51:41.388 * Ready to accept connections
+279958:M 26 Jun 14:08:25.020 * 1 changes in 900 seconds. Saving...
+279958:M 26 Jun 14:08:25.020 * Background saving started by pid 286907
+286907:C 26 Jun 14:08:25.024 * DB saved on disk
+286907:C 26 Jun 14:08:25.024 * RDB: 0 MB of memory used by copy-on-write
+279958:M 26 Jun 14:08:25.121 * Background saving terminated with success
+279958:M 26 Jun 14:23:26.026 * 1 changes in 900 seconds. Saving...
+279958:M 26 Jun 14:23:26.027 * Background saving started by pid 293128
+293128:C 26 Jun 14:23:26.040 * DB saved on disk
+293128:C 26 Jun 14:23:26.040 * RDB: 0 MB of memory used by copy-on-write
+279958:M 26 Jun 14:23:26.127 * Background saving terminated with success
+745:C 28 Jun 16:42:11.090 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+745:C 28 Jun 16:42:11.090 # Redis version=4.0.8, bits=64, commit=4678a407, modified=1, pid=745, just started
+745:C 28 Jun 16:42:11.090 # Configuration loaded
+746:M 28 Jun 16:42:11.090 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+746:M 28 Jun 16:42:11.091 * Running mode=standalone, port=6379.
+746:M 28 Jun 16:42:11.091 # Server initialized
+746:M 28 Jun 16:42:11.091 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+746:M 28 Jun 16:42:11.091 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+746:M 28 Jun 16:42:11.091 * DB loaded from disk: 0.000 seconds
+746:M 28 Jun 16:42:11.091 * Ready to accept connections
+746:M 28 Jun 17:49:57.900 * 1 changes in 900 seconds. Saving...
+746:M 28 Jun 17:49:57.900 * Background saving started by pid 17207
+17207:C 28 Jun 17:49:57.906 * DB saved on disk
+17207:C 28 Jun 17:49:57.906 * RDB: 0 MB of memory used by copy-on-write
+746:M 28 Jun 17:49:58.000 * Background saving terminated with success
+746:M 28 Jun 18:04:58.108 * 1 changes in 900 seconds. Saving...
+746:M 28 Jun 18:04:58.108 * Background saving started by pid 20729
+20729:C 28 Jun 18:04:58.125 * DB saved on disk
+20729:C 28 Jun 18:04:58.126 * RDB: 0 MB of memory used by copy-on-write
+746:M 28 Jun 18:04:58.209 * Background saving terminated with success
+746:M 28 Jun 18:19:59.032 * 1 changes in 900 seconds. Saving...
+746:M 28 Jun 18:19:59.033 * Background saving started by pid 24254
+24254:C 28 Jun 18:19:59.042 * DB saved on disk
+24254:C 28 Jun 18:19:59.042 * RDB: 0 MB of memory used by copy-on-write
+746:M 28 Jun 18:19:59.133 * Background saving terminated with success
+746:M 28 Jun 18:35:00.035 * 1 changes in 900 seconds. Saving...
+746:M 28 Jun 18:35:00.035 * Background saving started by pid 27775
+27775:C 28 Jun 18:35:00.041 * DB saved on disk
+27775:C 28 Jun 18:35:00.041 * RDB: 0 MB of memory used by copy-on-write
+746:M 28 Jun 18:35:00.136 * Background saving terminated with success
+746:M 28 Jun 18:50:01.045 * 1 changes in 900 seconds. Saving...
+746:M 28 Jun 18:50:01.045 * Background saving started by pid 31287
+31287:C 28 Jun 18:50:01.062 * DB saved on disk
+31287:C 28 Jun 18:50:01.063 * RDB: 0 MB of memory used by copy-on-write
+746:M 28 Jun 18:50:01.146 * Background saving terminated with success
+746:M 28 Jun 19:05:02.095 * 1 changes in 900 seconds. Saving...
+746:M 28 Jun 19:05:02.095 * Background saving started by pid 34805
+34805:C 28 Jun 19:05:02.105 * DB saved on disk
+34805:C 28 Jun 19:05:02.105 * RDB: 0 MB of memory used by copy-on-write
+746:M 28 Jun 19:05:02.195 * Background saving terminated with success
+878:C 30 Jun 10:18:15.718 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+878:C 30 Jun 10:18:15.718 # Redis version=4.0.8, bits=64, commit=4678a407, modified=1, pid=878, just started
+878:C 30 Jun 10:18:15.718 # Configuration loaded
+879:M 30 Jun 10:18:15.718 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+879:M 30 Jun 10:18:15.719 * Running mode=standalone, port=6379.
+879:M 30 Jun 10:18:15.719 # Server initialized
+879:M 30 Jun 10:18:15.719 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+879:M 30 Jun 10:18:15.719 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+879:M 30 Jun 10:18:15.719 * DB loaded from disk: 0.000 seconds
+879:M 30 Jun 10:18:15.719 * Ready to accept connections
+879:M 30 Jun 10:33:16.024 * 1 changes in 900 seconds. Saving...
+879:M 30 Jun 10:33:16.024 * Background saving started by pid 4516
+4516:C 30 Jun 10:33:16.048 * DB saved on disk
+4516:C 30 Jun 10:33:16.048 * RDB: 0 MB of memory used by copy-on-write
+879:M 30 Jun 10:33:16.125 * Background saving terminated with success
+879:M 30 Jun 10:48:17.077 * 1 changes in 900 seconds. Saving...
+879:M 30 Jun 10:48:17.077 * Background saving started by pid 8105
+8105:C 30 Jun 10:48:17.094 * DB saved on disk
+8105:C 30 Jun 10:48:17.095 * RDB: 0 MB of memory used by copy-on-write
+879:M 30 Jun 10:48:17.177 * Background saving terminated with success
+879:M 30 Jun 10:56:33.690 * 10 changes in 300 seconds. Saving...
+879:M 30 Jun 10:56:33.691 * Background saving started by pid 10052
+10052:C 30 Jun 10:56:33.697 * DB saved on disk
+10052:C 30 Jun 10:56:33.697 * RDB: 0 MB of memory used by copy-on-write
+879:M 30 Jun 10:56:33.791 * Background saving terminated with success
+879:M 30 Jun 11:15:33.151 * 1 changes in 900 seconds. Saving...
+879:M 30 Jun 11:15:33.152 * Background saving started by pid 14507
+14507:C 30 Jun 11:15:33.159 * DB saved on disk
+14507:C 30 Jun 11:15:33.159 * RDB: 0 MB of memory used by copy-on-write
+879:M 30 Jun 11:15:33.253 * Background saving terminated with success
+879:M 30 Jun 11:34:38.321 * 1 changes in 900 seconds. Saving...
+879:M 30 Jun 11:34:38.321 * Background saving started by pid 18998
+18998:C 30 Jun 11:34:38.326 * DB saved on disk
+18998:C 30 Jun 11:34:38.326 * RDB: 0 MB of memory used by copy-on-write
+879:M 30 Jun 11:34:38.421 * Background saving terminated with success
+879:M 30 Jun 11:49:39.032 * 1 changes in 900 seconds. Saving...
+879:M 30 Jun 11:49:39.033 * Background saving started by pid 22518
+22518:C 30 Jun 11:49:39.047 * DB saved on disk
+22518:C 30 Jun 11:49:39.047 * RDB: 0 MB of memory used by copy-on-write
+879:M 30 Jun 11:49:39.133 * Background saving terminated with success
+879:M 01 Jul 09:28:53.450 * 1 changes in 900 seconds. Saving...
+879:M 01 Jul 09:28:53.450 * Background saving started by pid 110949
+110949:C 01 Jul 09:28:53.455 * DB saved on disk
+110949:C 01 Jul 09:28:53.455 * RDB: 0 MB of memory used by copy-on-write
+879:M 01 Jul 09:28:53.550 * Background saving terminated with success
+879:M 01 Jul 09:43:54.088 * 1 changes in 900 seconds. Saving...
+879:M 01 Jul 09:43:54.089 * Background saving started by pid 114464
+114464:C 01 Jul 09:43:54.106 * DB saved on disk
+114464:C 01 Jul 09:43:54.106 * RDB: 0 MB of memory used by copy-on-write
+879:M 01 Jul 09:43:54.190 * Background saving terminated with success

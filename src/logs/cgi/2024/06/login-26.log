@@ -108,3 +108,25 @@
 [2024-06-26 11:17:17]--[src_cgi/login_cgi.c:185]--tmp = 12340112428356
 [2024-06-26 11:17:17]--[src_cgi/login_cgi.c:201]--base64 = CNbsTceLTQ19X+ClDz9urA==
 [2024-06-26 11:17:17]--[src_cgi/login_cgi.c:303]--token = 2c72c562613e179bbd1bea474e38f8c7
+[2024-06-26 14:08:24]--[src_cgi/login_cgi.c:288]--buf = {
+    "pwd": "e10adc3949ba59abbe56e057f20f883e",
+    "user": "123"
+}
+
+[2024-06-26 14:08:24]--[src_cgi/login_cgi.c:294]--user = 123, pwd = e10adc3949ba59abbe56e057f20f883e
+[2024-06-26 14:08:24]--[src_cgi/login_cgi.c:101]--mysql_user = root, mysql_pwd = huafeng, mysql_db = cloud_disk
+[2024-06-26 14:08:24]--[src_cgi/login_cgi.c:161]--redis:[ip=127.0.0.1,port=6379]
+[2024-06-26 14:08:24]--[src_cgi/login_cgi.c:185]--tmp = 123799980709626
+[2024-06-26 14:08:24]--[src_cgi/login_cgi.c:201]--base64 = zpuG96qnIL/+J9TXudCYGQ==
+[2024-06-26 14:08:24]--[src_cgi/login_cgi.c:303]--token = ba86b25b24bcd50a08ceb4758f596133
+[2024-06-26 14:11:21]--[src_cgi/login_cgi.c:288]--buf = {
+    "pwd": "e10adc3949ba59abbe56e057f20f883e",
+    "user": "123"
+}
+
+[2024-06-26 14:11:21]--[src_cgi/login_cgi.c:294]--user = 123, pwd = e10adc3949ba59abbe56e057f20f883e
+[2024-06-26 14:11:21]--[src_cgi/login_cgi.c:101]--mysql_user = root, mysql_pwd = huafeng, mysql_db = cloud_disk
+[2024-06-26 14:11:21]--[src_cgi/login_cgi.c:161]--redis:[ip=127.0.0.1,port=6379]
+[2024-06-26 14:11:21]--[src_cgi/login_cgi.c:185]--tmp = 123138180211125
+[2024-06-26 14:11:21]--[src_cgi/login_cgi.c:201]--base64 = A7hNbGt2i8T6KAaLg0MBgw==
+[2024-06-26 14:11:21]--[src_cgi/login_cgi.c:303]--token = 78d54f06170362b3b7ac9711fdacd256

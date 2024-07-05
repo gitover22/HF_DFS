@@ -26,3 +26,5 @@
 }
 
 [2024-06-26 09:55:33]--[src_cgi/dealfile_cgi.c:730]--user = huafeng, token = ddf91316d0946dd0abf95826a235a044, md5 = 09a9d1824ea6b9d82ba2bb8cf2303629, filename = cat.jpg
+[2024-06-26 13:50:13]--[src_cgi/dealfile_cgi.c:42]--mysql:[user=root,pwd=huafeng,database=cloud_disk][2024-06-26 13:50:13]--[src_cgi/dealfile_cgi.c:47]--redis:[ip=127.0.0.1,port=6379]
+[2024-06-26 13:51:41]--[src_cgi/dealfile_cgi.c:42]--mysql:[user=root,pwd=huafeng,database=cloud_disk][2024-06-26 13:51:41]--[src_cgi/dealfile_cgi.c:47]--redis:[ip=127.0.0.1,port=6379]

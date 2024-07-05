@@ -22,3 +22,4 @@
 }
 
 [2024-06-26 09:56:16]--[src_cgi/md5_cgi.c:361]--user = 123, token = 222005bbd72bbcfe342cd535529f55a9, md5 = 09a9d1824ea6b9d82ba2bb8cf2303629, filename = cat.jpg
+[2024-06-26 13:50:13]--[src_cgi/md5_cgi.c:40]--mysql:[user=root,pwd=huafeng,database=cloud_disk][2024-06-26 13:51:40]--[src_cgi/md5_cgi.c:40]--mysql:[user=root,pwd=huafeng,database=cloud_disk]

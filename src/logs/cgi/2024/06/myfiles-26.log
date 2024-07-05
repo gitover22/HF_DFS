@@ -264,3 +264,63 @@
 			"type":	"jpg"
 		}]
 }
+[2024-06-26 13:50:13]--[src_cgi/myfiles_cgi.c:40]--mysql:[user=root,pwd=huafeng,database=cloud_disk][2024-06-26 13:51:40]--[src_cgi/myfiles_cgi.c:40]--mysql:[user=root,pwd=huafeng,database=cloud_disk][2024-06-26 14:08:25]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2024-06-26 14:08:25]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "ba86b25b24bcd50a08ceb4758f596133",
+    "user": "123"
+}
+
+[2024-06-26 14:08:25]--[src_cgi/myfiles_cgi.c:176]--line = 1
+[2024-06-26 14:08:25]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2024-06-26 14:08:25]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "ba86b25b24bcd50a08ceb4758f596133",
+    "user": "123"
+}
+
+[2024-06-26 14:08:25]--[src_cgi/myfiles_cgi.c:548]--user = 123, token = ba86b25b24bcd50a08ceb4758f596133, start = 0, count = 1
+[2024-06-26 14:08:25]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = '123' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2024-06-26 14:08:25]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"123",
+			"md5":	"09a9d1824ea6b9d82ba2bb8cf2303629",
+			"time":	"2024-06-26 09:56:16",
+			"filename":	"cat.jpg",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.181.1:80/group1/M00/00/00/wKi1AWZ7bz2AVGF6AABAxuJNm8o185.jpg",
+			"size":	16582,
+			"type":	"jpg"
+		}]
+}
+[2024-06-26 14:11:22]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2024-06-26 14:11:22]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "78d54f06170362b3b7ac9711fdacd256",
+    "user": "123"
+}
+
+[2024-06-26 14:11:22]--[src_cgi/myfiles_cgi.c:176]--line = 1
+[2024-06-26 14:11:22]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2024-06-26 14:11:22]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "78d54f06170362b3b7ac9711fdacd256",
+    "user": "123"
+}
+
+[2024-06-26 14:11:22]--[src_cgi/myfiles_cgi.c:548]--user = 123, token = 78d54f06170362b3b7ac9711fdacd256, start = 0, count = 1
+[2024-06-26 14:11:22]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = '123' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2024-06-26 14:11:22]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"123",
+			"md5":	"09a9d1824ea6b9d82ba2bb8cf2303629",
+			"time":	"2024-06-26 09:56:16",
+			"filename":	"cat.jpg",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.181.1:80/group1/M00/00/00/wKi1AWZ7bz2AVGF6AABAxuJNm8o185.jpg",
+			"size":	16582,
+			"type":	"jpg"
+		}]
+}
