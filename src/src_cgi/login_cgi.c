@@ -1,9 +1,6 @@
 /**
  * @file login_cgi.c
  * @brief   登陆后台CGI程序
- * @author Mike
- * @version 2.0
- * @date
  */
 
 #include "fcgi_config.h"

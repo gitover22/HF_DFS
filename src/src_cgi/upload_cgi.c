@@ -1,9 +1,6 @@
 /**
  * @file upload_cgi.c
- * @brief   上传文件后台CGI程序
- * @author  Mike
- * @version 2.0
- * @date 2017年2月26日
+ * @brief 上传文件后台CGI程序
  */
 
 #include <stdio.h>
