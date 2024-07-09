@@ -1,6 +1,6 @@
 /**
  * @file cfg.c
- * @brief  读取配置文件信息
+ * @brief  读取json配置文件信息
  */
 
  #include "cJSON.h"
@@ -11,19 +11,17 @@
  #include "cfg.h"
  #include "cJSON.h"
 
-/* -------------------------------------------*/
 /**
  * @brief  从配置文件中得到相对应的参数
  *
  * @param profile   配置文件路径
- * @param title      配置文件title名称[title]
+ * @param title     配置文件title名称
  * @param key       key
  * @param value    (out)  得到的value
  *
- * @returns
+ * @return
  *      0 succ, -1 fail
  */
-/* -------------------------------------------*/
 int get_cfg_value(const char *profile, char *title, char *key, char *value)
 {
     int ret = 0;

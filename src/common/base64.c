@@ -1,12 +1,19 @@
+/**
+ * @brief base64编码解码
+ * @author huafeng
+ */
+
 #include <string.h>
 
 const char * base64char = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
 
-//bindata编码成base64
-//bindata：  源字符串
-//binlength: 源字符串长度
-//base64：目的字符串，base64字符串
-//返回值：base64字符串
+/**
+ * @brief 编码器
+ * @param bindata [in] 源字符串
+ * @param binlength [in] 源字符串长度
+ * @param base64 [out] base64字符串
+ * @return base64字符串
+ */
 char * base64_encode( const unsigned char * bindata, int binlength, char * base64 )
 {
     int i, j;
@@ -46,10 +53,12 @@ char * base64_encode( const unsigned char * bindata, int binlength, char * base6
     return base64;
 }
 
-//解码base64
-//base64：源字符串
-//bindata: 目的字符串
-//返回值：目的字符串长度
+/**
+ * @brief 解码器
+ * @param base64 [in] 源字符串
+ * @param bindata [out] 目的字符串
+ * @return 目的字符串长度
+ */
 int base64_decode( const char * base64, unsigned char * bindata )
 {
     int i, j;
