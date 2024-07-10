@@ -1,14 +1,12 @@
 /**
- * @brief  redis表 KEYS 值相关定义 
- * @author Mike
+ * @brief  redis表 KEYS 值相关定义
  */
 
 #ifndef _REDIS_KEYS_H_
 #define _REDIS_KEYS_H_
 
-#define REDIS_SERVER_IP     "127.0.0.1"
-#define REDIS_SERVER_PORT   "6379"
-
+#define REDIS_SERVER_IP "127.0.0.1"
+#define REDIS_SERVER_PORT "6379"
 
 /*--------------------------------------------------------
 | 共享用户文件有序集合 (ZSET)
@@ -24,7 +22,7 @@
 |   ZREMRANGEBYRANK key start stop 删除指定范围的成员
 |   zlexcount zset [member [member 判断某个成员是否存在，存在返回1，不存在返回0
 `---------------------------------------------------------*/
-#define FILE_PUBLIC_ZSET                  "FILE_PUBLIC_ZSET"
+#define FILE_PUBLIC_ZSET "FILE_PUBLIC_ZSET"
 
 /*-------------------------------------------------------
 | 文件标示和文件名对应表 (HASH)
@@ -35,9 +33,6 @@
 |    hset key field value
 |    hget key field
 `--------------------------------------------------------*/
-#define FILE_NAME_HASH                "FILE_NAME_HASH"
-
-
+#define FILE_NAME_HASH "FILE_NAME_HASH"
 
 #endif
-

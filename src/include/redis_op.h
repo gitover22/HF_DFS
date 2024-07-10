@@ -1,5 +1,4 @@
 /**
- * @file   redis_api.h
  * @brief  redis 封装接口
  */
 
@@ -12,19 +11,17 @@
 #include <string.h>
 #include "make_log.h"
 
+#define REDIS_LOG_MODULE "database"
+#define REDIS_LOG_PROC "redis"
 
-#define REDIS_LOG_MODULE          "database"
-#define REDIS_LOG_PROC            "redis"
-
-#define REDIS_COMMAND_SIZE        300            /* redis Command 指令最大长度 */
-#define FIELD_ID_SIZE            100            /* redis hash表field域字段长度 */
-#define VALUES_ID_SIZE           1024            /* redis        value域字段长度 */
-typedef char (*RCOMMANDS)[REDIS_COMMAND_SIZE];/* redis 存放批量 命令字符串数组类型 */
+#define REDIS_COMMAND_SIZE 300                 /* redis Command 指令最大长度 */
+#define FIELD_ID_SIZE 100                      /* redis hash表field域字段长度 */
+#define VALUES_ID_SIZE 1024                    /* redis        value域字段长度 */
+typedef char (*RCOMMANDS)[REDIS_COMMAND_SIZE]; /* redis 存放批量 命令字符串数组类型 */
 typedef char (*RFIELDS)[FIELD_ID_SIZE];        /* redis hash表存放批量field字符串数组类型 */
 
-//数组指针类型，其变量指向 char[1024]
-typedef char (*RVALUES)[VALUES_ID_SIZE];    /* redis 表存放批量value字符串数组类型 */
-
+// 数组指针类型，其变量指向 char[1024]
+typedef char (*RVALUES)[VALUES_ID_SIZE]; /* redis 表存放批量value字符串数组类型 */
 
 /* -------------------------------------------*/
 /**
@@ -33,13 +30,12 @@ typedef char (*RVALUES)[VALUES_ID_SIZE];    /* redis 表存放批量value字符�
  * @param ip_str	redis服务器ip
  * @param port_str	redis服务器port
  *
- * @returns   
- *			成功返回链接句柄 
+ * @returns
+ *			成功返回链接句柄
  *			失败返回NULL
  */
 /* -------------------------------------------*/
-redisContext* rop_connectdb_nopwd(char *ip_str, char* port_str);
-
+redisContext *rop_connectdb_nopwd(char *ip_str, char *port_str);
 
 /* -------------------------------------------*/
 /**
@@ -49,12 +45,12 @@ redisContext* rop_connectdb_nopwd(char *ip_str, char* port_str);
  * @param port_str  redis服务器port
  * @param pwd       redis服务器密码
  *
- * @returns   
- *            成功返回链接句柄 
+ * @returns
+ *            成功返回链接句柄
  *            失败返回NULL
  */
 /* -------------------------------------------*/
-redisContext* rop_connectdb(char *ip_str, char* port_str, char *pwd);
+redisContext *rop_connectdb(char *ip_str, char *port_str, char *pwd);
 
 /* -------------------------------------------*/
 /**
@@ -63,12 +59,12 @@ redisContext* rop_connectdb(char *ip_str, char* port_str, char *pwd);
  * @param ip_str    unix域sock文件
  * @param  pwd      redis服务器密码
  *
- * @returns   
- *            成功返回链接句柄 
+ * @returns
+ *            成功返回链接句柄
  *            失败返回NULL
  */
 /* -------------------------------------------*/
-redisContext* rop_connectdb_unix(char *sock_path, char *pwd);
+redisContext *rop_connectdb_unix(char *sock_path, char *pwd);
 
 /* -------------------------------------------*/
 /**
@@ -79,13 +75,12 @@ redisContext* rop_connectdb_unix(char *sock_path, char *pwd);
  * @param port_str        redis 服务器端口
  * @param timeval        最大超时等待时间
  *
- * @returns   
+ * @returns
  *        成功返回链接句柄
  *        失败返回NULL
  */
 /* -------------------------------------------*/
-redisContext* rop_connectdb_timeout(char* ip_str, char *port_str, struct timeval *timeout);
-
+redisContext *rop_connectdb_timeout(char *ip_str, char *port_str, struct timeval *timeout);
 
 /* -------------------------------------------*/
 /**
@@ -94,7 +89,7 @@ redisContext* rop_connectdb_timeout(char* ip_str, char *port_str, struct timeval
  * @param conn    已建立好的链接
  */
 /* -------------------------------------------*/
-void rop_disconnect(redisContext* conn);
+void rop_disconnect(redisContext *conn);
 
 /* -------------------------------------------*/
 /**
@@ -103,7 +98,7 @@ void rop_disconnect(redisContext* conn);
  * @param conn        已链接的数据库链接
  * @param db_no        redis数据库编号
  *
- * @returns   
+ * @returns
  *            -1 失败
  *            0  成功
  */
@@ -116,7 +111,7 @@ int rop_selectdatabase(redisContext *conn, unsigned int db_no);
  *
  * @param conn        已链接的数据库链接
  *
- * @returns   
+ * @returns
  *            -1 失败
  *            0  成功
  */
@@ -130,28 +125,27 @@ int rop_flush_database(redisContext *conn);
  * @param conn        已经建立的链接
  * @param key        需要寻找的key值
  *
- * @returns   
+ * @returns
  *                -1 失败
  *                1 存在
  *                0 不存在
  */
 /* -------------------------------------------*/
-int rop_is_key_exist(redisContext *conn, char* key);
+int rop_is_key_exist(redisContext *conn, char *key);
 
 /* -------------------------------------------*/
 /**
  * @brief            删除一个key
  *
  * @param conn        已经建立的链接
- * @param key        
+ * @param key
  *
- * @returns   
+ * @returns
  *                -1 失败
  *                0 成功
  */
 /* -------------------------------------------*/
 int rop_del_key(redisContext *conn, char *key);
-
 
 /* -------------------------------------------*/
 /**
@@ -164,7 +158,7 @@ int rop_del_key(redisContext *conn, char *key);
  *                    [abc]表示方括号中任意一个字母。
  */
 /* -------------------------------------------*/
-void rop_show_keys(redisContext *conn, char* pattern);
+void rop_show_keys(redisContext *conn, char *pattern);
 
 /* -------------------------------------------*/
 /**
@@ -174,7 +168,7 @@ void rop_show_keys(redisContext *conn, char* pattern);
  * @param conn                已经建立好的链接
  * @param delete_time        到期事件 time_t 日历时间
  *
- * @returns   
+ * @returns
  *        0    SUCC
  *        -1  FAIL
  */
@@ -191,15 +185,15 @@ int rop_set_key_lifecycle(redisContext *conn, char *key, time_t delete_time);
  * @param fields            hash 表区域名称数组char(*)[FIELD_ID_SIZE]
  * @param values            hash 表区域值数组  char(*)[VALUES_ID_SIZE]
  *
- * @returns   
- *            0   成功    
+ * @returns
+ *            0   成功
  *            -1  失败
  */
 /* -------------------------------------------*/
-int rop_create_or_replace_hash_table(redisContext* conn,
-                                     char* key, 
-                                     unsigned int element_num, 
-                                     RFIELDS fields, 
+int rop_create_or_replace_hash_table(redisContext *conn,
+                                     char *key,
+                                     unsigned int element_num,
+                                     RFIELDS fields,
                                      RVALUES values);
 
 /* -------------------------------------------*/
@@ -217,7 +211,6 @@ int rop_create_or_replace_hash_table(redisContext* conn,
 /* -------------------------------------------*/
 int rop_hincrement_one_field(redisContext *conn, char *key, char *field, unsigned int num);
 
-
 /* -------------------------------------------*/
 /**
  * @brief  批量执行链表插入命令 插入链表头部
@@ -228,7 +221,7 @@ int rop_hincrement_one_field(redisContext *conn, char *key, char *field, unsigne
  * @param values    封装好的值数组
  * @param val_num    值个数
  *
- * @returns   
+ * @returns
  *            0        succ
  *            -1        FAIL
  */
@@ -282,7 +275,6 @@ int rop_hash_get(redisContext *conn, char *key, char *field, char *value);
 /* -------------------------------------------*/
 int rop_hash_del(redisContext *conn, char *key, char *field);
 
-
 /* -------------------------------------------*/
 /**
  * @brief  批量执行链表插入命令 插入链表头部
@@ -292,7 +284,7 @@ int rop_hash_del(redisContext *conn, char *key, char *field);
  * @param values    封装好的值数组
  * @param val_num    值个数
  *
- * @returns   
+ * @returns
  *            0        succ
  *            -1        FAIL
  */
@@ -307,7 +299,7 @@ int rop_list_push_append(redisContext *conn, char *key, RVALUES values, int val_
  * @param key        链表名
  * @param value        数据
  *
- * @returns   
+ * @returns
  */
 /* -------------------------------------------*/
 int rop_list_push(redisContext *conn, char *key, char *value);
@@ -319,7 +311,7 @@ int rop_list_push(redisContext *conn, char *key, char *value);
  * @param conn    链接句柄
  * @param key    链表名
  *
- * @returns   
+ * @returns
  *            >=0 个数
  *            -1 fail
  */
@@ -335,12 +327,12 @@ int rop_get_list_cnt(redisContext *conn, char *key);
  * @param begin        阶段启示位置 从 0 开始
  * @param end        阶段结束位置 从 -1 开始
  *
- *                    这里的范围定义举例 
+ *                    这里的范围定义举例
  *                    如果得到全部范围(0, -1)
  *                    除了最后一个元素范围(0, -2)
  *                    前20各数据范围(0, 19)
  *
- * @returns   
+ * @returns
  *            0  SUCC
  *            -1 FAIL
  */
@@ -354,13 +346,12 @@ int rop_trim_list(redisContext *conn, char *key, int begin, int end);
  * @param conn		已经建立的链接
  * @param key		链表名
  *
- * @returns   
+ * @returns
  *			0  SUCC
  *			-1 FAIL
  */
 /* -------------------------------------------*/
 int rop_range_list(redisContext *conn, char *key, int from_pos, int count, RVALUES values, int *get_num);
-
 
 /* -------------------------------------------*/
 /**
@@ -370,13 +361,12 @@ int rop_range_list(redisContext *conn, char *key, int from_pos, int count, RVALU
  * @param cmds        封装好的命令数组
  * @param cmd_num    命令个数
  *
- * @returns   
+ * @returns
  *            0        succ
  *            -1        FAIL
  */
 /* -------------------------------------------*/
 int rop_redis_append(redisContext *conn, RCOMMANDS cmds, int cmd_num);
-
 
 /* -------------------------------------------*/
 /**
@@ -385,7 +375,7 @@ int rop_redis_append(redisContext *conn, RCOMMANDS cmds, int cmd_num);
  * @param conn        已建立的链接
  * @param cmd        封装好的命令
  *
- * @returns   
+ * @returns
  *            0        succ
  *            -1        FAIL
  */
@@ -402,16 +392,15 @@ int rop_redis_command(redisContext *conn, char *cmd);
 /* -------------------------------------------*/
 void rop_test_reply_type(redisReply *reply);
 
-
 /* -------------------------------------------*/
 /**
  * @brief  设置key对应的值为string类型的value
- *            
+ *
  * @param conn          已经建立好的链接
  * @param key        	key值
  * @param value         value值
  *
- * @returns   
+ * @returns
  *        0    SUCC
  *        -1  FAIL
  */
@@ -437,18 +426,17 @@ int rop_setex_string(redisContext *conn, char *key, unsigned int seconds, char *
 /* -------------------------------------------*/
 /**
  * @brief  获取key对应的value值
- *            
+ *
  * @param conn          已经建立好的链接
  * @param key        	key值
  * @param value         value值
  *
- * @returns   
+ * @returns
  *        0    SUCC
  *        -1  FAIL
  */
 /* -------------------------------------------*/
 int rop_get_string(redisContext *conn, char *key, char *value);
-
 
 //==================有序集合相关操作====================
 
@@ -467,7 +455,7 @@ int rop_get_string(redisContext *conn, char *key, char *value);
  *            -1           fail
  */
 /* -------------------------------------------*/
-int rop_zset_add(redisContext *conn, char* key, long score, char* member);
+int rop_zset_add(redisContext *conn, char *key, long score, char *member);
 
 /* -------------------------------------------*/
 /**
@@ -483,7 +471,7 @@ int rop_zset_add(redisContext *conn, char* key, long score, char* member);
  *            -1            fail
  */
 /* -------------------------------------------*/
-int rop_zset_zrem(redisContext *conn, char* key, char* member);
+int rop_zset_zrem(redisContext *conn, char *key, char *member);
 
 /* -------------------------------------------*/
 /**
@@ -498,7 +486,7 @@ int rop_zset_zrem(redisContext *conn, char* key, char* member);
  *            -1            fail
  */
 /* -------------------------------------------*/
-int rop_zset_del_all(redisContext *conn, char* key);
+int rop_zset_del_all(redisContext *conn, char *key);
 
 /* -------------------------------------------*/
 /**
@@ -521,7 +509,6 @@ int rop_zset_del_all(redisContext *conn, char* key);
 /* -------------------------------------------*/
 extern int rop_zset_zrevrange(redisContext *conn, char *key, int from_pos, int end_pos, RVALUES values, int *get_num);
 
-
 /* -------------------------------------------*/
 /**
  * @brief        将指定的zset表，对应的成员，值自增1
@@ -536,7 +523,7 @@ extern int rop_zset_zrevrange(redisContext *conn, char *key, int from_pos, int e
  *            -1            fail
  */
 /* -------------------------------------------*/
-int rop_zset_increment(redisContext *conn, char* key, char* member);
+int rop_zset_increment(redisContext *conn, char *key, char *member);
 
 /* -------------------------------------------*/
 /**
@@ -551,7 +538,6 @@ int rop_zset_increment(redisContext *conn, char* key, char* member);
  */
 /* -------------------------------------------*/
 int rop_zset_zcard(redisContext *conn, char *key);
-
 
 /* -------------------------------------------*/
 /**
@@ -583,7 +569,6 @@ int rop_zset_get_score(redisContext *conn, char *key, char *member);
  */
 /* -------------------------------------------*/
 extern int rop_zset_exit(redisContext *conn, char *key, char *member);
-
 
 /* -------------------------------------------*/
 /**

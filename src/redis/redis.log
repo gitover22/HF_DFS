@@ -201,3 +201,22 @@
 114464:C 01 Jul 09:43:54.106 * DB saved on disk
 114464:C 01 Jul 09:43:54.106 * RDB: 0 MB of memory used by copy-on-write
 879:M 01 Jul 09:43:54.190 * Background saving terminated with success
+111890:C 09 Jul 13:54:23.267 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+111890:C 09 Jul 13:54:23.267 # Redis version=4.0.8, bits=64, commit=4678a407, modified=1, pid=111890, just started
+111890:C 09 Jul 13:54:23.267 # Configuration loaded
+111891:M 09 Jul 13:54:23.268 * Running mode=standalone, port=6379.
+111891:M 09 Jul 13:54:23.268 # Server initialized
+111891:M 09 Jul 13:54:23.268 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+111891:M 09 Jul 13:54:23.268 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+111891:M 09 Jul 13:54:23.269 * DB loaded from disk: 0.000 seconds
+111891:M 09 Jul 13:54:23.269 * Ready to accept connections
+111891:M 09 Jul 14:09:24.091 * 1 changes in 900 seconds. Saving...
+111891:M 09 Jul 14:09:24.092 * Background saving started by pid 118244
+118244:C 09 Jul 14:09:24.104 * DB saved on disk
+118244:C 09 Jul 14:09:24.104 * RDB: 0 MB of memory used by copy-on-write
+111891:M 09 Jul 14:09:24.193 * Background saving terminated with success
+111891:M 09 Jul 14:26:15.816 * 1 changes in 900 seconds. Saving...
+111891:M 09 Jul 14:26:15.816 * Background saving started by pid 125210
+125210:C 09 Jul 14:26:15.821 * DB saved on disk
+125210:C 09 Jul 14:26:15.821 * RDB: 0 MB of memory used by copy-on-write
+111891:M 09 Jul 14:26:15.916 * Background saving terminated with success
