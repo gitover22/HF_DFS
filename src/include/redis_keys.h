@@ -9,10 +9,10 @@
 #define REDIS_SERVER_PORT "6379"
 
 /*--------------------------------------------------------
-| 共享用户文件有序集合 (ZSET)
+| 共享用户文件有序集合 (ZSET) ===> SortedSet
 | Key:     FILE_PUBLIC_LIST
 | value:   md5文件名
-| redis 语句
+| redis 语句：
 |   ZADD key score member 添加成员
 |   ZREM key member 删除成员
 |   ZREVRANGE key start stop [WITHSCORES] 降序查看
@@ -29,7 +29,7 @@
 | Key:    FILE_NAME_HASH
 | field:  file_id(md5文件名)
 | value:  file_name
-| redis 语句
+| redis 语句：
 |    hset key field value
 |    hget key field
 `--------------------------------------------------------*/

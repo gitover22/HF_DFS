@@ -47,17 +47,6 @@ int trim_space(char *inbuf)
     return 0;
 }
 
-/**
- * @brief  在字符串full_data中查找字符串substr第一次出现的位置
- *
- * @param full_data 	源字符串首地址
- * @param full_data_len 源字符串长度
- * @param substr        匹配字符串首地址
- *
- * @returns
- *      成功: 匹配字符串首地址
- *      失败：NULL
- */
 char *memstr(char *full_data, int full_data_len, char *substr)
 {
     // 异常处理
@@ -94,15 +83,7 @@ char *memstr(char *full_data, int full_data_len, char *substr)
     return NULL;
 }
 
-/**
- * @brief 解析查询字符串中的键值对,从给定的查询字符串中提取指定键对应的值
- * 
- * @param query 查询字符串，包含键值对
- * @param key 要查找的键
- * @param value [out] 用于存储找到的键对应的值的缓冲区
- * @param value_len_p [out] 指向一个整数的指针，用于存储找到的值的长度（不包括终止符'\0'）
- * @return 如果找到键并成功提取值，则返回0；如果未找到键，则返回-1。
- */
+
 int query_parse_key_value(const char *query, const char *key, char *value, int *value_len_p)
 {
     char *temp = NULL;
@@ -142,12 +123,7 @@ int query_parse_key_value(const char *query, const char *key, char *value, int *
     return 0;
 }
 
-/**
- * @brief 获取文件名的后缀
- * @param file_name [in] 文件名字符串
- * @param suffix [out] 用于存储文件名后缀的字符数组
- * @return 如果文件名存在后缀，则返回0；如果文件名不存在后缀或参数不合法，则返回-1。
- */
+
 int get_file_suffix(const char *file_name, char *suffix)
 {
     const char *p = file_name;
@@ -199,9 +175,7 @@ int get_file_suffix(const char *file_name, char *suffix)
     return 0;
 }
 
-/**
- * @brief 替换strSrc中的strFind为strReplace
- */
+
 void str_replace(char *strSrc, char *strFind, char *strReplace)
 {
     while (*strSrc != '\0')
@@ -251,7 +225,6 @@ void str_replace(char *strSrc, char *strFind, char *strReplace)
     }
 }
 
-// 返回前端情况，NULL代表失败, 返回的指针不为空，则需要free
 char *return_status(char *status_num)
 {
     char *out = NULL;
@@ -264,12 +237,7 @@ char *return_status(char *status_num)
     return out;
 }
 
-/**
- * @brief 验证用户令牌的有效性。
- * @param user [in] 用户名，用于在Redis中查找对应的令牌。
- * @param token [in] 用户提供的令牌，用于与Redis中存储的令牌进行比较。
- * @return 0表示令牌验证成功，-1表示令牌验证失败或Redis连接出错。
- */
+
 int verify_token(char *user, char *token)
 {
     int ret = 0;

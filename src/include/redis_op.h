@@ -25,7 +25,7 @@ typedef char (*RVALUES)[VALUES_ID_SIZE]; /* redis 表存放批量value字符串�
 
 /* -------------------------------------------*/
 /**
- * @brief  redis tcp模式链接
+ * @brief  redis tcp模式链接 无密码
  *
  * @param ip_str	redis服务器ip
  * @param port_str	redis服务器port
@@ -39,7 +39,7 @@ redisContext *rop_connectdb_nopwd(char *ip_str, char *port_str);
 
 /* -------------------------------------------*/
 /**
- * @brief  redis tcp模式链接
+ * @brief  redis tcp模式链接 有密码
  *
  * @param ip_str    redis服务器ip
  * @param port_str  redis服务器port
@@ -68,12 +68,10 @@ redisContext *rop_connectdb_unix(char *sock_path, char *pwd);
 
 /* -------------------------------------------*/
 /**
- * @brief  tcp 链接redis超时等待模式，timeval链接超时
- *            返回
- *
- * @param ip_str        redis 服务器ip
- * @param port_str        redis 服务器端口
- * @param timeval        最大超时等待时间
+ * @brief  tcp 链接redis超时等待模式，timeval链接超时返回
+ * @param ip_str            redis 服务器ip
+ * @param port_str          redis 服务器端口
+ * @param timeval           最大超时等待时间
  *
  * @returns
  *        成功返回链接句柄

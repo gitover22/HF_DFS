@@ -19,9 +19,7 @@
 
 /**
  * @brief  去掉一个字符串两边的空白字符
- *
  * @param inbuf [out] 待处理字符串
- *
  * @returns 成功:0
  */
 int trim_space(char *inbuf);
@@ -40,23 +38,37 @@ int trim_space(char *inbuf);
 char *memstr(char *full_data, int full_data_len, char *substr);
 
 /**
- * @brief  解析url query 类似 abc=123&bbb=456 字符串
- *          传入一个key,得到相应的value
- * @returns
- *          0 成功, -1 失败
+ * @brief 解析查询字符串中的键值对,从给定的查询字符串中提取指定键对应的值
+ * @param query 查询字符串，包含键值对
+ * @param key 要查找的键
+ * @param value [out] 用于存储找到的键对应的值的缓冲区
+ * @param value_len_p [out] 指向一个整数的指针，用于存储找到的值的长度（不包括终止符'\0'）
+ * @return 如果找到键并成功提取值，则返回0；如果未找到键，则返回-1。
  */
 int query_parse_key_value(const char *query, const char *key, char *value, int *value_len_p);
 
-// 通过文件名file_name， 得到文件后缀字符串, 保存在suffix 如果非法文件后缀,返回"null"
+/**
+ * @brief 获取文件名的后缀
+ * @param file_name [in] 文件名字符串
+ * @param suffix [out] 用于存储文件名后缀的字符数组
+ * @return 如果文件名存在后缀，则返回0；如果文件名不存在后缀或参数不合法，则返回-1。
+ */
 int get_file_suffix(const char *file_name, char *suffix);
 
-// 字符串strSrc中的字串strFind，替换为strReplace
+/**
+ * @brief 替换strSrc中的strFind为strReplace
+ */
 void str_replace(char *strSrc, char *strFind, char *strReplace);
 
 // 返回前端情况，NULL代表失败, 返回的指针不为空，则需要free
 char *return_status(char *status_num);
 
-// 验证登陆token，成功返回0，失败-1
+/**
+ * @brief 验证用户令牌的有效性。
+ * @param user [in] 用户名，用于在Redis中查找对应的令牌。
+ * @param token [in] 用户提供的令牌，用于与Redis中存储的令牌进行比较。
+ * @return 0表示令牌验证成功，-1表示令牌验证失败或Redis连接出错。
+ */
 int verify_token(char *user, char *token);
 
 #endif
