@@ -102,9 +102,9 @@ int make_path(char *path, char *module_name, char *proc_name)
 	time_t t;
 	struct tm *now = NULL;
 	// 顶级目录
-	char top_dir[1024] = {"."};
+	char top_dir[1024] = {".."};
 	// 二级目录
-	char second_dir[1024] = {"./logs"};
+	char second_dir[1024] = {"../logs"};
 	char third_dir[1024] = {0};
 	char y_dir[1024] = {0};
 	char m_dir[1024] = {0};
@@ -112,12 +112,12 @@ int make_path(char *path, char *module_name, char *proc_name)
 	// 获取当前时间
 	time(&t);
 	now = localtime(&t);
-	snprintf(path, 1024, "./logs/%s/%04d/%02d/%s-%02d.log", module_name, now->tm_year + 1900, now->tm_mon + 1, proc_name, now->tm_mday);
+	snprintf(path, 1024, "../logs/%s/%04d/%02d/%s-%02d.log", module_name, now->tm_year + 1900, now->tm_mon + 1, proc_name, now->tm_mday);
 
-	sprintf(third_dir, "%s/%s", second_dir, module_name);		// ./logs/cgi
-	sprintf(y_dir, "%s/%04d/", third_dir, now->tm_year + 1900); // ./logs/cgi/2024
-	sprintf(m_dir, "%s/%02d/", y_dir, now->tm_mon + 1);			// ./logs/cgi/2024/08
-	// sprintf(d_dir, "%s/%02d/", m_dir, now->tm_mday); // ./logs/cgi/2024/08/09
+	sprintf(third_dir, "%s/%s", second_dir, module_name);		// ../logs/cgi
+	sprintf(y_dir, "%s/%04d/", third_dir, now->tm_year + 1900); // ../logs/cgi/2024
+	sprintf(m_dir, "%s/%02d/", y_dir, now->tm_mon + 1);			// ../logs/cgi/2024/08
+	// sprintf(d_dir, "%s/%02d/", m_dir, now->tm_mday); // ../logs/cgi/2024/08/09
 	// 检查顶级目录是否存在，若不存在则创建
 	if (access(top_dir, 0) == -1)
 	{

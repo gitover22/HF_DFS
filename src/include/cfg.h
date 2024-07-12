@@ -1,7 +1,7 @@
 #ifndef _CFG_H_
 #define _CFG_H_
 
-#define CFG_PATH    "./conf/cfg.json" //配置文件路径
+#define CFG_PATH    "/home/huafeng/HF_DFS/src/conf/cfg.json" //配置文件路径
 
 #define CFG_LOG_MODULE "cgi"
 #define CFG_LOG_PROC   "cfg"

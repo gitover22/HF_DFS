@@ -1,48 +1,6 @@
-[2024-07-12 14:09:55]--[/home/huafeng/HF_DFS/src/common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
-[2024-07-12 14:09:55]--[/home/huafeng/HF_DFS/src/common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
-[2024-07-12 14:09:56]--[/home/huafeng/HF_DFS/src/common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
-[2024-07-12 14:09:56]--[/home/huafeng/HF_DFS/src/common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
-[2024-07-12 14:09:56]--[/home/huafeng/HF_DFS/src/common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
-[2024-07-12 14:09:56]--[/home/huafeng/HF_DFS/src/common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
-[2024-07-12 14:09:57]--[/home/huafeng/HF_DFS/src/common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
-[2024-07-12 14:09:57]--[/home/huafeng/HF_DFS/src/common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
-[2024-07-12 14:09:57]--[/home/huafeng/HF_DFS/src/common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
-[2024-07-12 14:09:57]--[/home/huafeng/HF_DFS/src/common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
-[2024-07-12 14:09:57]--[/home/huafeng/HF_DFS/src/common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
-[2024-07-12 14:09:57]--[/home/huafeng/HF_DFS/src/common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
-[2024-07-12 14:09:59]--[/home/huafeng/HF_DFS/src/common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
-[2024-07-12 14:09:59]--[/home/huafeng/HF_DFS/src/common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
-[2024-07-12 14:09:59]--[/home/huafeng/HF_DFS/src/common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
-[2024-07-12 14:09:59]--[/home/huafeng/HF_DFS/src/common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
-[2024-07-12 14:09:59]--[/home/huafeng/HF_DFS/src/common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
-[2024-07-12 14:09:59]--[/home/huafeng/HF_DFS/src/common/redis_op.c:329]--[+][GMS_REDIS]=REDIS_REPLY_string=[string] use reply->str to get data, reply->len get data len
-[2024-07-12 14:09:59]--[/home/huafeng/HF_DFS/src/common/redis_op.c:329]--[+][GMS_REDIS]=REDIS_REPLY_string=[string] use reply->str to get data, reply->len get data len
-[2024-07-12 14:09:59]--[/home/huafeng/HF_DFS/src/common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
-[2024-07-12 14:27:35]--[/home/huafeng/HF_DFS/src/common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
-[2024-07-12 14:27:35]--[/home/huafeng/HF_DFS/src/common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
-[2024-07-12 14:27:35]--[/home/huafeng/HF_DFS/src/common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
-[2024-07-12 14:27:35]--[/home/huafeng/HF_DFS/src/common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
-[2024-07-12 14:27:35]--[/home/huafeng/HF_DFS/src/common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
-[2024-07-12 14:27:35]--[/home/huafeng/HF_DFS/src/common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
-[2024-07-12 14:27:37]--[/home/huafeng/HF_DFS/src/common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
-[2024-07-12 14:27:37]--[/home/huafeng/HF_DFS/src/common/redis_op.c:329]--[+][GMS_REDIS]=REDIS_REPLY_string=[string] use reply->str to get data, reply->len get data len
-[2024-07-12 14:27:37]--[/home/huafeng/HF_DFS/src/common/redis_op.c:329]--[+][GMS_REDIS]=REDIS_REPLY_string=[string] use reply->str to get data, reply->len get data len
-[2024-07-12 14:27:37]--[/home/huafeng/HF_DFS/src/common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
-[2024-07-12 14:27:41]--[/home/huafeng/HF_DFS/src/common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
-[2024-07-12 14:27:41]--[/home/huafeng/HF_DFS/src/common/redis_op.c:329]--[+][GMS_REDIS]=REDIS_REPLY_string=[string] use reply->str to get data, reply->len get data len
-[2024-07-12 14:27:41]--[/home/huafeng/HF_DFS/src/common/redis_op.c:329]--[+][GMS_REDIS]=REDIS_REPLY_string=[string] use reply->str to get data, reply->len get data len
-[2024-07-12 14:27:41]--[/home/huafeng/HF_DFS/src/common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
-[2024-07-12 14:30:35]--[/home/huafeng/HF_DFS/src/common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
-[2024-07-12 14:30:35]--[/home/huafeng/HF_DFS/src/common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
-[2024-07-12 14:30:35]--[/home/huafeng/HF_DFS/src/common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
-[2024-07-12 14:30:35]--[/home/huafeng/HF_DFS/src/common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
-[2024-07-12 14:30:35]--[/home/huafeng/HF_DFS/src/common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
-[2024-07-12 14:30:35]--[/home/huafeng/HF_DFS/src/common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
-[2024-07-12 14:30:35]--[/home/huafeng/HF_DFS/src/common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
-[2024-07-12 14:30:35]--[/home/huafeng/HF_DFS/src/common/redis_op.c:329]--[+][GMS_REDIS]=REDIS_REPLY_string=[string] use reply->str to get data, reply->len get data len
-[2024-07-12 14:30:35]--[/home/huafeng/HF_DFS/src/common/redis_op.c:329]--[+][GMS_REDIS]=REDIS_REPLY_string=[string] use reply->str to get data, reply->len get data len
-[2024-07-12 14:30:35]--[/home/huafeng/HF_DFS/src/common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
-[2024-07-12 14:30:37]--[/home/huafeng/HF_DFS/src/common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
-[2024-07-12 14:30:37]--[/home/huafeng/HF_DFS/src/common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
-[2024-07-12 14:30:37]--[/home/huafeng/HF_DFS/src/common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
-[2024-07-12 14:30:37]--[/home/huafeng/HF_DFS/src/common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2024-07-12 16:44:26]--[/home/huafeng/HF_DFS/src/common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2024-07-12 16:44:26]--[/home/huafeng/HF_DFS/src/common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2024-07-12 16:44:26]--[/home/huafeng/HF_DFS/src/common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2024-07-12 16:44:26]--[/home/huafeng/HF_DFS/src/common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2024-07-12 16:44:26]--[/home/huafeng/HF_DFS/src/common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2024-07-12 16:44:26]--[/home/huafeng/HF_DFS/src/common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!

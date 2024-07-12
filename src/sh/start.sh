@@ -2,7 +2,7 @@
 # 拷贝nginx的配置文件nginx.conf到默认目录
 echo ============= Copy nginx.conf =============
 sudo mv /usr/local/nginx/conf/nginx.conf /usr/local/nginx/conf/nginx.conf.old
-sudo cp ./nginx.conf /usr/local/nginx/conf
+sudo cp ../conf/nginx.conf /usr/local/nginx/conf
 
 echo
 echo ============= fastdfs ==============

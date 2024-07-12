@@ -1,268 +1,711 @@
-48412:C 25 Jun 15:18:12.735 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
-48412:C 25 Jun 15:18:12.735 # Redis version=4.0.8, bits=64, commit=4678a407, modified=1, pid=48412, just started
-48412:C 25 Jun 15:18:12.735 # Configuration loaded
-48413:M 25 Jun 15:18:12.736 * Running mode=standalone, port=6379.
-48413:M 25 Jun 15:18:12.736 # Server initialized
-48413:M 25 Jun 15:18:12.736 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
-48413:M 25 Jun 15:18:12.736 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
-48413:M 25 Jun 15:18:12.736 * DB loaded from disk: 0.000 seconds
-48413:M 25 Jun 15:18:12.736 * Ready to accept connections
-50422:C 25 Jun 15:22:19.250 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
-50422:C 25 Jun 15:22:19.250 # Redis version=4.0.8, bits=64, commit=4678a407, modified=1, pid=50422, just started
-50422:C 25 Jun 15:22:19.250 # Configuration loaded
-50423:M 25 Jun 15:22:19.251 * Running mode=standalone, port=6379.
-50423:M 25 Jun 15:22:19.251 # Server initialized
-50423:M 25 Jun 15:22:19.251 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
-50423:M 25 Jun 15:22:19.251 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
-50423:M 25 Jun 15:22:19.251 * DB loaded from disk: 0.000 seconds
-50423:M 25 Jun 15:22:19.251 * Ready to accept connections
-51556:C 25 Jun 15:24:32.356 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
-51556:C 25 Jun 15:24:32.356 # Redis version=4.0.8, bits=64, commit=4678a407, modified=1, pid=51556, just started
-51556:C 25 Jun 15:24:32.356 # Configuration loaded
-51557:M 25 Jun 15:24:32.357 * Running mode=standalone, port=6379.
-51557:M 25 Jun 15:24:32.357 # Server initialized
-51557:M 25 Jun 15:24:32.357 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
-51557:M 25 Jun 15:24:32.357 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
-51557:M 25 Jun 15:24:32.357 * DB loaded from disk: 0.000 seconds
-51557:M 25 Jun 15:24:32.357 * Ready to accept connections
-58282:C 25 Jun 15:37:42.637 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
-58282:C 25 Jun 15:37:42.637 # Redis version=4.0.8, bits=64, commit=4678a407, modified=1, pid=58282, just started
-58282:C 25 Jun 15:37:42.637 # Configuration loaded
-58283:M 25 Jun 15:37:42.638 * Running mode=standalone, port=6379.
-58283:M 25 Jun 15:37:42.638 # Server initialized
-58283:M 25 Jun 15:37:42.638 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
-58283:M 25 Jun 15:37:42.639 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
-58283:M 25 Jun 15:37:42.639 * DB loaded from disk: 0.000 seconds
-58283:M 25 Jun 15:37:42.639 * Ready to accept connections
-60456:C 25 Jun 15:41:58.355 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
-60456:C 25 Jun 15:41:58.355 # Redis version=4.0.8, bits=64, commit=4678a407, modified=1, pid=60456, just started
-60456:C 25 Jun 15:41:58.355 # Configuration loaded
-60457:M 25 Jun 15:41:58.357 * Running mode=standalone, port=6379.
-60457:M 25 Jun 15:41:58.357 # Server initialized
-60457:M 25 Jun 15:41:58.357 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
-60457:M 25 Jun 15:41:58.357 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
-60457:M 25 Jun 15:41:58.357 * DB loaded from disk: 0.000 seconds
-60457:M 25 Jun 15:41:58.357 * Ready to accept connections
-63087:C 25 Jun 15:46:50.750 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
-63087:C 25 Jun 15:46:50.750 # Redis version=4.0.8, bits=64, commit=4678a407, modified=1, pid=63087, just started
-63087:C 25 Jun 15:46:50.750 # Configuration loaded
-63088:M 25 Jun 15:46:50.751 * Running mode=standalone, port=6379.
-63088:M 25 Jun 15:46:50.751 # Server initialized
-63088:M 25 Jun 15:46:50.751 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
-63088:M 25 Jun 15:46:50.751 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
-63088:M 25 Jun 15:46:50.751 * DB loaded from disk: 0.000 seconds
-63088:M 25 Jun 15:46:50.751 * Ready to accept connections
-63088:M 25 Jun 16:01:51.082 * 1 changes in 900 seconds. Saving...
-63088:M 25 Jun 16:01:51.083 * Background saving started by pid 69544
-69544:C 25 Jun 16:01:51.103 * DB saved on disk
-69544:C 25 Jun 16:01:51.103 * RDB: 0 MB of memory used by copy-on-write
-63088:M 25 Jun 16:01:51.192 * Background saving terminated with success
-168901:C 26 Jun 09:29:23.354 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
-168901:C 26 Jun 09:29:23.354 # Redis version=4.0.8, bits=64, commit=4678a407, modified=1, pid=168901, just started
-168901:C 26 Jun 09:29:23.354 # Configuration loaded
-168902:M 26 Jun 09:29:23.354 * Increased maximum number of open files to 10032 (it was originally set to 1024).
-168902:M 26 Jun 09:29:23.355 * Running mode=standalone, port=6379.
-168902:M 26 Jun 09:29:23.355 # Server initialized
-168902:M 26 Jun 09:29:23.355 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
-168902:M 26 Jun 09:29:23.355 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
-168902:M 26 Jun 09:29:23.355 * DB loaded from disk: 0.000 seconds
-168902:M 26 Jun 09:29:23.355 * Ready to accept connections
-168902:M 26 Jun 09:44:24.020 * 1 changes in 900 seconds. Saving...
-168902:M 26 Jun 09:44:24.021 * Background saving started by pid 175044
-175044:C 26 Jun 09:44:24.034 * DB saved on disk
-175044:C 26 Jun 09:44:24.034 * RDB: 0 MB of memory used by copy-on-write
-168902:M 26 Jun 09:44:24.121 * Background saving terminated with success
-168902:M 26 Jun 09:59:25.070 * 1 changes in 900 seconds. Saving...
-168902:M 26 Jun 09:59:25.071 * Background saving started by pid 181229
-181229:C 26 Jun 09:59:25.078 * DB saved on disk
-181229:C 26 Jun 09:59:25.079 * RDB: 0 MB of memory used by copy-on-write
-168902:M 26 Jun 09:59:25.171 * Background saving terminated with success
-168902:M 26 Jun 10:43:40.621 * 1 changes in 900 seconds. Saving...
-168902:M 26 Jun 10:43:40.621 * Background saving started by pid 199439
-199439:C 26 Jun 10:43:40.626 * DB saved on disk
-199439:C 26 Jun 10:43:40.626 * RDB: 0 MB of memory used by copy-on-write
-168902:M 26 Jun 10:43:40.721 * Background saving terminated with success
-168902:M 26 Jun 10:58:41.078 * 1 changes in 900 seconds. Saving...
-168902:M 26 Jun 10:58:41.078 * Background saving started by pid 205611
-205611:C 26 Jun 10:58:41.094 * DB saved on disk
-205611:C 26 Jun 10:58:41.094 * RDB: 0 MB of memory used by copy-on-write
-168902:M 26 Jun 10:58:41.179 * Background saving terminated with success
-168902:M 26 Jun 11:17:17.563 * 1 changes in 900 seconds. Saving...
-168902:M 26 Jun 11:17:17.563 * Background saving started by pid 213260
-213260:C 26 Jun 11:17:17.569 * DB saved on disk
-213260:C 26 Jun 11:17:17.569 * RDB: 0 MB of memory used by copy-on-write
-168902:M 26 Jun 11:17:17.663 * Background saving terminated with success
-279957:C 26 Jun 13:51:41.387 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
-279957:C 26 Jun 13:51:41.387 # Redis version=4.0.8, bits=64, commit=4678a407, modified=1, pid=279957, just started
-279957:C 26 Jun 13:51:41.387 # Configuration loaded
-279958:M 26 Jun 13:51:41.388 * Running mode=standalone, port=6379.
-279958:M 26 Jun 13:51:41.388 # Server initialized
-279958:M 26 Jun 13:51:41.388 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
-279958:M 26 Jun 13:51:41.388 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
-279958:M 26 Jun 13:51:41.388 * DB loaded from disk: 0.000 seconds
-279958:M 26 Jun 13:51:41.388 * Ready to accept connections
-279958:M 26 Jun 14:08:25.020 * 1 changes in 900 seconds. Saving...
-279958:M 26 Jun 14:08:25.020 * Background saving started by pid 286907
-286907:C 26 Jun 14:08:25.024 * DB saved on disk
-286907:C 26 Jun 14:08:25.024 * RDB: 0 MB of memory used by copy-on-write
-279958:M 26 Jun 14:08:25.121 * Background saving terminated with success
-279958:M 26 Jun 14:23:26.026 * 1 changes in 900 seconds. Saving...
-279958:M 26 Jun 14:23:26.027 * Background saving started by pid 293128
-293128:C 26 Jun 14:23:26.040 * DB saved on disk
-293128:C 26 Jun 14:23:26.040 * RDB: 0 MB of memory used by copy-on-write
-279958:M 26 Jun 14:23:26.127 * Background saving terminated with success
-745:C 28 Jun 16:42:11.090 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
-745:C 28 Jun 16:42:11.090 # Redis version=4.0.8, bits=64, commit=4678a407, modified=1, pid=745, just started
-745:C 28 Jun 16:42:11.090 # Configuration loaded
-746:M 28 Jun 16:42:11.090 * Increased maximum number of open files to 10032 (it was originally set to 1024).
-746:M 28 Jun 16:42:11.091 * Running mode=standalone, port=6379.
-746:M 28 Jun 16:42:11.091 # Server initialized
-746:M 28 Jun 16:42:11.091 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
-746:M 28 Jun 16:42:11.091 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
-746:M 28 Jun 16:42:11.091 * DB loaded from disk: 0.000 seconds
-746:M 28 Jun 16:42:11.091 * Ready to accept connections
-746:M 28 Jun 17:49:57.900 * 1 changes in 900 seconds. Saving...
-746:M 28 Jun 17:49:57.900 * Background saving started by pid 17207
-17207:C 28 Jun 17:49:57.906 * DB saved on disk
-17207:C 28 Jun 17:49:57.906 * RDB: 0 MB of memory used by copy-on-write
-746:M 28 Jun 17:49:58.000 * Background saving terminated with success
-746:M 28 Jun 18:04:58.108 * 1 changes in 900 seconds. Saving...
-746:M 28 Jun 18:04:58.108 * Background saving started by pid 20729
-20729:C 28 Jun 18:04:58.125 * DB saved on disk
-20729:C 28 Jun 18:04:58.126 * RDB: 0 MB of memory used by copy-on-write
-746:M 28 Jun 18:04:58.209 * Background saving terminated with success
-746:M 28 Jun 18:19:59.032 * 1 changes in 900 seconds. Saving...
-746:M 28 Jun 18:19:59.033 * Background saving started by pid 24254
-24254:C 28 Jun 18:19:59.042 * DB saved on disk
-24254:C 28 Jun 18:19:59.042 * RDB: 0 MB of memory used by copy-on-write
-746:M 28 Jun 18:19:59.133 * Background saving terminated with success
-746:M 28 Jun 18:35:00.035 * 1 changes in 900 seconds. Saving...
-746:M 28 Jun 18:35:00.035 * Background saving started by pid 27775
-27775:C 28 Jun 18:35:00.041 * DB saved on disk
-27775:C 28 Jun 18:35:00.041 * RDB: 0 MB of memory used by copy-on-write
-746:M 28 Jun 18:35:00.136 * Background saving terminated with success
-746:M 28 Jun 18:50:01.045 * 1 changes in 900 seconds. Saving...
-746:M 28 Jun 18:50:01.045 * Background saving started by pid 31287
-31287:C 28 Jun 18:50:01.062 * DB saved on disk
-31287:C 28 Jun 18:50:01.063 * RDB: 0 MB of memory used by copy-on-write
-746:M 28 Jun 18:50:01.146 * Background saving terminated with success
-746:M 28 Jun 19:05:02.095 * 1 changes in 900 seconds. Saving...
-746:M 28 Jun 19:05:02.095 * Background saving started by pid 34805
-34805:C 28 Jun 19:05:02.105 * DB saved on disk
-34805:C 28 Jun 19:05:02.105 * RDB: 0 MB of memory used by copy-on-write
-746:M 28 Jun 19:05:02.195 * Background saving terminated with success
-878:C 30 Jun 10:18:15.718 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
-878:C 30 Jun 10:18:15.718 # Redis version=4.0.8, bits=64, commit=4678a407, modified=1, pid=878, just started
-878:C 30 Jun 10:18:15.718 # Configuration loaded
-879:M 30 Jun 10:18:15.718 * Increased maximum number of open files to 10032 (it was originally set to 1024).
-879:M 30 Jun 10:18:15.719 * Running mode=standalone, port=6379.
-879:M 30 Jun 10:18:15.719 # Server initialized
-879:M 30 Jun 10:18:15.719 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
-879:M 30 Jun 10:18:15.719 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
-879:M 30 Jun 10:18:15.719 * DB loaded from disk: 0.000 seconds
-879:M 30 Jun 10:18:15.719 * Ready to accept connections
-879:M 30 Jun 10:33:16.024 * 1 changes in 900 seconds. Saving...
-879:M 30 Jun 10:33:16.024 * Background saving started by pid 4516
-4516:C 30 Jun 10:33:16.048 * DB saved on disk
-4516:C 30 Jun 10:33:16.048 * RDB: 0 MB of memory used by copy-on-write
-879:M 30 Jun 10:33:16.125 * Background saving terminated with success
-879:M 30 Jun 10:48:17.077 * 1 changes in 900 seconds. Saving...
-879:M 30 Jun 10:48:17.077 * Background saving started by pid 8105
-8105:C 30 Jun 10:48:17.094 * DB saved on disk
-8105:C 30 Jun 10:48:17.095 * RDB: 0 MB of memory used by copy-on-write
-879:M 30 Jun 10:48:17.177 * Background saving terminated with success
-879:M 30 Jun 10:56:33.690 * 10 changes in 300 seconds. Saving...
-879:M 30 Jun 10:56:33.691 * Background saving started by pid 10052
-10052:C 30 Jun 10:56:33.697 * DB saved on disk
-10052:C 30 Jun 10:56:33.697 * RDB: 0 MB of memory used by copy-on-write
-879:M 30 Jun 10:56:33.791 * Background saving terminated with success
-879:M 30 Jun 11:15:33.151 * 1 changes in 900 seconds. Saving...
-879:M 30 Jun 11:15:33.152 * Background saving started by pid 14507
-14507:C 30 Jun 11:15:33.159 * DB saved on disk
-14507:C 30 Jun 11:15:33.159 * RDB: 0 MB of memory used by copy-on-write
-879:M 30 Jun 11:15:33.253 * Background saving terminated with success
-879:M 30 Jun 11:34:38.321 * 1 changes in 900 seconds. Saving...
-879:M 30 Jun 11:34:38.321 * Background saving started by pid 18998
-18998:C 30 Jun 11:34:38.326 * DB saved on disk
-18998:C 30 Jun 11:34:38.326 * RDB: 0 MB of memory used by copy-on-write
-879:M 30 Jun 11:34:38.421 * Background saving terminated with success
-879:M 30 Jun 11:49:39.032 * 1 changes in 900 seconds. Saving...
-879:M 30 Jun 11:49:39.033 * Background saving started by pid 22518
-22518:C 30 Jun 11:49:39.047 * DB saved on disk
-22518:C 30 Jun 11:49:39.047 * RDB: 0 MB of memory used by copy-on-write
-879:M 30 Jun 11:49:39.133 * Background saving terminated with success
-879:M 01 Jul 09:28:53.450 * 1 changes in 900 seconds. Saving...
-879:M 01 Jul 09:28:53.450 * Background saving started by pid 110949
-110949:C 01 Jul 09:28:53.455 * DB saved on disk
-110949:C 01 Jul 09:28:53.455 * RDB: 0 MB of memory used by copy-on-write
-879:M 01 Jul 09:28:53.550 * Background saving terminated with success
-879:M 01 Jul 09:43:54.088 * 1 changes in 900 seconds. Saving...
-879:M 01 Jul 09:43:54.089 * Background saving started by pid 114464
-114464:C 01 Jul 09:43:54.106 * DB saved on disk
-114464:C 01 Jul 09:43:54.106 * RDB: 0 MB of memory used by copy-on-write
-879:M 01 Jul 09:43:54.190 * Background saving terminated with success
-111890:C 09 Jul 13:54:23.267 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
-111890:C 09 Jul 13:54:23.267 # Redis version=4.0.8, bits=64, commit=4678a407, modified=1, pid=111890, just started
-111890:C 09 Jul 13:54:23.267 # Configuration loaded
-111891:M 09 Jul 13:54:23.268 * Running mode=standalone, port=6379.
-111891:M 09 Jul 13:54:23.268 # Server initialized
-111891:M 09 Jul 13:54:23.268 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
-111891:M 09 Jul 13:54:23.268 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
-111891:M 09 Jul 13:54:23.269 * DB loaded from disk: 0.000 seconds
-111891:M 09 Jul 13:54:23.269 * Ready to accept connections
-111891:M 09 Jul 14:09:24.091 * 1 changes in 900 seconds. Saving...
-111891:M 09 Jul 14:09:24.092 * Background saving started by pid 118244
-118244:C 09 Jul 14:09:24.104 * DB saved on disk
-118244:C 09 Jul 14:09:24.104 * RDB: 0 MB of memory used by copy-on-write
-111891:M 09 Jul 14:09:24.193 * Background saving terminated with success
-111891:M 09 Jul 14:26:15.816 * 1 changes in 900 seconds. Saving...
-111891:M 09 Jul 14:26:15.816 * Background saving started by pid 125210
-125210:C 09 Jul 14:26:15.821 * DB saved on disk
-125210:C 09 Jul 14:26:15.821 * RDB: 0 MB of memory used by copy-on-write
-111891:M 09 Jul 14:26:15.916 * Background saving terminated with success
-22660:C 12 Jul 13:51:52.022 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
-22660:C 12 Jul 13:51:52.023 # Redis version=4.0.8, bits=64, commit=4678a407, modified=1, pid=22660, just started
-22660:C 12 Jul 13:51:52.023 # Configuration loaded
-22661:M 12 Jul 13:51:52.025 * Running mode=standalone, port=6379.
-22661:M 12 Jul 13:51:52.025 # Server initialized
-22661:M 12 Jul 13:51:52.025 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
-22661:M 12 Jul 13:51:52.025 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
-22661:M 12 Jul 13:51:52.025 * DB loaded from disk: 0.000 seconds
-22661:M 12 Jul 13:51:52.025 * Ready to accept connections
-22661:M 12 Jul 14:06:53.060 * 1 changes in 900 seconds. Saving...
-22661:M 12 Jul 14:06:53.060 * Background saving started by pid 30366
-30366:C 12 Jul 14:06:53.068 * DB saved on disk
-30366:C 12 Jul 14:06:53.069 * RDB: 0 MB of memory used by copy-on-write
-22661:M 12 Jul 14:06:53.161 * Background saving terminated with success
-33097:C 12 Jul 14:09:49.177 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
-33097:C 12 Jul 14:09:49.177 # Redis version=4.0.8, bits=64, commit=4678a407, modified=1, pid=33097, just started
-33097:C 12 Jul 14:09:49.177 # Configuration loaded
-33098:M 12 Jul 14:09:49.179 * Running mode=standalone, port=6379.
-33098:M 12 Jul 14:09:49.179 # Server initialized
-33098:M 12 Jul 14:09:49.179 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
-33098:M 12 Jul 14:09:49.179 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
-33098:M 12 Jul 14:09:49.179 * DB loaded from disk: 0.000 seconds
-33098:M 12 Jul 14:09:49.179 * Ready to accept connections
-33098:M 12 Jul 14:24:50.033 * 1 changes in 900 seconds. Saving...
-33098:M 12 Jul 14:24:50.033 * Background saving started by pid 41942
-41942:C 12 Jul 14:24:50.048 * DB saved on disk
-41942:C 12 Jul 14:24:50.048 * RDB: 0 MB of memory used by copy-on-write
-33098:M 12 Jul 14:24:50.133 * Background saving terminated with success
-44320:C 12 Jul 14:27:27.498 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
-44320:C 12 Jul 14:27:27.498 # Redis version=4.0.8, bits=64, commit=4678a407, modified=1, pid=44320, just started
-44320:C 12 Jul 14:27:27.498 # Configuration loaded
-44321:M 12 Jul 14:27:27.499 * Running mode=standalone, port=6379.
-44321:M 12 Jul 14:27:27.499 # Server initialized
-44321:M 12 Jul 14:27:27.499 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
-44321:M 12 Jul 14:27:27.499 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
-44321:M 12 Jul 14:27:27.499 * DB loaded from disk: 0.000 seconds
-44321:M 12 Jul 14:27:27.499 * Ready to accept connections
-45993:C 12 Jul 14:30:27.468 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
-45993:C 12 Jul 14:30:27.468 # Redis version=4.0.8, bits=64, commit=4678a407, modified=1, pid=45993, just started
-45993:C 12 Jul 14:30:27.468 # Configuration loaded
-45994:M 12 Jul 14:30:27.469 * Running mode=standalone, port=6379.
-45994:M 12 Jul 14:30:27.469 # Server initialized
-45994:M 12 Jul 14:30:27.469 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
-45994:M 12 Jul 14:30:27.469 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
-45994:M 12 Jul 14:30:27.470 * DB loaded from disk: 0.000 seconds
-45994:M 12 Jul 14:30:27.470 * Ready to accept connections
+82712:C 12 Jul 15:39:34.746 # Can't chdir to './redis': No such file or directory
+84214:C 12 Jul 15:42:59.877 # Can't chdir to './redis': No such file or directory
+84574:C 12 Jul 15:43:40.416 # Can't chdir to './redis': No such file or directory
+84849:C 12 Jul 15:44:12.214 # Can't chdir to './redis': No such file or directory
+86105:C 12 Jul 15:47:04.620 # Can't chdir to './redis': No such file or directory
+87755:C 12 Jul 15:50:22.874 # Can't chdir to './redis': No such file or directory
+87795:C 12 Jul 15:50:24.821 # Can't chdir to './redis': No such file or directory
+87969:C 12 Jul 15:50:39.230 # Can't chdir to './redis': No such file or directory
+89480:C 12 Jul 15:54:01.277 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+89480:C 12 Jul 15:54:01.277 # Redis version=4.0.8, bits=64, commit=4678a407, modified=1, pid=89480, just started
+89480:C 12 Jul 15:54:01.277 # Configuration loaded
+89481:M 12 Jul 15:54:01.278 * Running mode=standalone, port=6379.
+89481:M 12 Jul 15:54:01.278 # Server initialized
+89481:M 12 Jul 15:54:01.278 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+89481:M 12 Jul 15:54:01.278 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+89481:M 12 Jul 15:54:01.278 * Ready to accept connections
+89481:M 12 Jul 15:54:01.278 - 0 clients connected (0 slaves), 765776 bytes in use
+89481:M 12 Jul 15:54:06.297 - 0 clients connected (0 slaves), 765776 bytes in use
+89481:M 12 Jul 15:54:11.316 - 0 clients connected (0 slaves), 765776 bytes in use
+89481:M 12 Jul 15:54:16.336 - 0 clients connected (0 slaves), 765776 bytes in use
+89481:M 12 Jul 15:54:21.355 - 0 clients connected (0 slaves), 765776 bytes in use
+89481:M 12 Jul 15:54:26.373 - 0 clients connected (0 slaves), 765776 bytes in use
+89481:M 12 Jul 15:54:31.392 - 0 clients connected (0 slaves), 765776 bytes in use
+89481:M 12 Jul 15:54:36.412 - 0 clients connected (0 slaves), 765776 bytes in use
+89481:M 12 Jul 15:54:41.432 - 0 clients connected (0 slaves), 765776 bytes in use
+89481:M 12 Jul 15:54:46.447 - 0 clients connected (0 slaves), 765776 bytes in use
+89481:M 12 Jul 15:54:51.467 - 0 clients connected (0 slaves), 765776 bytes in use
+89481:M 12 Jul 15:54:56.484 - 0 clients connected (0 slaves), 765776 bytes in use
+89481:M 12 Jul 15:55:01.504 - 0 clients connected (0 slaves), 765776 bytes in use
+89481:M 12 Jul 15:55:06.522 - 0 clients connected (0 slaves), 765776 bytes in use
+90639:C 12 Jul 15:55:19.831 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+90639:C 12 Jul 15:55:19.831 # Redis version=4.0.8, bits=64, commit=4678a407, modified=1, pid=90639, just started
+90639:C 12 Jul 15:55:19.831 # Configuration loaded
+90640:M 12 Jul 15:55:19.832 * Running mode=standalone, port=6379.
+90640:M 12 Jul 15:55:19.832 # Server initialized
+90640:M 12 Jul 15:55:19.832 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+90640:M 12 Jul 15:55:19.832 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+90640:M 12 Jul 15:55:19.832 * Ready to accept connections
+90640:M 12 Jul 15:55:19.832 - 0 clients connected (0 slaves), 765776 bytes in use
+90640:M 12 Jul 15:55:24.852 - 0 clients connected (0 slaves), 765776 bytes in use
+90640:M 12 Jul 15:55:29.868 - 0 clients connected (0 slaves), 765776 bytes in use
+90640:M 12 Jul 15:55:34.888 - 0 clients connected (0 slaves), 765776 bytes in use
+90640:M 12 Jul 15:55:39.909 - 0 clients connected (0 slaves), 765776 bytes in use
+90640:M 12 Jul 15:55:44.928 - 0 clients connected (0 slaves), 765776 bytes in use
+90640:M 12 Jul 15:55:49.945 - 0 clients connected (0 slaves), 765776 bytes in use
+90640:M 12 Jul 15:55:54.961 - 0 clients connected (0 slaves), 765776 bytes in use
+90640:M 12 Jul 15:55:59.978 - 0 clients connected (0 slaves), 765776 bytes in use
+90640:M 12 Jul 15:56:04.998 - 0 clients connected (0 slaves), 765776 bytes in use
+90640:M 12 Jul 15:56:10.018 - 0 clients connected (0 slaves), 765776 bytes in use
+90640:M 12 Jul 15:56:15.035 - 0 clients connected (0 slaves), 765776 bytes in use
+90640:M 12 Jul 15:56:20.050 - 0 clients connected (0 slaves), 765776 bytes in use
+90640:M 12 Jul 15:56:25.068 - 0 clients connected (0 slaves), 765776 bytes in use
+90640:M 12 Jul 15:56:30.085 - 0 clients connected (0 slaves), 765776 bytes in use
+90640:M 12 Jul 15:56:35.102 - 0 clients connected (0 slaves), 765776 bytes in use
+90640:M 12 Jul 15:56:40.119 - 0 clients connected (0 slaves), 765776 bytes in use
+90640:M 12 Jul 15:56:45.138 - 0 clients connected (0 slaves), 765776 bytes in use
+90640:M 12 Jul 15:56:50.157 - 0 clients connected (0 slaves), 765776 bytes in use
+90640:M 12 Jul 15:56:55.174 - 0 clients connected (0 slaves), 765776 bytes in use
+90640:M 12 Jul 15:57:00.192 - 0 clients connected (0 slaves), 765776 bytes in use
+90640:M 12 Jul 15:57:05.211 - 0 clients connected (0 slaves), 765776 bytes in use
+90640:M 12 Jul 15:57:10.231 - 0 clients connected (0 slaves), 765776 bytes in use
+90640:M 12 Jul 15:57:15.251 - 0 clients connected (0 slaves), 765776 bytes in use
+90640:M 12 Jul 15:57:20.269 - 0 clients connected (0 slaves), 765776 bytes in use
+90640:M 12 Jul 15:57:25.289 - 0 clients connected (0 slaves), 765776 bytes in use
+90640:M 12 Jul 15:57:30.309 - 0 clients connected (0 slaves), 765776 bytes in use
+90640:M 12 Jul 15:57:35.324 - 0 clients connected (0 slaves), 765776 bytes in use
+90640:M 12 Jul 15:57:40.342 - 0 clients connected (0 slaves), 765776 bytes in use
+90640:M 12 Jul 15:57:45.360 - 0 clients connected (0 slaves), 765776 bytes in use
+90640:M 12 Jul 15:57:50.376 - 0 clients connected (0 slaves), 765776 bytes in use
+90640:M 12 Jul 15:57:55.395 - 0 clients connected (0 slaves), 765776 bytes in use
+90640:M 12 Jul 15:58:00.415 - 0 clients connected (0 slaves), 765776 bytes in use
+90640:M 12 Jul 15:58:05.436 - 0 clients connected (0 slaves), 765776 bytes in use
+90640:M 12 Jul 15:58:10.457 - 0 clients connected (0 slaves), 765776 bytes in use
+90640:M 12 Jul 15:58:15.477 - 0 clients connected (0 slaves), 765776 bytes in use
+90640:M 12 Jul 15:58:20.498 - 0 clients connected (0 slaves), 765776 bytes in use
+90640:M 12 Jul 15:58:25.517 - 0 clients connected (0 slaves), 765776 bytes in use
+90640:M 12 Jul 15:58:30.536 - 0 clients connected (0 slaves), 765776 bytes in use
+90640:M 12 Jul 15:58:35.555 - 0 clients connected (0 slaves), 765776 bytes in use
+90640:M 12 Jul 15:58:40.574 - 0 clients connected (0 slaves), 765776 bytes in use
+90640:M 12 Jul 15:58:45.594 - 0 clients connected (0 slaves), 765776 bytes in use
+90640:M 12 Jul 15:58:50.614 - 0 clients connected (0 slaves), 765776 bytes in use
+90640:M 12 Jul 15:58:55.631 - 0 clients connected (0 slaves), 765776 bytes in use
+90640:M 12 Jul 15:59:00.651 - 0 clients connected (0 slaves), 765776 bytes in use
+90640:M 12 Jul 15:59:05.670 - 0 clients connected (0 slaves), 765776 bytes in use
+90640:M 12 Jul 15:59:10.689 - 0 clients connected (0 slaves), 765776 bytes in use
+90640:M 12 Jul 15:59:15.709 - 0 clients connected (0 slaves), 765776 bytes in use
+90640:M 12 Jul 15:59:20.725 - 0 clients connected (0 slaves), 765776 bytes in use
+90640:M 12 Jul 15:59:25.742 - 0 clients connected (0 slaves), 765776 bytes in use
+90640:M 12 Jul 15:59:30.760 - 0 clients connected (0 slaves), 765776 bytes in use
+90640:M 12 Jul 15:59:35.776 - 0 clients connected (0 slaves), 765776 bytes in use
+90640:M 12 Jul 15:59:40.791 - 0 clients connected (0 slaves), 765776 bytes in use
+90640:M 12 Jul 15:59:45.804 - 0 clients connected (0 slaves), 765776 bytes in use
+90640:M 12 Jul 15:59:50.820 - 0 clients connected (0 slaves), 765776 bytes in use
+90640:M 12 Jul 15:59:55.836 - 0 clients connected (0 slaves), 765776 bytes in use
+90640:M 12 Jul 16:00:00.853 - 0 clients connected (0 slaves), 765776 bytes in use
+90640:M 12 Jul 16:00:05.869 - 0 clients connected (0 slaves), 765776 bytes in use
+90640:M 12 Jul 16:00:10.885 - 0 clients connected (0 slaves), 765776 bytes in use
+90640:M 12 Jul 16:00:15.905 - 0 clients connected (0 slaves), 765776 bytes in use
+90640:M 12 Jul 16:00:20.924 - 0 clients connected (0 slaves), 765776 bytes in use
+90640:M 12 Jul 16:00:25.944 - 0 clients connected (0 slaves), 765776 bytes in use
+90640:M 12 Jul 16:00:30.961 - 0 clients connected (0 slaves), 765776 bytes in use
+93975:C 12 Jul 16:00:34.361 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+93975:C 12 Jul 16:00:34.361 # Redis version=4.0.8, bits=64, commit=4678a407, modified=1, pid=93975, just started
+93975:C 12 Jul 16:00:34.361 # Configuration loaded
+93976:M 12 Jul 16:00:34.362 * Running mode=standalone, port=6379.
+93976:M 12 Jul 16:00:34.363 # Server initialized
+93976:M 12 Jul 16:00:34.363 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+93976:M 12 Jul 16:00:34.363 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+93976:M 12 Jul 16:00:34.363 * Ready to accept connections
+93976:M 12 Jul 16:00:34.363 - 0 clients connected (0 slaves), 765776 bytes in use
+93976:M 12 Jul 16:00:39.381 - 0 clients connected (0 slaves), 765776 bytes in use
+93976:M 12 Jul 16:00:44.402 - 0 clients connected (0 slaves), 765776 bytes in use
+93976:M 12 Jul 16:00:49.420 - 0 clients connected (0 slaves), 765776 bytes in use
+93976:M 12 Jul 16:00:54.440 - 0 clients connected (0 slaves), 765776 bytes in use
+93976:M 12 Jul 16:00:59.459 - 0 clients connected (0 slaves), 765776 bytes in use
+93976:M 12 Jul 16:01:04.478 - 0 clients connected (0 slaves), 765776 bytes in use
+93976:M 12 Jul 16:01:09.494 - 0 clients connected (0 slaves), 765776 bytes in use
+93976:M 12 Jul 16:01:14.508 - 0 clients connected (0 slaves), 765776 bytes in use
+93976:M 12 Jul 16:01:19.526 - 0 clients connected (0 slaves), 765776 bytes in use
+95469:C 12 Jul 16:01:23.112 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+95469:C 12 Jul 16:01:23.112 # Redis version=4.0.8, bits=64, commit=4678a407, modified=1, pid=95469, just started
+95469:C 12 Jul 16:01:23.112 # Configuration loaded
+95470:M 12 Jul 16:01:23.113 * Running mode=standalone, port=6379.
+95470:M 12 Jul 16:01:23.113 # Server initialized
+95470:M 12 Jul 16:01:23.113 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+95470:M 12 Jul 16:01:23.113 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+95470:M 12 Jul 16:01:23.113 * Ready to accept connections
+95470:M 12 Jul 16:01:23.115 - 0 clients connected (0 slaves), 765776 bytes in use
+95470:M 12 Jul 16:01:28.140 - 0 clients connected (0 slaves), 765776 bytes in use
+95470:M 12 Jul 16:01:33.157 - 0 clients connected (0 slaves), 765776 bytes in use
+95470:M 12 Jul 16:01:38.173 - 0 clients connected (0 slaves), 765776 bytes in use
+95470:M 12 Jul 16:01:43.189 - 0 clients connected (0 slaves), 765776 bytes in use
+95470:M 12 Jul 16:01:48.211 - 0 clients connected (0 slaves), 765776 bytes in use
+95470:M 12 Jul 16:01:53.232 - 0 clients connected (0 slaves), 765776 bytes in use
+95470:M 12 Jul 16:01:58.252 - 0 clients connected (0 slaves), 765776 bytes in use
+95470:M 12 Jul 16:02:03.269 - 0 clients connected (0 slaves), 765776 bytes in use
+95470:M 12 Jul 16:02:08.289 - 0 clients connected (0 slaves), 765776 bytes in use
+95470:M 12 Jul 16:02:13.307 - 0 clients connected (0 slaves), 765776 bytes in use
+95470:M 12 Jul 16:02:18.320 - 0 clients connected (0 slaves), 765776 bytes in use
+95470:M 12 Jul 16:02:23.337 - 0 clients connected (0 slaves), 765776 bytes in use
+95470:M 12 Jul 16:02:28.357 - 0 clients connected (0 slaves), 765776 bytes in use
+95470:M 12 Jul 16:02:33.372 - 0 clients connected (0 slaves), 765776 bytes in use
+95470:M 12 Jul 16:02:38.388 - 0 clients connected (0 slaves), 765776 bytes in use
+95470:M 12 Jul 16:02:43.403 - 0 clients connected (0 slaves), 765776 bytes in use
+95470:M 12 Jul 16:02:48.418 - 0 clients connected (0 slaves), 765776 bytes in use
+95470:M 12 Jul 16:02:53.435 - 0 clients connected (0 slaves), 765776 bytes in use
+95470:M 12 Jul 16:02:58.451 - 0 clients connected (0 slaves), 765776 bytes in use
+95470:M 12 Jul 16:03:03.468 - 0 clients connected (0 slaves), 765776 bytes in use
+95470:M 12 Jul 16:03:08.483 - 0 clients connected (0 slaves), 765776 bytes in use
+95470:M 12 Jul 16:03:13.501 - 0 clients connected (0 slaves), 765776 bytes in use
+95470:M 12 Jul 16:03:18.520 - 0 clients connected (0 slaves), 765776 bytes in use
+95470:M 12 Jul 16:03:23.539 - 0 clients connected (0 slaves), 765776 bytes in use
+95470:M 12 Jul 16:03:28.558 - 0 clients connected (0 slaves), 765776 bytes in use
+95470:M 12 Jul 16:03:33.578 - 0 clients connected (0 slaves), 765776 bytes in use
+95470:M 12 Jul 16:03:38.596 - 0 clients connected (0 slaves), 765776 bytes in use
+95470:M 12 Jul 16:03:43.615 - 0 clients connected (0 slaves), 765776 bytes in use
+95470:M 12 Jul 16:03:48.633 - 0 clients connected (0 slaves), 765776 bytes in use
+95470:M 12 Jul 16:03:53.650 - 0 clients connected (0 slaves), 765776 bytes in use
+95470:M 12 Jul 16:03:58.667 - 0 clients connected (0 slaves), 765776 bytes in use
+95470:M 12 Jul 16:04:03.679 - 0 clients connected (0 slaves), 765776 bytes in use
+95470:M 12 Jul 16:04:08.696 - 0 clients connected (0 slaves), 765776 bytes in use
+95470:M 12 Jul 16:04:13.713 - 0 clients connected (0 slaves), 765776 bytes in use
+95470:M 12 Jul 16:04:18.730 - 0 clients connected (0 slaves), 765776 bytes in use
+95470:M 12 Jul 16:04:23.747 - 0 clients connected (0 slaves), 765776 bytes in use
+95470:M 12 Jul 16:04:28.768 - 0 clients connected (0 slaves), 765776 bytes in use
+95470:M 12 Jul 16:04:33.787 - 0 clients connected (0 slaves), 765776 bytes in use
+95470:M 12 Jul 16:04:38.808 - 0 clients connected (0 slaves), 765776 bytes in use
+95470:M 12 Jul 16:04:43.825 - 0 clients connected (0 slaves), 765776 bytes in use
+97595:C 12 Jul 16:04:47.324 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+97595:C 12 Jul 16:04:47.324 # Redis version=4.0.8, bits=64, commit=4678a407, modified=1, pid=97595, just started
+97595:C 12 Jul 16:04:47.324 # Configuration loaded
+97596:M 12 Jul 16:04:47.326 * Running mode=standalone, port=6379.
+97596:M 12 Jul 16:04:47.326 # Server initialized
+97596:M 12 Jul 16:04:47.326 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+97596:M 12 Jul 16:04:47.326 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+97596:M 12 Jul 16:04:47.326 * Ready to accept connections
+97596:M 12 Jul 16:04:47.326 - 0 clients connected (0 slaves), 765776 bytes in use
+97596:M 12 Jul 16:04:52.346 - 0 clients connected (0 slaves), 765776 bytes in use
+97596:M 12 Jul 16:04:57.365 - 0 clients connected (0 slaves), 765776 bytes in use
+97596:M 12 Jul 16:05:02.384 - 0 clients connected (0 slaves), 765776 bytes in use
+97596:M 12 Jul 16:05:07.403 - 0 clients connected (0 slaves), 765776 bytes in use
+97596:M 12 Jul 16:05:12.419 - 0 clients connected (0 slaves), 765776 bytes in use
+97596:M 12 Jul 16:05:17.437 - 0 clients connected (0 slaves), 765776 bytes in use
+97596:M 12 Jul 16:05:22.452 - 0 clients connected (0 slaves), 765776 bytes in use
+97596:M 12 Jul 16:05:27.471 - 0 clients connected (0 slaves), 765776 bytes in use
+97596:M 12 Jul 16:05:32.488 - 0 clients connected (0 slaves), 765776 bytes in use
+97596:M 12 Jul 16:05:37.508 - 0 clients connected (0 slaves), 765776 bytes in use
+97596:M 12 Jul 16:05:42.524 - 0 clients connected (0 slaves), 765776 bytes in use
+97596:M 12 Jul 16:05:47.539 - 0 clients connected (0 slaves), 765776 bytes in use
+97596:M 12 Jul 16:05:52.556 - 0 clients connected (0 slaves), 765776 bytes in use
+97596:M 12 Jul 16:05:57.576 - 0 clients connected (0 slaves), 765776 bytes in use
+97596:M 12 Jul 16:06:02.594 - 0 clients connected (0 slaves), 765776 bytes in use
+97596:M 12 Jul 16:06:07.611 - 0 clients connected (0 slaves), 765776 bytes in use
+97596:M 12 Jul 16:06:12.629 - 0 clients connected (0 slaves), 765776 bytes in use
+97596:M 12 Jul 16:06:17.650 - 0 clients connected (0 slaves), 765776 bytes in use
+97596:M 12 Jul 16:06:22.665 - 0 clients connected (0 slaves), 765776 bytes in use
+97596:M 12 Jul 16:06:27.684 - 0 clients connected (0 slaves), 765776 bytes in use
+97596:M 12 Jul 16:06:32.705 - 0 clients connected (0 slaves), 765776 bytes in use
+97596:M 12 Jul 16:06:37.723 - 0 clients connected (0 slaves), 765776 bytes in use
+97596:M 12 Jul 16:06:42.740 - 0 clients connected (0 slaves), 765776 bytes in use
+97596:M 12 Jul 16:06:47.755 - 0 clients connected (0 slaves), 765776 bytes in use
+97596:M 12 Jul 16:06:52.768 - 0 clients connected (0 slaves), 765776 bytes in use
+97596:M 12 Jul 16:06:57.782 - 0 clients connected (0 slaves), 765776 bytes in use
+97596:M 12 Jul 16:07:02.798 - 0 clients connected (0 slaves), 765776 bytes in use
+97596:M 12 Jul 16:07:07.816 - 0 clients connected (0 slaves), 765776 bytes in use
+97596:M 12 Jul 16:07:12.835 - 0 clients connected (0 slaves), 765776 bytes in use
+97596:M 12 Jul 16:07:17.853 - 0 clients connected (0 slaves), 765776 bytes in use
+97596:M 12 Jul 16:07:22.868 - 0 clients connected (0 slaves), 765776 bytes in use
+97596:M 12 Jul 16:07:27.888 - 0 clients connected (0 slaves), 765776 bytes in use
+97596:M 12 Jul 16:07:32.904 - 0 clients connected (0 slaves), 765776 bytes in use
+97596:M 12 Jul 16:07:37.926 - 0 clients connected (0 slaves), 765776 bytes in use
+97596:M 12 Jul 16:07:42.945 - 0 clients connected (0 slaves), 765776 bytes in use
+97596:M 12 Jul 16:07:47.960 - 0 clients connected (0 slaves), 765776 bytes in use
+97596:M 12 Jul 16:07:52.973 - 0 clients connected (0 slaves), 765776 bytes in use
+97596:M 12 Jul 16:07:57.987 - 0 clients connected (0 slaves), 765776 bytes in use
+97596:M 12 Jul 16:08:03.004 - 0 clients connected (0 slaves), 765776 bytes in use
+97596:M 12 Jul 16:08:08.022 - 0 clients connected (0 slaves), 765776 bytes in use
+97596:M 12 Jul 16:08:13.041 - 0 clients connected (0 slaves), 765776 bytes in use
+97596:M 12 Jul 16:08:18.062 - 0 clients connected (0 slaves), 765776 bytes in use
+97596:M 12 Jul 16:08:23.081 - 0 clients connected (0 slaves), 765776 bytes in use
+97596:M 12 Jul 16:08:28.100 - 0 clients connected (0 slaves), 765776 bytes in use
+97596:M 12 Jul 16:08:33.118 - 0 clients connected (0 slaves), 765776 bytes in use
+97596:M 12 Jul 16:08:38.134 - 0 clients connected (0 slaves), 765776 bytes in use
+97596:M 12 Jul 16:08:43.154 - 0 clients connected (0 slaves), 765776 bytes in use
+97596:M 12 Jul 16:08:48.175 - 0 clients connected (0 slaves), 765776 bytes in use
+97596:M 12 Jul 16:08:53.193 - 0 clients connected (0 slaves), 765776 bytes in use
+97596:M 12 Jul 16:08:58.212 - 0 clients connected (0 slaves), 765776 bytes in use
+97596:M 12 Jul 16:09:03.229 - 0 clients connected (0 slaves), 765776 bytes in use
+97596:M 12 Jul 16:09:08.249 - 0 clients connected (0 slaves), 765776 bytes in use
+97596:M 12 Jul 16:09:13.267 - 0 clients connected (0 slaves), 765776 bytes in use
+97596:M 12 Jul 16:09:18.286 - 0 clients connected (0 slaves), 765776 bytes in use
+97596:M 12 Jul 16:09:23.307 - 0 clients connected (0 slaves), 765776 bytes in use
+97596:M 12 Jul 16:09:28.326 - 0 clients connected (0 slaves), 765776 bytes in use
+97596:M 12 Jul 16:09:33.344 - 0 clients connected (0 slaves), 765776 bytes in use
+97596:M 12 Jul 16:09:38.362 - 0 clients connected (0 slaves), 765776 bytes in use
+97596:M 12 Jul 16:09:43.376 - 0 clients connected (0 slaves), 765776 bytes in use
+97596:M 12 Jul 16:09:48.397 - 0 clients connected (0 slaves), 765776 bytes in use
+97596:M 12 Jul 16:09:53.414 - 0 clients connected (0 slaves), 765776 bytes in use
+97596:M 12 Jul 16:09:58.435 - 0 clients connected (0 slaves), 765776 bytes in use
+97596:M 12 Jul 16:10:03.454 - 0 clients connected (0 slaves), 765776 bytes in use
+97596:M 12 Jul 16:10:08.472 - 0 clients connected (0 slaves), 765776 bytes in use
+97596:M 12 Jul 16:10:13.492 - 0 clients connected (0 slaves), 765776 bytes in use
+97596:M 12 Jul 16:10:18.509 - 0 clients connected (0 slaves), 765776 bytes in use
+102180:C 12 Jul 16:10:19.274 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+102180:C 12 Jul 16:10:19.274 # Redis version=4.0.8, bits=64, commit=4678a407, modified=1, pid=102180, just started
+102180:C 12 Jul 16:10:19.274 # Configuration loaded
+102181:M 12 Jul 16:10:19.275 * Running mode=standalone, port=6379.
+102181:M 12 Jul 16:10:19.275 # Server initialized
+102181:M 12 Jul 16:10:19.275 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+102181:M 12 Jul 16:10:19.275 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+102181:M 12 Jul 16:10:19.275 * Ready to accept connections
+102181:M 12 Jul 16:10:19.275 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:10:24.290 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:10:29.307 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:10:34.325 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:10:39.347 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:10:44.364 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:10:49.380 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:10:54.397 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:10:59.416 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:11:04.433 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:11:09.449 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:11:14.468 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:11:19.485 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:11:24.505 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:11:29.524 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:11:34.542 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:11:39.563 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:11:44.581 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:11:49.600 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:11:54.616 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:11:59.634 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:12:04.656 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:12:09.677 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:12:14.697 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:12:19.718 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:12:24.736 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:12:29.757 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:12:34.778 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:12:39.794 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:12:44.808 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:12:49.819 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:12:54.835 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:12:59.853 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:13:04.869 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:13:09.889 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:13:14.907 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:13:19.921 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:13:24.941 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:13:29.959 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:13:34.978 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:13:39.998 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:13:45.015 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:13:50.036 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:13:55.059 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:14:00.078 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:14:05.100 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:14:10.120 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:14:15.140 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:14:20.158 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:14:25.173 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:14:30.190 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:14:35.210 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:14:40.230 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:14:45.250 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:14:50.270 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:14:55.292 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:15:00.313 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:15:05.333 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:15:10.347 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:15:15.368 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:15:20.391 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:15:25.412 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:15:30.433 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:15:35.458 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:15:40.478 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:15:45.498 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:15:50.517 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:15:55.536 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:16:00.556 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:16:05.582 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:16:10.601 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:16:15.619 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:16:20.640 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:16:25.660 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:16:30.677 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:16:35.692 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:16:40.709 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:16:45.725 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:16:50.740 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:16:55.757 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:17:00.774 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:17:05.792 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:17:10.807 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:17:15.826 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:17:20.842 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:17:25.859 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:17:30.880 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:17:35.900 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:17:40.921 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:17:45.941 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:17:50.959 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:17:55.980 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:18:01.000 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:18:06.017 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:18:11.032 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:18:16.047 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:18:21.065 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:18:26.082 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:18:31.098 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:18:36.115 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:18:41.132 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:18:46.149 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:18:51.164 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:18:56.180 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:19:01.195 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:19:06.216 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:19:11.233 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:19:16.251 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:19:21.266 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:19:26.282 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:19:31.296 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:19:36.315 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:19:41.334 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:19:46.353 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:19:51.380 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:19:56.398 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:20:01.414 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:20:06.429 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:20:11.445 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:20:16.463 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:20:21.480 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:20:26.497 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:20:31.513 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:20:36.529 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:20:41.547 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:20:46.568 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:20:51.586 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:20:56.604 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:21:01.617 - 0 clients connected (0 slaves), 765776 bytes in use
+102181:M 12 Jul 16:21:06.636 - 0 clients connected (0 slaves), 765776 bytes in use
+109503:C 12 Jul 16:21:11.590 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+109503:C 12 Jul 16:21:11.590 # Redis version=4.0.8, bits=64, commit=4678a407, modified=1, pid=109503, just started
+109503:C 12 Jul 16:21:11.590 # Configuration loaded
+109504:M 12 Jul 16:21:11.591 * Running mode=standalone, port=6379.
+109504:M 12 Jul 16:21:11.591 # Server initialized
+109504:M 12 Jul 16:21:11.591 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+109504:M 12 Jul 16:21:11.591 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+109504:M 12 Jul 16:21:11.591 * Ready to accept connections
+109504:M 12 Jul 16:21:11.593 - 0 clients connected (0 slaves), 765776 bytes in use
+109504:M 12 Jul 16:21:16.609 - 0 clients connected (0 slaves), 765776 bytes in use
+109504:M 12 Jul 16:21:21.625 - 0 clients connected (0 slaves), 765776 bytes in use
+109504:M 12 Jul 16:21:26.642 - 0 clients connected (0 slaves), 765776 bytes in use
+109504:M 12 Jul 16:21:31.658 - 0 clients connected (0 slaves), 765776 bytes in use
+109504:M 12 Jul 16:21:36.673 - 0 clients connected (0 slaves), 765776 bytes in use
+109504:M 12 Jul 16:21:41.689 - 0 clients connected (0 slaves), 765776 bytes in use
+109504:M 12 Jul 16:21:46.707 - 0 clients connected (0 slaves), 765776 bytes in use
+109504:M 12 Jul 16:21:51.726 - 0 clients connected (0 slaves), 765776 bytes in use
+109504:M 12 Jul 16:21:56.743 - 0 clients connected (0 slaves), 765776 bytes in use
+109504:M 12 Jul 16:22:01.758 - 0 clients connected (0 slaves), 765776 bytes in use
+109504:M 12 Jul 16:22:06.774 - 0 clients connected (0 slaves), 765776 bytes in use
+109504:M 12 Jul 16:22:11.794 - 0 clients connected (0 slaves), 765776 bytes in use
+109504:M 12 Jul 16:22:16.809 - 0 clients connected (0 slaves), 765776 bytes in use
+109504:M 12 Jul 16:22:21.823 - 0 clients connected (0 slaves), 765776 bytes in use
+109504:M 12 Jul 16:22:26.835 - 0 clients connected (0 slaves), 765776 bytes in use
+109504:M 12 Jul 16:22:31.852 - 0 clients connected (0 slaves), 765776 bytes in use
+109504:M 12 Jul 16:22:36.870 - 0 clients connected (0 slaves), 765776 bytes in use
+109504:M 12 Jul 16:22:41.885 - 0 clients connected (0 slaves), 765776 bytes in use
+109504:M 12 Jul 16:22:46.900 - 0 clients connected (0 slaves), 765776 bytes in use
+109504:M 12 Jul 16:22:51.915 - 0 clients connected (0 slaves), 765776 bytes in use
+109504:M 12 Jul 16:22:56.929 - 0 clients connected (0 slaves), 765776 bytes in use
+109504:M 12 Jul 16:23:01.943 - 0 clients connected (0 slaves), 765776 bytes in use
+109504:M 12 Jul 16:23:06.960 - 0 clients connected (0 slaves), 765776 bytes in use
+109504:M 12 Jul 16:23:11.978 - 0 clients connected (0 slaves), 765776 bytes in use
+109504:M 12 Jul 16:23:16.994 - 0 clients connected (0 slaves), 765776 bytes in use
+109504:M 12 Jul 16:23:22.013 - 0 clients connected (0 slaves), 765776 bytes in use
+109504:M 12 Jul 16:23:27.031 - 0 clients connected (0 slaves), 765776 bytes in use
+109504:M 12 Jul 16:23:32.048 - 0 clients connected (0 slaves), 765776 bytes in use
+109504:M 12 Jul 16:23:37.064 - 0 clients connected (0 slaves), 765776 bytes in use
+109504:M 12 Jul 16:23:42.079 - 0 clients connected (0 slaves), 765776 bytes in use
+109504:M 12 Jul 16:23:47.096 - 0 clients connected (0 slaves), 765776 bytes in use
+109504:M 12 Jul 16:23:52.113 - 0 clients connected (0 slaves), 765776 bytes in use
+109504:M 12 Jul 16:23:57.129 - 0 clients connected (0 slaves), 765776 bytes in use
+109504:M 12 Jul 16:24:02.149 - 0 clients connected (0 slaves), 765776 bytes in use
+109504:M 12 Jul 16:24:07.168 - 0 clients connected (0 slaves), 765776 bytes in use
+109504:M 12 Jul 16:24:12.188 - 0 clients connected (0 slaves), 765776 bytes in use
+109504:M 12 Jul 16:24:17.205 - 0 clients connected (0 slaves), 765776 bytes in use
+109504:M 12 Jul 16:24:22.222 - 0 clients connected (0 slaves), 765776 bytes in use
+109504:M 12 Jul 16:24:27.234 - 0 clients connected (0 slaves), 765776 bytes in use
+109504:M 12 Jul 16:24:32.249 - 0 clients connected (0 slaves), 765776 bytes in use
+109504:M 12 Jul 16:24:37.266 - 0 clients connected (0 slaves), 765776 bytes in use
+109504:M 12 Jul 16:24:42.284 - 0 clients connected (0 slaves), 765776 bytes in use
+109504:M 12 Jul 16:24:47.301 - 0 clients connected (0 slaves), 765776 bytes in use
+109504:M 12 Jul 16:24:52.316 - 0 clients connected (0 slaves), 765776 bytes in use
+109504:M 12 Jul 16:24:57.332 - 0 clients connected (0 slaves), 765776 bytes in use
+109504:M 12 Jul 16:25:02.350 - 0 clients connected (0 slaves), 765776 bytes in use
+109504:M 12 Jul 16:25:07.368 - 0 clients connected (0 slaves), 765776 bytes in use
+109504:M 12 Jul 16:25:12.383 - 0 clients connected (0 slaves), 765776 bytes in use
+109504:M 12 Jul 16:25:17.400 - 0 clients connected (0 slaves), 765776 bytes in use
+109504:M 12 Jul 16:25:22.413 - 0 clients connected (0 slaves), 765776 bytes in use
+109504:M 12 Jul 16:25:27.429 - 0 clients connected (0 slaves), 765776 bytes in use
+109504:M 12 Jul 16:25:32.448 - 0 clients connected (0 slaves), 765776 bytes in use
+109504:M 12 Jul 16:25:37.463 - 0 clients connected (0 slaves), 765776 bytes in use
+109504:M 12 Jul 16:25:42.480 - 0 clients connected (0 slaves), 765776 bytes in use
+109504:M 12 Jul 16:25:47.498 - 0 clients connected (0 slaves), 765776 bytes in use
+109504:M 12 Jul 16:25:52.517 - 0 clients connected (0 slaves), 765776 bytes in use
+109504:M 12 Jul 16:25:57.534 - 0 clients connected (0 slaves), 765776 bytes in use
+109504:M 12 Jul 16:26:02.549 - 0 clients connected (0 slaves), 765776 bytes in use
+109504:M 12 Jul 16:26:07.567 - 0 clients connected (0 slaves), 765776 bytes in use
+109504:M 12 Jul 16:26:12.588 - 0 clients connected (0 slaves), 765776 bytes in use
+109504:M 12 Jul 16:26:17.606 - 0 clients connected (0 slaves), 765776 bytes in use
+109504:M 12 Jul 16:26:22.624 - 0 clients connected (0 slaves), 765776 bytes in use
+109504:M 12 Jul 16:26:27.644 - 0 clients connected (0 slaves), 765776 bytes in use
+109504:M 12 Jul 16:26:32.662 - 0 clients connected (0 slaves), 765776 bytes in use
+109504:M 12 Jul 16:26:37.682 - 0 clients connected (0 slaves), 765776 bytes in use
+109504:M 12 Jul 16:26:42.700 - 0 clients connected (0 slaves), 765776 bytes in use
+109504:M 12 Jul 16:26:47.716 - 0 clients connected (0 slaves), 765776 bytes in use
+109504:M 12 Jul 16:26:52.734 - 0 clients connected (0 slaves), 765776 bytes in use
+109504:M 12 Jul 16:26:57.746 - 0 clients connected (0 slaves), 765776 bytes in use
+109504:M 12 Jul 16:27:02.762 - 0 clients connected (0 slaves), 765776 bytes in use
+113516:C 12 Jul 16:27:05.986 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+113516:C 12 Jul 16:27:05.987 # Redis version=4.0.8, bits=64, commit=4678a407, modified=1, pid=113516, just started
+113516:C 12 Jul 16:27:05.987 # Configuration loaded
+113517:M 12 Jul 16:27:05.988 * Running mode=standalone, port=6379.
+113517:M 12 Jul 16:27:05.988 # Server initialized
+113517:M 12 Jul 16:27:05.988 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+113517:M 12 Jul 16:27:05.988 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+113517:M 12 Jul 16:27:05.988 * Ready to accept connections
+113517:M 12 Jul 16:27:05.988 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:27:11.002 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:27:16.017 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:27:21.033 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:27:26.048 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:27:31.063 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:27:36.079 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:27:41.096 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:27:46.113 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:27:51.128 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:27:56.144 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:28:01.162 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:28:06.179 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:28:11.197 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:28:16.215 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:28:21.235 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:28:26.253 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:28:31.269 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:28:36.283 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:28:41.298 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:28:46.314 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:28:51.334 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:28:56.354 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:29:01.379 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:29:06.399 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:29:11.414 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:29:16.430 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:29:21.445 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:29:26.456 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:29:31.472 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:29:36.490 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:29:41.508 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:29:46.526 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:29:51.544 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:29:56.561 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:30:01.580 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:30:06.595 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:30:11.611 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:30:16.631 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:30:21.651 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:30:26.669 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:30:31.687 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:30:36.706 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:30:41.722 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:30:46.741 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:30:51.761 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:30:56.776 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:31:01.792 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:31:06.810 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:31:11.828 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:31:16.848 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:31:21.867 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:31:26.887 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:31:31.907 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:31:36.926 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:31:41.940 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:31:46.955 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:31:51.972 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:31:56.986 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:32:02.001 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:32:07.020 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:32:12.037 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:32:17.057 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:32:22.075 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:32:27.089 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:32:32.105 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:32:37.121 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:32:42.140 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:32:47.157 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:32:52.171 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:32:57.187 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:33:02.204 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:33:07.219 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:33:12.233 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:33:17.247 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:33:22.264 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:33:27.281 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:33:32.298 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:33:37.314 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:33:42.334 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:33:47.351 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:33:52.367 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:33:57.385 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:34:02.401 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:34:07.423 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:34:12.440 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:34:17.455 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:34:22.470 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:34:27.485 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:34:32.501 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:34:37.519 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:34:42.538 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:34:47.556 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:34:52.574 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:34:57.591 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:35:02.606 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:35:07.622 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:35:12.640 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:35:17.659 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:35:22.677 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:35:27.692 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:35:32.707 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:35:37.723 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:35:42.740 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:35:47.756 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:35:52.775 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:35:57.790 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:36:02.809 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:36:07.829 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:36:12.847 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:36:17.863 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:36:22.878 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:36:27.894 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:36:32.910 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:36:37.925 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:36:42.940 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:36:47.954 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:36:52.972 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:36:57.991 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:37:03.005 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:37:08.020 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:37:13.036 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:37:18.052 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:37:23.070 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:37:28.083 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:37:33.096 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:37:38.110 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:37:43.123 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:37:48.136 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:37:53.150 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:37:58.167 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:38:03.187 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:38:08.207 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:38:13.227 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:38:18.247 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:38:23.269 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:38:28.288 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:38:33.307 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:38:38.320 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:38:43.338 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:38:48.352 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:38:53.363 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:38:58.378 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:39:03.396 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:39:08.413 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:39:13.430 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:39:18.445 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:39:23.459 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:39:28.473 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:39:33.486 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:39:38.500 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:39:43.514 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:39:48.533 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:39:53.552 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:39:58.573 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:40:03.590 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:40:08.607 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:40:13.623 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:40:18.641 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:40:23.658 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:40:28.677 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:40:33.697 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:40:38.711 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:40:43.726 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:40:48.740 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:40:53.755 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:40:58.770 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:41:03.786 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:41:08.800 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:41:13.813 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:41:18.825 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:41:23.840 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:41:28.854 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:41:33.867 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:41:38.884 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:41:43.900 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:41:48.913 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:41:53.928 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:41:58.942 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:42:03.956 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:42:08.971 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:42:13.985 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:42:19.000 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:42:24.015 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:42:29.032 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:42:34.050 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:42:39.068 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:42:44.080 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:42:49.098 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:42:54.113 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:42:59.126 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:43:04.139 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:43:09.156 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:43:14.169 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:43:19.183 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:43:24.201 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:43:29.217 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:43:34.237 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:43:39.252 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:43:44.266 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:43:49.284 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:43:54.301 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:43:59.319 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:44:04.337 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:44:09.357 - 0 clients connected (0 slaves), 765776 bytes in use
+113517:M 12 Jul 16:44:14.375 - 0 clients connected (0 slaves), 765776 bytes in use
+125205:C 12 Jul 16:44:15.026 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+125205:C 12 Jul 16:44:15.026 # Redis version=4.0.8, bits=64, commit=4678a407, modified=1, pid=125205, just started
+125205:C 12 Jul 16:44:15.026 # Configuration loaded
+125206:M 12 Jul 16:44:15.028 * Running mode=standalone, port=6379.
+125206:M 12 Jul 16:44:15.028 # Server initialized
+125206:M 12 Jul 16:44:15.028 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+125206:M 12 Jul 16:44:15.028 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+125206:M 12 Jul 16:44:15.028 * Ready to accept connections
+125206:M 12 Jul 16:44:15.028 - 0 clients connected (0 slaves), 765776 bytes in use
+125206:M 12 Jul 16:44:20.045 - 0 clients connected (0 slaves), 765776 bytes in use
+125206:M 12 Jul 16:44:25.059 - 0 clients connected (0 slaves), 765776 bytes in use
+125206:M 12 Jul 16:44:26.815 - Accepted 127.0.0.1:34430
+125206:M 12 Jul 16:44:26.816 - Client closed connection
+125206:M 12 Jul 16:44:26.954 - Accepted 127.0.0.1:34436
+125206:M 12 Jul 16:44:26.955 - Client closed connection
+125206:M 12 Jul 16:44:26.959 - Accepted 127.0.0.1:34450
+125206:M 12 Jul 16:44:26.959 - Client closed connection
+125206:M 12 Jul 16:44:30.075 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 16:44:30.075 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 16:44:35.093 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 16:44:35.093 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 16:44:40.106 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 16:44:40.106 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 16:44:45.120 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 16:44:45.120 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 16:44:50.135 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 16:44:50.135 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 16:44:55.154 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 16:44:55.154 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 16:45:00.171 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 16:45:00.171 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 16:45:05.191 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 16:45:05.191 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 16:45:10.212 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 16:45:10.213 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 16:45:15.232 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 16:45:15.232 - 0 clients connected (0 slaves), 765960 bytes in use

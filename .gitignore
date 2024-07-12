@@ -31,3 +31,10 @@
 # others
 build/
 .vscode/
+
+src/build
+src/build/*
+src/redis
+src/redis/*
+src/logs
+src/logs/*

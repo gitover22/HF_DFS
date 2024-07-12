@@ -1,6 +1,6 @@
 #!/bin/bash
 
-NAME=redis
+NAME=../redis
 FILE=redis.pid
 # 判断redis目录是否存在, 如果不存在则创建
 is_directory()
@@ -15,7 +15,7 @@ is_directory()
     fi
 }
 
-# 判断redis目录是否存在, 如果不存在则创建
+
 is_regfile()
 {
     if [ ! -f $1 ]; then
@@ -49,14 +49,14 @@ case $1 in
             unlink "$NAME/$FILE"
 
             echo "Redis starting ..."
-            redis-server ./conf/redis.conf
+            redis-server ../conf/redis.conf
             if [ $? -eq 0 ];then
                 echo "Redis server start success!!!"
                 # 休眠1s, 等待pid文件被创建出来, 再进行后续判断
                 sleep 1
                 if is_regfile "$NAME/$FILE";then
                     printf "Redis server PID: [ %s ]\n" $(cat "$NAME/$FILE")
-                    printf "Redis server PORT: [ %s ]\n" $(awk '/^port /{print $2}' "./conf/redis.conf")
+                    printf "Redis server PORT: [ %s ]\n" $(awk '/^port /{print $2}' "../conf/redis.conf")
                 fi
             fi
         fi

@@ -1,240 +1,40 @@
-[2024-07-12 14:09:48]--[/home/huafeng/HF_DFS/src/src_cgi/myfiles_cgi.c:37]--mysql:[user=root,pwd=huafeng,database=cloud_disk][2024-07-12 14:09:56]--[/home/huafeng/HF_DFS/src/src_cgi/myfiles_cgi.c:491]--cmd = count
-[2024-07-12 14:09:56]--[/home/huafeng/HF_DFS/src/src_cgi/myfiles_cgi.c:523]--buf = {
-    "token": "8682ca8af014c177c4ceea8404504f67",
-    "user": "123"
+[2024-07-12 16:10:18]--[/home/huafeng/HF_DFS/src/src_cgi/myfiles_cgi.c:37]--mysql:[user=,pwd=,database=][2024-07-12 16:21:11]--[/home/huafeng/HF_DFS/src/src_cgi/myfiles_cgi.c:37]--mysql:[user=,pwd=,database=][2024-07-12 16:27:05]--[/home/huafeng/HF_DFS/src/src_cgi/myfiles_cgi.c:37]--mysql:[user=,pwd=,database=][2024-07-12 16:44:14]--[/home/huafeng/HF_DFS/src/src_cgi/myfiles_cgi.c:37]--mysql:[user=root,pwd=huafeng,database=cloud_disk][2024-07-12 16:44:26]--[/home/huafeng/HF_DFS/src/src_cgi/myfiles_cgi.c:491]--cmd = count
+[2024-07-12 16:44:26]--[/home/huafeng/HF_DFS/src/src_cgi/myfiles_cgi.c:523]--buf = {
+    "token": "5578c6634fdee8627130a9560537c4d9",
+    "user": "huafeng"
 }
 
-[2024-07-12 14:09:56]--[/home/huafeng/HF_DFS/src/src_cgi/myfiles_cgi.c:172]--line = 2
-[2024-07-12 14:09:56]--[/home/huafeng/HF_DFS/src/src_cgi/myfiles_cgi.c:491]--cmd = normal
-[2024-07-12 14:09:56]--[/home/huafeng/HF_DFS/src/src_cgi/myfiles_cgi.c:523]--buf = {
+[2024-07-12 16:44:26]--[/home/huafeng/HF_DFS/src/src_cgi/myfiles_cgi.c:172]--line = 2
+[2024-07-12 16:44:26]--[/home/huafeng/HF_DFS/src/src_cgi/myfiles_cgi.c:491]--cmd = normal
+[2024-07-12 16:44:26]--[/home/huafeng/HF_DFS/src/src_cgi/myfiles_cgi.c:523]--buf = {
     "count": 2,
     "start": 0,
-    "token": "8682ca8af014c177c4ceea8404504f67",
-    "user": "123"
+    "token": "5578c6634fdee8627130a9560537c4d9",
+    "user": "huafeng"
 }
 
-[2024-07-12 14:09:56]--[/home/huafeng/HF_DFS/src/src_cgi/myfiles_cgi.c:542]--user = 123, token = 8682ca8af014c177c4ceea8404504f67, start = 0, count = 2
-[2024-07-12 14:09:56]--[/home/huafeng/HF_DFS/src/src_cgi/myfiles_cgi.c:302]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = '123' and file_info.md5 = user_file_list.md5 limit 0, 2 在操作
-[2024-07-12 14:09:56]--[/home/huafeng/HF_DFS/src/src_cgi/myfiles_cgi.c:424]--{
+[2024-07-12 16:44:26]--[/home/huafeng/HF_DFS/src/src_cgi/myfiles_cgi.c:542]--user = huafeng, token = 5578c6634fdee8627130a9560537c4d9, start = 0, count = 2
+[2024-07-12 16:44:26]--[/home/huafeng/HF_DFS/src/src_cgi/myfiles_cgi.c:302]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'huafeng' and file_info.md5 = user_file_list.md5 limit 0, 2 在操作
+[2024-07-12 16:44:26]--[/home/huafeng/HF_DFS/src/src_cgi/myfiles_cgi.c:424]--{
 	"files":	[{
-			"user":	"123",
+			"user":	"huafeng",
 			"md5":	"09a9d1824ea6b9d82ba2bb8cf2303629",
-			"time":	"2024-06-26 09:56:16",
+			"time":	"2024-06-26 09:30:37",
 			"filename":	"cat.jpg",
-			"share_status":	0,
-			"pv":	0,
+			"share_status":	1,
+			"pv":	1,
 			"url":	"http://192.168.181.1:80/group1/M00/00/00/wKi1AWZ7bz2AVGF6AABAxuJNm8o185.jpg",
 			"size":	16582,
 			"type":	"jpg"
 		}, {
-			"user":	"123",
-			"md5":	"d41d8cd98f00b204e9800998ecf8427e",
-			"time":	"2024-07-09 14:01:39",
+			"user":	"huafeng",
+			"md5":	"83026f4d86f7d8d2d057df5587d7600e",
+			"time":	"2024-06-26 09:47:57",
 			"filename":	"想法.txt",
-			"share_status":	0,
+			"share_status":	1,
 			"pv":	0,
-			"url":	"http://192.168.181.1:80/group1/M00/00/00/wKi1AWaM0kOAVllLAAAAAAAAAAA306.txt",
-			"size":	0,
-			"type":	"txt"
-		}]
-}
-[2024-07-12 14:09:57]--[/home/huafeng/HF_DFS/src/src_cgi/myfiles_cgi.c:491]--cmd = count
-[2024-07-12 14:09:57]--[/home/huafeng/HF_DFS/src/src_cgi/myfiles_cgi.c:523]--buf = {
-    "token": "8221826c8aeafdd229690925073e6a8b",
-    "user": "123"
-}
-
-[2024-07-12 14:09:57]--[/home/huafeng/HF_DFS/src/src_cgi/myfiles_cgi.c:172]--line = 2
-[2024-07-12 14:09:57]--[/home/huafeng/HF_DFS/src/src_cgi/myfiles_cgi.c:491]--cmd = normal
-[2024-07-12 14:09:57]--[/home/huafeng/HF_DFS/src/src_cgi/myfiles_cgi.c:523]--buf = {
-    "count": 2,
-    "start": 0,
-    "token": "8221826c8aeafdd229690925073e6a8b",
-    "user": "123"
-}
-
-[2024-07-12 14:09:57]--[/home/huafeng/HF_DFS/src/src_cgi/myfiles_cgi.c:542]--user = 123, token = 8221826c8aeafdd229690925073e6a8b, start = 0, count = 2
-[2024-07-12 14:09:57]--[/home/huafeng/HF_DFS/src/src_cgi/myfiles_cgi.c:302]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = '123' and file_info.md5 = user_file_list.md5 limit 0, 2 在操作
-[2024-07-12 14:09:57]--[/home/huafeng/HF_DFS/src/src_cgi/myfiles_cgi.c:424]--{
-	"files":	[{
-			"user":	"123",
-			"md5":	"09a9d1824ea6b9d82ba2bb8cf2303629",
-			"time":	"2024-06-26 09:56:16",
-			"filename":	"cat.jpg",
-			"share_status":	0,
-			"pv":	0,
-			"url":	"http://192.168.181.1:80/group1/M00/00/00/wKi1AWZ7bz2AVGF6AABAxuJNm8o185.jpg",
-			"size":	16582,
-			"type":	"jpg"
-		}, {
-			"user":	"123",
-			"md5":	"d41d8cd98f00b204e9800998ecf8427e",
-			"time":	"2024-07-09 14:01:39",
-			"filename":	"想法.txt",
-			"share_status":	0,
-			"pv":	0,
-			"url":	"http://192.168.181.1:80/group1/M00/00/00/wKi1AWaM0kOAVllLAAAAAAAAAAA306.txt",
-			"size":	0,
-			"type":	"txt"
-		}]
-}
-[2024-07-12 14:09:59]--[/home/huafeng/HF_DFS/src/src_cgi/myfiles_cgi.c:491]--cmd = count
-[2024-07-12 14:09:59]--[/home/huafeng/HF_DFS/src/src_cgi/myfiles_cgi.c:523]--buf = {
-    "token": "8221826c8aeafdd229690925073e6a8b",
-    "user": "123"
-}
-
-[2024-07-12 14:09:59]--[/home/huafeng/HF_DFS/src/src_cgi/myfiles_cgi.c:172]--line = 2
-[2024-07-12 14:09:59]--[/home/huafeng/HF_DFS/src/src_cgi/myfiles_cgi.c:491]--cmd = normal
-[2024-07-12 14:09:59]--[/home/huafeng/HF_DFS/src/src_cgi/myfiles_cgi.c:523]--buf = {
-    "count": 2,
-    "start": 0,
-    "token": "8221826c8aeafdd229690925073e6a8b",
-    "user": "123"
-}
-
-[2024-07-12 14:09:59]--[/home/huafeng/HF_DFS/src/src_cgi/myfiles_cgi.c:542]--user = 123, token = 8221826c8aeafdd229690925073e6a8b, start = 0, count = 2
-[2024-07-12 14:09:59]--[/home/huafeng/HF_DFS/src/src_cgi/myfiles_cgi.c:302]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = '123' and file_info.md5 = user_file_list.md5 limit 0, 2 在操作
-[2024-07-12 14:09:59]--[/home/huafeng/HF_DFS/src/src_cgi/myfiles_cgi.c:424]--{
-	"files":	[{
-			"user":	"123",
-			"md5":	"09a9d1824ea6b9d82ba2bb8cf2303629",
-			"time":	"2024-06-26 09:56:16",
-			"filename":	"cat.jpg",
-			"share_status":	0,
-			"pv":	0,
-			"url":	"http://192.168.181.1:80/group1/M00/00/00/wKi1AWZ7bz2AVGF6AABAxuJNm8o185.jpg",
-			"size":	16582,
-			"type":	"jpg"
-		}, {
-			"user":	"123",
-			"md5":	"d41d8cd98f00b204e9800998ecf8427e",
-			"time":	"2024-07-09 14:01:39",
-			"filename":	"想法.txt",
-			"share_status":	0,
-			"pv":	0,
-			"url":	"http://192.168.181.1:80/group1/M00/00/00/wKi1AWaM0kOAVllLAAAAAAAAAAA306.txt",
-			"size":	0,
-			"type":	"txt"
-		}]
-}
-[2024-07-12 14:27:35]--[/home/huafeng/HF_DFS/src/src_cgi/myfiles_cgi.c:491]--cmd = count
-[2024-07-12 14:27:35]--[/home/huafeng/HF_DFS/src/src_cgi/myfiles_cgi.c:523]--buf = {
-    "token": "d4521968ba68782b4a79f63b98b68e8e",
-    "user": "123"
-}
-
-[2024-07-12 14:27:35]--[/home/huafeng/HF_DFS/src/src_cgi/myfiles_cgi.c:172]--line = 2
-[2024-07-12 14:27:35]--[/home/huafeng/HF_DFS/src/src_cgi/myfiles_cgi.c:491]--cmd = normal
-[2024-07-12 14:27:35]--[/home/huafeng/HF_DFS/src/src_cgi/myfiles_cgi.c:523]--buf = {
-    "count": 2,
-    "start": 0,
-    "token": "d4521968ba68782b4a79f63b98b68e8e",
-    "user": "123"
-}
-
-[2024-07-12 14:27:35]--[/home/huafeng/HF_DFS/src/src_cgi/myfiles_cgi.c:542]--user = 123, token = d4521968ba68782b4a79f63b98b68e8e, start = 0, count = 2
-[2024-07-12 14:27:35]--[/home/huafeng/HF_DFS/src/src_cgi/myfiles_cgi.c:302]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = '123' and file_info.md5 = user_file_list.md5 limit 0, 2 在操作
-[2024-07-12 14:27:35]--[/home/huafeng/HF_DFS/src/src_cgi/myfiles_cgi.c:424]--{
-	"files":	[{
-			"user":	"123",
-			"md5":	"09a9d1824ea6b9d82ba2bb8cf2303629",
-			"time":	"2024-06-26 09:56:16",
-			"filename":	"cat.jpg",
-			"share_status":	0,
-			"pv":	0,
-			"url":	"http://192.168.181.1:80/group1/M00/00/00/wKi1AWZ7bz2AVGF6AABAxuJNm8o185.jpg",
-			"size":	16582,
-			"type":	"jpg"
-		}, {
-			"user":	"123",
-			"md5":	"d41d8cd98f00b204e9800998ecf8427e",
-			"time":	"2024-07-09 14:01:39",
-			"filename":	"想法.txt",
-			"share_status":	0,
-			"pv":	0,
-			"url":	"http://192.168.181.1:80/group1/M00/00/00/wKi1AWaM0kOAVllLAAAAAAAAAAA306.txt",
-			"size":	0,
-			"type":	"txt"
-		}]
-}
-[2024-07-12 14:30:35]--[/home/huafeng/HF_DFS/src/src_cgi/myfiles_cgi.c:491]--cmd = count
-[2024-07-12 14:30:35]--[/home/huafeng/HF_DFS/src/src_cgi/myfiles_cgi.c:523]--buf = {
-    "token": "925de6d3a30aaf4c4cb7f494f937a8a1",
-    "user": "123"
-}
-
-[2024-07-12 14:30:35]--[/home/huafeng/HF_DFS/src/src_cgi/myfiles_cgi.c:172]--line = 2
-[2024-07-12 14:30:35]--[/home/huafeng/HF_DFS/src/src_cgi/myfiles_cgi.c:491]--cmd = normal
-[2024-07-12 14:30:35]--[/home/huafeng/HF_DFS/src/src_cgi/myfiles_cgi.c:523]--buf = {
-    "count": 2,
-    "start": 0,
-    "token": "925de6d3a30aaf4c4cb7f494f937a8a1",
-    "user": "123"
-}
-
-[2024-07-12 14:30:35]--[/home/huafeng/HF_DFS/src/src_cgi/myfiles_cgi.c:542]--user = 123, token = 925de6d3a30aaf4c4cb7f494f937a8a1, start = 0, count = 2
-[2024-07-12 14:30:35]--[/home/huafeng/HF_DFS/src/src_cgi/myfiles_cgi.c:302]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = '123' and file_info.md5 = user_file_list.md5 limit 0, 2 在操作
-[2024-07-12 14:30:35]--[/home/huafeng/HF_DFS/src/src_cgi/myfiles_cgi.c:424]--{
-	"files":	[{
-			"user":	"123",
-			"md5":	"09a9d1824ea6b9d82ba2bb8cf2303629",
-			"time":	"2024-06-26 09:56:16",
-			"filename":	"cat.jpg",
-			"share_status":	0,
-			"pv":	0,
-			"url":	"http://192.168.181.1:80/group1/M00/00/00/wKi1AWZ7bz2AVGF6AABAxuJNm8o185.jpg",
-			"size":	16582,
-			"type":	"jpg"
-		}, {
-			"user":	"123",
-			"md5":	"d41d8cd98f00b204e9800998ecf8427e",
-			"time":	"2024-07-09 14:01:39",
-			"filename":	"想法.txt",
-			"share_status":	0,
-			"pv":	0,
-			"url":	"http://192.168.181.1:80/group1/M00/00/00/wKi1AWaM0kOAVllLAAAAAAAAAAA306.txt",
-			"size":	0,
-			"type":	"txt"
-		}]
-}
-[2024-07-12 14:30:37]--[/home/huafeng/HF_DFS/src/src_cgi/myfiles_cgi.c:491]--cmd = count
-[2024-07-12 14:30:37]--[/home/huafeng/HF_DFS/src/src_cgi/myfiles_cgi.c:523]--buf = {
-    "token": "925de6d3a30aaf4c4cb7f494f937a8a1",
-    "user": "123"
-}
-
-[2024-07-12 14:30:37]--[/home/huafeng/HF_DFS/src/src_cgi/myfiles_cgi.c:172]--line = 2
-[2024-07-12 14:30:37]--[/home/huafeng/HF_DFS/src/src_cgi/myfiles_cgi.c:491]--cmd = normal
-[2024-07-12 14:30:37]--[/home/huafeng/HF_DFS/src/src_cgi/myfiles_cgi.c:523]--buf = {
-    "count": 2,
-    "start": 0,
-    "token": "925de6d3a30aaf4c4cb7f494f937a8a1",
-    "user": "123"
-}
-
-[2024-07-12 14:30:37]--[/home/huafeng/HF_DFS/src/src_cgi/myfiles_cgi.c:542]--user = 123, token = 925de6d3a30aaf4c4cb7f494f937a8a1, start = 0, count = 2
-[2024-07-12 14:30:37]--[/home/huafeng/HF_DFS/src/src_cgi/myfiles_cgi.c:302]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = '123' and file_info.md5 = user_file_list.md5 limit 0, 2 在操作
-[2024-07-12 14:30:37]--[/home/huafeng/HF_DFS/src/src_cgi/myfiles_cgi.c:424]--{
-	"files":	[{
-			"user":	"123",
-			"md5":	"09a9d1824ea6b9d82ba2bb8cf2303629",
-			"time":	"2024-06-26 09:56:16",
-			"filename":	"cat.jpg",
-			"share_status":	0,
-			"pv":	0,
-			"url":	"http://192.168.181.1:80/group1/M00/00/00/wKi1AWZ7bz2AVGF6AABAxuJNm8o185.jpg",
-			"size":	16582,
-			"type":	"jpg"
-		}, {
-			"user":	"123",
-			"md5":	"d41d8cd98f00b204e9800998ecf8427e",
-			"time":	"2024-07-09 14:01:39",
-			"filename":	"想法.txt",
-			"share_status":	0,
-			"pv":	0,
-			"url":	"http://192.168.181.1:80/group1/M00/00/00/wKi1AWaM0kOAVllLAAAAAAAAAAA306.txt",
-			"size":	0,
+			"url":	"http://192.168.181.1:80/group1/M00/00/00/wKi1AWZ7c02AVi3fAAACTV-b1us149.txt",
+			"size":	589,
 			"type":	"txt"
 		}]
 }
