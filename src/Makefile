@@ -1,6 +1,5 @@
-
-# 使用的编译器
 CC=gcc
+
 # 预处理参数
 CPPLFAGS=-I./include					\
 		 -I/usr/include/fastdfs			\
