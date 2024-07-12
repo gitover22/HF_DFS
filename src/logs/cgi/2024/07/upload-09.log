@@ -1,4 +1,0 @@
-[2024-07-09 13:54:22]--[src_cgi/upload_cgi.c:42]--mysql:[user=root,pwd=huafeng,database=cloud_disk][2024-07-09 14:01:39]--[src_cgi/upload_cgi.c:616]--123成功上传[想法.txt, 大小：0, md5码：d41d8cd98f00b204e9800998ecf8427e]到本地
-[2024-07-09 14:01:39]--[src_cgi/upload_cgi.c:351]--get [group1/M00/00/00/wKi1AWaM0kOAVllLAAAAAAAAAAA306.txt] succ!
-[2024-07-09 14:01:39]--[src_cgi/upload_cgi.c:456]--file url is: http://192.168.181.1:80/group1/M00/00/00/wKi1AWaM0kOAVllLAAAAAAAAAAA306.txt
-[2024-07-09 14:01:39]--[src_cgi/upload_cgi.c:510]--insert into file_info (md5, file_id, url, size, type, count) values ('d41d8cd98f00b204e9800998ecf8427e', 'group1/M00/00/00/wKi1AWaM0kOAVllLAAAAAAAAAAA306.txt', 'http://192.168.181.1:80/group1/M00/00/00/wKi1AWaM0kOAVllLAAAAAAAAAAA306.txt', '0', 'txt', 1) 文件信息插入成功

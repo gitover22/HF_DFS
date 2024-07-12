@@ -1,8 +1,0 @@
-[2024-07-09 13:54:22]--[src_cgi/md5_cgi.c:40]--mysql:[user=root,pwd=huafeng,database=cloud_disk][2024-07-09 14:01:39]--[src_cgi/md5_cgi.c:339]--buf = {
-    "fileName": "想法.txt",
-    "md5": "d41d8cd98f00b204e9800998ecf8427e",
-    "token": "7b070e9f0e0cd6f247fba2b010857406",
-    "user": "123"
-}
-
-[2024-07-09 14:01:39]--[src_cgi/md5_cgi.c:361]--user = 123, token = 7b070e9f0e0cd6f247fba2b010857406, md5 = d41d8cd98f00b204e9800998ecf8427e, filename = 想法.txt

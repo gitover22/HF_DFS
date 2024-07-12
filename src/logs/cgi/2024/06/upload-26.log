@@ -1,9 +1,0 @@
-[2024-06-26 09:29:22]--[src_cgi/upload_cgi.c:42]--mysql:[user=root,pwd=huafeng,database=cloud_disk][2024-06-26 09:30:37]--[src_cgi/upload_cgi.c:616]--huafeng成功上传[cat.jpg, 大小：16582, md5码：09a9d1824ea6b9d82ba2bb8cf2303629]到本地
-[2024-06-26 09:30:37]--[src_cgi/upload_cgi.c:351]--get [group1/M00/00/00/wKi1AWZ7bz2AVGF6AABAxuJNm8o185.jpg] succ!
-[2024-06-26 09:30:37]--[src_cgi/upload_cgi.c:456]--file url is: http://192.168.181.1:80/group1/M00/00/00/wKi1AWZ7bz2AVGF6AABAxuJNm8o185.jpg
-[2024-06-26 09:30:37]--[src_cgi/upload_cgi.c:510]--insert into file_info (md5, file_id, url, size, type, count) values ('09a9d1824ea6b9d82ba2bb8cf2303629', 'group1/M00/00/00/wKi1AWZ7bz2AVGF6AABAxuJNm8o185.jpg', 'http://192.168.181.1:80/group1/M00/00/00/wKi1AWZ7bz2AVGF6AABAxuJNm8o185.jpg', '16582', 'jpg', 1) 文件信息插入成功
-[2024-06-26 09:47:57]--[src_cgi/upload_cgi.c:616]--huafeng成功上传[想法.txt, 大小：589, md5码：83026f4d86f7d8d2d057df5587d7600e]到本地
-[2024-06-26 09:47:57]--[src_cgi/upload_cgi.c:351]--get [group1/M00/00/00/wKi1AWZ7c02AVi3fAAACTV-b1us149.txt] succ!
-[2024-06-26 09:47:57]--[src_cgi/upload_cgi.c:456]--file url is: http://192.168.181.1:80/group1/M00/00/00/wKi1AWZ7c02AVi3fAAACTV-b1us149.txt
-[2024-06-26 09:47:57]--[src_cgi/upload_cgi.c:510]--insert into file_info (md5, file_id, url, size, type, count) values ('83026f4d86f7d8d2d057df5587d7600e', 'group1/M00/00/00/wKi1AWZ7c02AVi3fAAACTV-b1us149.txt', 'http://192.168.181.1:80/group1/M00/00/00/wKi1AWZ7c02AVi3fAAACTV-b1us149.txt', '589', 'txt', 1) 文件信息插入成功
-[2024-06-26 13:50:13]--[src_cgi/upload_cgi.c:42]--mysql:[user=root,pwd=huafeng,database=cloud_disk][2024-06-26 13:51:40]--[src_cgi/upload_cgi.c:42]--mysql:[user=root,pwd=huafeng,database=cloud_disk]
