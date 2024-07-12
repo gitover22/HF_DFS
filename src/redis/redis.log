@@ -1180,3 +1180,1649 @@
 125206:M 12 Jul 17:04:39.245 - 0 clients connected (0 slaves), 765960 bytes in use
 125206:M 12 Jul 17:04:44.263 - DB 0: 1 keys (1 volatile) in 4 slots HT.
 125206:M 12 Jul 17:04:44.263 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:04:49.282 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:04:49.282 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:04:54.304 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:04:54.305 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:04:59.326 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:04:59.326 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:05:04.342 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:05:04.342 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:05:09.362 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:05:09.362 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:05:14.383 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:05:14.383 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:05:19.405 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:05:19.405 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:05:24.425 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:05:24.425 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:05:29.445 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:05:29.445 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:05:34.466 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:05:34.466 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:05:39.485 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:05:39.485 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:05:44.505 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:05:44.505 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:05:49.528 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:05:49.529 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:05:54.550 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:05:54.550 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:05:59.569 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:05:59.569 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:06:04.589 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:06:04.589 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:06:09.608 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:06:09.608 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:06:14.625 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:06:14.625 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:06:19.644 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:06:19.644 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:06:24.663 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:06:24.663 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:06:29.684 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:06:29.684 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:06:34.701 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:06:34.702 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:06:39.722 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:06:39.722 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:06:44.741 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:06:44.741 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:06:49.759 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:06:49.759 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:06:54.779 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:06:54.779 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:06:59.800 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:06:59.800 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:07:04.819 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:07:04.819 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:07:09.839 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:07:09.839 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:07:14.852 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:07:14.853 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:07:19.866 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:07:19.866 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:07:24.880 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:07:24.880 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:07:29.895 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:07:29.895 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:07:34.906 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:07:34.906 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:07:39.921 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:07:39.921 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:07:44.938 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:07:44.938 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:07:49.955 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:07:49.955 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:07:54.968 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:07:54.968 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:07:59.985 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:07:59.985 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:08:05.005 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:08:05.005 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:08:10.024 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:08:10.024 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:08:15.042 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:08:15.042 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:08:20.055 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:08:20.055 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:08:25.074 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:08:25.074 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:08:30.092 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:08:30.092 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:08:35.108 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:08:35.108 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:08:40.121 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:08:40.121 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:08:45.140 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:08:45.140 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:08:50.161 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:08:50.161 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:08:55.183 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:08:55.184 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:09:00.201 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:09:00.201 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:09:05.218 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:09:05.218 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:09:10.233 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:09:10.233 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:09:15.247 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:09:15.247 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:09:20.260 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:09:20.260 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:09:25.285 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:09:25.285 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:09:30.302 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:09:30.302 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:09:35.317 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:09:35.317 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:09:40.333 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:09:40.333 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:09:45.348 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:09:45.348 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:09:50.362 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:09:50.362 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:09:55.378 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:09:55.379 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:10:00.395 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:10:00.395 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:10:05.412 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:10:05.412 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:10:10.427 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:10:10.427 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:10:15.444 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:10:15.444 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:10:20.459 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:10:20.459 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:10:25.474 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:10:25.479 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:10:30.495 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:10:30.495 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:10:35.513 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:10:35.513 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:10:40.530 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:10:40.530 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:10:45.548 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:10:45.548 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:10:50.569 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:10:50.569 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:10:55.586 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:10:55.586 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:11:00.602 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:11:00.602 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:11:05.618 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:11:05.618 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:11:10.646 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:11:10.646 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:11:15.662 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:11:15.662 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:11:20.679 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:11:20.679 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:11:25.696 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:11:25.696 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:11:30.713 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:11:30.713 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:11:35.731 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:11:35.731 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:11:40.747 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:11:40.747 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:11:45.765 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:11:45.765 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:11:50.783 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:11:50.783 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:11:55.800 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:11:55.808 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:12:00.825 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:12:00.825 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:12:05.842 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:12:05.842 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:12:10.859 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:12:10.859 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:12:15.876 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:12:15.879 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:12:20.898 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:12:20.898 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:12:25.915 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:12:25.915 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:12:30.932 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:12:30.933 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:12:35.949 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:12:35.949 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:12:40.967 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:12:40.967 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:12:45.985 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:12:45.985 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:12:51.002 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:12:51.003 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:12:56.021 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:12:56.021 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:13:01.040 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:13:01.041 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:13:06.059 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:13:06.059 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:13:11.077 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:13:11.077 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:13:16.095 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:13:16.095 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:13:21.112 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:13:21.112 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:13:26.131 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:13:26.131 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:13:31.150 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:13:31.150 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:13:36.169 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:13:36.169 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:13:41.188 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:13:41.188 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:13:46.205 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:13:46.205 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:13:51.223 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:13:51.223 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:13:56.241 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:13:56.241 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:14:01.260 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:14:01.260 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:14:06.276 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:14:06.277 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:14:11.297 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:14:11.297 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:14:16.314 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:14:16.314 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:14:21.333 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:14:21.333 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:14:26.351 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:14:26.351 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:14:31.370 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:14:31.371 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:14:36.387 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:14:36.387 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:14:41.407 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:14:41.407 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:14:46.426 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:14:46.426 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:14:51.443 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:14:51.443 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:14:56.461 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:14:56.461 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:15:01.480 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:15:01.480 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:15:06.499 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:15:06.499 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:15:11.517 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:15:11.517 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:15:16.536 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:15:16.536 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:15:21.565 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:15:21.566 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:15:26.584 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:15:26.585 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:15:31.603 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:15:31.603 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:15:36.620 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:15:36.620 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:15:41.637 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:15:41.637 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:15:46.656 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:15:46.656 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:15:51.674 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:15:51.674 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:15:56.692 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:15:56.692 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:16:01.709 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:16:01.709 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:16:06.729 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:16:06.729 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:16:11.748 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:16:11.748 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:16:16.767 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:16:16.767 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:16:21.783 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:16:21.783 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:16:26.802 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:16:26.802 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:16:31.820 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:16:31.820 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:16:36.839 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:16:36.839 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:16:41.856 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:16:41.856 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:16:46.875 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:16:46.875 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:16:51.895 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:16:51.895 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:16:56.914 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:16:56.914 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:17:01.932 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:17:01.932 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:17:06.951 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:17:06.951 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:17:11.968 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:17:11.968 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:17:16.985 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:17:16.985 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:17:22.003 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:17:22.004 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:17:27.022 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:17:27.022 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:17:32.039 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:17:32.040 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:17:37.056 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:17:37.056 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:17:42.074 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:17:42.074 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:17:47.093 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:17:47.093 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:17:52.110 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:17:52.110 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:17:57.129 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:17:57.129 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:18:02.148 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:18:02.148 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:18:07.167 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:18:07.167 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:18:12.185 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:18:12.185 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:18:17.203 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:18:17.203 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:18:22.222 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:18:22.222 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:18:27.240 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:18:27.240 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:18:32.258 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:18:32.258 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:18:37.278 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:18:37.279 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:18:42.297 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:18:42.297 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:18:47.316 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:18:47.316 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:18:52.336 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:18:52.336 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:18:57.355 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:18:57.356 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:19:02.374 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:19:02.374 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:19:07.394 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:19:07.394 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:19:12.412 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:19:12.412 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:19:17.431 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:19:17.431 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:19:22.449 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:19:22.449 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:19:27.467 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:19:27.467 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:19:32.486 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:19:32.486 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:19:37.503 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:19:37.503 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:19:42.522 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:19:42.523 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:19:47.540 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:19:47.540 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:19:52.557 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:19:52.557 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:19:57.577 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:19:57.577 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:20:02.595 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:20:02.595 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:20:07.613 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:20:07.613 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:20:12.631 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:20:12.631 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:20:17.650 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:20:17.650 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:20:22.668 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:20:22.668 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:20:27.686 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:20:27.686 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:20:32.705 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:20:32.705 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:20:37.723 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:20:37.723 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:20:42.743 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:20:42.743 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:20:47.761 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:20:47.761 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:20:52.788 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:20:52.788 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:20:57.804 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:20:57.804 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:21:02.822 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:21:02.822 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:21:07.841 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:21:07.841 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:21:12.859 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:21:12.859 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:21:17.877 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:21:17.877 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:21:22.896 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:21:22.896 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:21:27.913 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:21:27.913 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:21:32.930 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:21:32.930 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:21:37.948 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:21:37.948 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:21:42.965 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:21:42.965 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:21:47.984 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:21:47.984 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:21:53.001 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:21:53.002 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:21:58.021 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:21:58.021 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:22:03.038 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:22:03.038 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:22:08.056 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:22:08.056 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:22:13.074 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:22:13.074 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:22:18.093 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:22:18.093 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:22:23.112 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:22:23.112 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:22:28.130 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:22:28.130 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:22:33.148 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:22:33.148 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:22:38.164 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:22:38.165 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:22:43.182 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:22:43.182 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:22:48.201 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:22:48.201 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:22:53.218 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:22:53.218 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:22:58.237 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:22:58.237 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:23:03.255 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:23:03.255 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:23:08.273 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:23:08.273 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:23:13.302 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:23:13.302 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:23:18.322 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:23:18.322 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:23:23.340 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:23:23.340 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:23:28.356 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:23:28.356 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:23:33.373 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:23:33.373 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:23:38.390 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:23:38.391 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:23:43.410 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:23:43.410 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:23:48.429 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:23:48.429 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:23:53.447 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:23:53.447 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:23:58.464 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:23:58.464 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:24:03.480 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:24:03.480 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:24:08.500 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:24:08.500 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:24:13.518 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:24:13.518 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:24:18.536 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:24:18.536 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:24:23.555 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:24:23.555 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:24:28.574 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:24:28.574 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:24:33.592 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:24:33.592 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:24:38.610 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:24:38.610 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:24:43.629 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:24:43.629 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:24:48.647 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:24:48.647 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:24:53.663 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:24:53.663 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:24:58.681 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:24:58.682 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:25:03.701 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:25:03.701 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:25:08.718 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:25:08.718 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:25:13.735 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:25:13.735 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:25:18.753 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:25:18.753 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:25:23.771 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:25:23.771 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:25:28.788 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:25:28.788 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:25:33.806 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:25:33.806 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:25:38.823 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:25:38.823 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:25:43.842 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:25:43.842 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:25:48.861 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:25:48.862 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:25:53.880 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:25:53.880 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:25:58.896 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:25:58.896 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:26:03.915 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:26:03.915 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:26:08.933 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:26:08.933 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:26:13.953 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:26:13.953 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:26:18.972 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:26:18.972 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:26:23.990 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:26:23.990 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:26:29.008 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:26:29.008 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:26:34.027 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:26:34.027 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:26:39.046 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:26:39.046 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:26:44.064 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:26:44.064 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:26:49.081 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:26:49.081 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:26:54.099 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:26:54.099 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:26:59.118 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:26:59.118 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:27:04.135 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:27:04.135 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:27:09.153 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:27:09.153 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:27:14.171 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:27:14.172 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:27:19.190 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:27:19.190 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:27:24.209 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:27:24.209 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:27:29.227 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:27:29.227 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:27:34.246 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:27:34.246 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:27:39.264 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:27:39.264 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:27:44.282 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:27:44.282 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:27:49.302 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:27:49.302 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:27:54.321 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:27:54.321 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:27:59.340 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:27:59.341 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:28:04.358 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:28:04.358 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:28:09.377 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:28:09.377 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:28:14.395 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:28:14.395 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:28:19.412 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:28:19.412 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:28:24.429 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:28:24.429 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:28:29.447 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:28:29.447 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:28:34.466 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:28:34.466 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:28:39.484 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:28:39.484 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:28:44.501 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:28:44.501 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:28:49.520 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:28:49.520 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:28:54.538 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:28:54.538 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:28:59.558 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:28:59.558 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:29:04.577 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:29:04.577 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:29:09.595 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:29:09.595 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:29:14.613 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:29:14.614 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:29:19.632 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:29:19.639 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:29:24.656 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:29:24.656 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:29:29.674 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:29:29.674 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:29:34.692 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:29:34.692 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:29:39.710 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:29:39.719 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:29:44.737 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:29:44.737 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:29:49.756 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:29:49.756 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:29:54.776 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:29:54.776 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:29:59.795 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:29:59.795 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:30:04.813 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:30:04.813 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:30:09.832 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:30:09.832 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:30:14.849 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:30:14.849 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:30:19.867 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:30:19.867 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:30:24.885 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:30:24.885 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:30:29.902 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:30:29.902 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:30:34.920 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:30:34.920 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:30:39.937 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:30:39.937 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:30:44.955 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:30:44.955 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:30:49.973 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:30:49.974 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:30:54.992 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:30:54.999 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:31:00.017 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:31:00.017 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:31:05.034 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:31:05.034 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:31:10.052 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:31:10.052 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:31:15.068 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:31:15.068 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:31:20.087 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:31:20.087 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:31:25.105 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:31:25.105 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:31:30.124 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:31:30.124 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:31:35.143 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:31:35.143 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:31:40.161 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:31:40.161 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:31:45.181 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:31:45.181 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:31:50.199 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:31:50.199 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:31:55.218 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:31:55.218 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:32:00.236 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:32:00.236 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:32:05.254 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:32:05.254 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:32:10.271 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:32:10.271 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:32:15.290 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:32:15.290 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:32:20.308 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:32:20.308 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:32:25.325 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:32:25.325 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:32:30.342 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:32:30.342 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:32:35.360 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:32:35.360 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:32:40.378 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:32:40.378 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:32:45.396 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:32:45.396 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:32:50.415 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:32:50.415 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:32:55.433 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:32:55.434 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:33:00.451 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:33:00.451 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:33:05.468 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:33:05.469 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:33:10.485 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:33:10.485 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:33:15.504 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:33:15.504 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:33:20.519 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:33:20.519 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:33:25.537 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:33:25.538 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:33:30.555 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:33:30.555 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:33:35.573 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:33:35.573 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:33:40.591 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:33:40.591 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:33:45.609 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:33:45.609 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:33:50.627 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:33:50.627 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:33:55.644 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:33:55.644 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:34:00.662 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:34:00.662 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:34:05.680 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:34:05.680 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:34:10.698 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:34:10.698 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:34:15.717 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:34:15.717 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:34:20.736 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:34:20.736 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:34:25.755 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:34:25.755 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:34:30.774 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:34:30.774 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:34:35.791 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:34:35.791 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:34:40.809 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:34:40.809 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:34:45.829 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:34:45.829 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:34:50.846 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:34:50.846 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:34:55.865 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:34:55.865 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:35:00.883 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:35:00.883 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:35:05.902 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:35:05.902 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:35:10.920 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:35:10.920 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:35:15.938 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:35:15.938 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:35:20.956 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:35:20.956 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:35:25.974 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:35:25.974 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:35:30.991 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:35:30.991 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:35:36.008 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:35:36.009 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:35:41.026 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:35:41.026 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:35:46.045 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:35:46.045 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:35:51.062 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:35:51.062 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:35:56.081 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:35:56.081 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:36:01.099 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:36:01.099 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:36:06.116 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:36:06.116 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:36:11.134 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:36:11.134 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:36:16.150 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:36:16.150 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:36:21.168 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:36:21.168 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:36:26.187 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:36:26.187 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:36:31.205 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:36:31.205 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:36:36.224 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:36:36.224 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:36:41.242 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:36:41.242 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:36:46.258 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:36:46.259 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:36:51.276 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:36:51.276 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:36:56.303 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:36:56.303 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:37:01.322 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:37:01.322 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:37:06.343 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:37:06.343 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:37:11.362 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:37:11.362 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:37:16.380 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:37:16.380 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:37:21.398 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:37:21.398 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:37:26.415 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:37:26.415 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:37:31.432 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:37:31.432 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:37:36.445 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:37:36.445 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:37:41.463 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:37:41.463 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:37:46.479 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:37:46.479 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:37:51.498 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:37:51.498 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:37:56.517 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:37:56.517 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:38:01.536 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:38:01.536 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:38:06.554 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:38:06.554 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:38:11.573 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:38:11.573 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:38:16.592 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:38:16.592 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:38:21.610 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:38:21.610 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:38:26.627 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:38:26.627 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:38:31.645 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:38:31.645 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:38:36.662 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:38:36.662 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:38:41.681 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:38:41.681 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:38:46.700 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:38:46.700 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:38:51.717 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:38:51.717 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:38:56.734 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:38:56.735 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:39:01.752 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:39:01.752 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:39:06.768 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:39:06.769 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:39:11.786 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:39:11.787 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:39:16.806 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:39:16.806 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:39:21.826 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:39:21.826 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:39:26.844 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:39:26.844 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:39:31.861 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:39:31.861 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:39:36.880 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:39:36.880 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:39:41.898 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:39:41.898 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:39:46.917 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:39:46.917 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:39:51.935 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:39:51.935 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:39:56.952 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:39:56.952 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:40:01.971 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:40:01.971 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:40:06.988 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:40:06.988 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:40:12.004 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:40:12.004 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:40:17.023 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:40:17.023 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:40:22.042 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:40:22.042 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:40:27.060 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:40:27.060 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:40:32.077 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:40:32.077 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:40:37.094 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:40:37.094 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:40:42.112 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:40:42.112 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:40:47.131 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:40:47.132 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:40:52.150 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:40:52.150 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:40:57.167 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:40:57.167 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:41:02.185 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:41:02.185 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:41:07.204 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:41:07.204 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:41:12.221 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:41:12.221 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:41:17.239 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:41:17.239 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:41:22.258 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:41:22.258 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:41:27.276 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:41:27.276 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:41:32.295 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:41:32.295 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:41:37.313 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:41:37.313 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:41:42.332 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:41:42.332 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:41:47.352 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:41:47.352 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:41:52.368 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:41:52.368 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:41:57.386 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:41:57.386 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:42:02.404 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:42:02.404 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:42:07.421 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:42:07.421 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:42:12.439 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:42:12.439 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:42:17.457 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:42:17.457 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:42:22.475 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:42:22.475 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:42:27.494 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:42:27.494 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:42:32.511 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:42:32.519 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:42:37.538 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:42:37.538 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:42:42.557 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:42:42.557 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:42:47.574 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:42:47.574 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:42:52.591 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:42:52.591 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:42:57.608 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:42:57.608 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:43:02.626 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:43:02.626 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:43:07.644 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:43:07.644 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:43:12.662 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:43:12.662 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:43:17.680 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:43:17.680 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:43:22.699 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:43:22.699 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:43:27.718 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:43:27.718 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:43:32.736 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:43:32.736 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:43:37.753 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:43:37.753 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:43:42.769 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:43:42.769 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:43:47.788 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:43:47.788 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:43:52.807 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:43:52.807 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:43:57.825 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:43:57.825 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:44:02.843 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:44:02.843 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:44:07.861 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:44:07.861 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:44:12.877 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:44:12.878 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:44:17.896 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:44:17.896 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:44:22.915 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:44:22.919 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:44:27.937 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:44:27.937 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:44:32.956 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:44:32.956 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:44:37.974 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:44:37.974 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:44:42.991 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:44:42.999 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:44:48.017 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:44:48.018 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:44:53.037 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:44:53.037 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:44:58.055 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:44:58.055 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:45:03.073 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:45:03.079 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:45:08.097 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:45:08.097 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:45:13.114 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:45:13.115 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:45:18.133 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:45:18.133 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:45:23.151 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:45:23.159 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:45:28.177 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:45:28.177 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:45:33.197 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:45:33.197 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:45:38.215 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:45:38.215 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:45:43.234 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:45:43.234 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:45:48.252 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:45:48.252 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:45:53.270 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:45:53.270 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:45:58.288 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:45:58.288 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:46:03.307 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:46:03.307 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:46:08.326 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:46:08.326 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:46:13.343 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:46:13.343 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:46:18.362 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:46:18.362 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:46:23.380 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:46:23.381 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:46:28.398 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:46:28.398 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:46:33.417 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:46:33.417 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:46:38.435 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:46:38.438 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:46:43.456 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:46:43.456 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:46:48.475 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:46:48.475 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:46:53.492 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:46:53.492 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:46:58.511 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:46:58.519 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:47:03.537 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:47:03.538 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:47:08.556 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:47:08.556 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:47:13.574 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:47:13.574 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:47:18.592 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:47:18.599 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:47:23.618 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:47:23.618 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:47:28.635 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:47:28.635 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:47:33.650 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:47:33.650 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:47:38.669 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:47:38.669 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:47:43.686 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:47:43.686 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:47:48.705 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:47:48.705 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:47:53.721 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:47:53.721 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:47:58.739 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:47:58.740 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:48:03.758 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:48:03.758 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:48:08.777 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:48:08.777 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:48:13.794 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:48:13.794 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:48:18.813 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:48:18.813 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:48:23.831 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:48:23.832 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:48:28.849 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:48:28.849 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:48:33.867 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:48:33.867 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:48:38.884 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:48:38.884 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:48:43.901 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:48:43.901 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:48:48.921 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:48:48.921 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:48:53.936 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:48:53.936 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:48:58.955 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:48:58.955 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:49:03.974 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:49:03.974 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:49:08.992 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:49:08.992 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:49:14.009 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:49:14.009 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:49:19.028 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:49:19.028 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:49:24.047 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:49:24.047 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:49:29.066 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:49:29.066 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:49:34.084 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:49:34.084 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:49:39.104 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:49:39.104 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:49:44.123 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:49:44.123 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:49:49.142 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:49:49.142 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:49:54.160 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:49:54.160 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:49:59.178 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:49:59.178 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:50:04.195 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:50:04.195 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:50:09.213 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:50:09.213 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:50:14.232 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:50:14.232 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:50:19.250 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:50:19.250 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:50:24.269 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:50:24.269 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:50:29.287 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:50:29.288 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:50:34.306 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:50:34.306 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:50:39.324 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:50:39.324 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:50:44.343 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:50:44.343 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:50:49.361 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:50:49.361 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:50:54.379 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:50:54.379 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:50:59.399 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:50:59.399 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:51:04.417 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:51:04.417 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:51:09.437 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:51:09.438 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:51:14.455 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:51:14.456 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:51:19.474 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:51:19.474 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:51:24.492 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:51:24.492 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:51:29.510 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:51:29.510 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:51:34.530 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:51:34.530 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:51:39.549 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:51:39.549 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:51:44.566 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:51:44.566 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:51:49.584 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:51:49.585 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:51:54.602 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:51:54.602 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:51:59.621 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:51:59.621 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:52:04.640 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:52:04.640 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:52:09.659 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:52:09.659 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:52:14.678 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:52:14.678 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:52:19.697 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:52:19.697 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:52:24.715 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:52:24.715 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:52:29.733 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:52:29.733 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:52:34.750 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:52:34.758 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:52:39.776 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:52:39.776 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:52:44.794 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:52:44.794 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:52:49.812 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:52:49.812 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:52:54.832 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:52:54.832 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:52:59.849 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:52:59.849 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:53:04.868 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:53:04.868 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:53:09.887 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:53:09.887 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:53:14.906 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:53:14.906 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:53:19.925 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:53:19.925 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:53:24.942 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:53:24.942 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:53:29.960 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:53:29.960 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:53:34.980 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:53:34.980 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:53:39.999 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:53:39.999 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:53:45.017 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:53:45.018 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:53:50.037 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:53:50.037 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:53:55.055 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:53:55.055 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:54:00.073 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:54:00.073 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:54:05.091 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:54:05.091 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:54:10.110 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:54:10.110 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:54:15.129 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:54:15.129 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:54:20.148 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:54:20.148 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:54:25.166 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:54:25.166 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:54:30.183 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:54:30.183 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:54:35.201 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:54:35.201 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:54:40.220 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:54:40.220 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:54:45.238 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:54:45.238 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:54:50.255 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:54:50.256 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:54:55.273 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:54:55.273 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:55:00.291 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:55:00.291 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:55:05.310 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:55:05.310 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:55:10.330 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:55:10.330 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:55:15.350 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:55:15.350 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:55:20.369 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:55:20.369 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:55:25.387 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:55:25.387 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:55:30.402 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:55:30.402 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:55:35.418 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:55:35.418 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:55:40.433 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:55:40.433 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:55:45.447 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:55:45.447 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:55:50.464 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:55:50.464 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:55:55.481 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:55:55.482 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:56:00.497 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:56:00.497 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:56:05.513 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:56:05.513 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:56:10.529 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:56:10.530 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:56:15.546 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:56:15.546 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:56:20.560 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:56:20.560 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:56:25.575 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:56:25.575 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:56:30.590 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:56:30.590 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:56:35.609 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:56:35.609 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:56:40.624 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:56:40.624 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:56:45.640 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:56:45.640 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:56:50.656 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:56:50.656 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:56:55.673 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:56:55.673 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:57:00.690 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:57:00.690 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:57:05.708 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:57:05.708 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:57:10.723 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:57:10.723 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:57:15.740 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:57:15.740 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:57:20.756 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:57:20.756 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:57:25.772 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:57:25.772 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:57:30.787 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:57:30.787 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:57:35.800 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:57:35.800 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:57:40.815 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:57:40.815 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:57:45.832 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:57:45.832 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:57:50.850 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:57:50.850 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:57:55.870 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:57:55.870 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:58:00.889 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:58:00.889 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:58:05.907 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:58:05.907 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:58:10.926 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:58:10.926 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:58:15.942 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:58:15.942 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:58:20.957 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:58:20.957 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:58:25.971 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:58:25.971 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:58:30.987 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:58:30.987 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:58:36.000 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:58:36.000 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:58:41.014 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:58:41.014 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:58:46.029 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:58:46.030 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:58:51.044 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:58:51.044 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:58:56.061 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:58:56.061 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:59:01.078 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:59:01.078 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:59:06.092 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:59:06.092 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:59:11.104 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:59:11.104 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:59:16.119 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:59:16.119 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:59:21.133 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:59:21.133 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:59:26.148 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:59:26.148 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:59:31.163 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:59:31.163 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:59:36.178 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:59:36.179 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:59:41.199 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:59:41.199 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:59:46.214 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:59:46.214 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:59:51.230 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:59:51.230 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 17:59:56.247 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 17:59:56.247 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:00:01.263 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:00:01.263 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:00:06.281 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:00:06.281 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:00:11.301 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:00:11.301 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:00:16.319 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:00:16.319 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:00:21.341 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:00:21.341 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:00:26.361 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:00:26.361 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:00:31.379 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:00:31.379 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:00:36.396 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:00:36.397 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:00:41.414 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:00:41.415 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:00:46.435 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:00:46.435 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:00:51.456 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:00:51.457 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:00:56.477 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:00:56.477 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:01:01.499 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:01:01.499 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:01:06.522 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:01:06.522 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:01:11.544 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:01:11.544 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:01:16.566 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:01:16.566 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:01:21.587 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:01:21.587 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:01:26.608 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:01:26.608 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:01:31.631 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:01:31.631 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:01:36.653 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:01:36.653 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:01:41.675 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:01:41.675 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:01:46.697 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:01:46.698 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:01:51.716 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:01:51.716 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:01:56.736 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:01:56.736 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:02:01.754 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:02:01.754 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:02:06.772 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:02:06.772 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:02:11.792 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:02:11.792 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:02:16.813 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:02:16.813 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:02:21.838 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:02:21.838 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:02:26.858 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:02:26.858 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:02:31.879 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:02:31.879 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:02:36.898 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:02:36.898 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:02:41.919 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:02:41.919 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:02:46.941 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:02:46.941 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:02:51.961 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:02:51.961 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:02:56.983 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:02:56.983 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:03:02.007 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:03:02.007 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:03:07.028 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:03:07.028 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:03:12.049 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:03:12.049 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:03:17.070 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:03:17.070 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:03:22.092 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:03:22.092 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:03:27.110 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:03:27.110 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:03:32.129 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:03:32.129 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:03:37.148 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:03:37.148 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:03:42.169 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:03:42.169 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:03:47.189 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:03:47.189 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:03:52.207 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:03:52.207 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:03:57.227 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:03:57.227 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:04:02.244 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:04:02.244 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:04:07.262 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:04:07.262 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:04:12.278 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:04:12.278 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:04:17.297 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:04:17.297 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:04:22.320 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:04:22.320 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:04:27.342 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:04:27.342 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:04:32.362 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:04:32.362 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:04:37.385 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:04:37.385 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:04:42.407 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:04:42.407 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:04:47.428 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:04:47.428 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:04:52.449 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:04:52.449 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:04:57.472 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:04:57.472 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:05:02.495 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:05:02.495 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:05:07.517 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:05:07.517 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:05:12.539 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:05:12.539 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:05:17.560 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:05:17.560 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:05:22.581 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:05:22.581 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:05:27.602 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:05:27.603 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:05:32.623 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:05:32.623 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:05:37.644 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:05:37.644 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:05:42.667 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:05:42.667 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:05:47.688 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:05:47.689 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:05:52.720 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:05:52.720 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:05:57.742 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:05:57.742 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:06:02.763 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:06:02.764 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:06:07.786 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:06:07.787 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:06:12.809 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:06:12.809 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:06:17.831 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:06:17.831 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:06:22.854 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:06:22.854 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:06:27.877 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:06:27.877 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:06:32.900 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:06:32.900 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:06:37.922 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:06:37.923 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:06:42.945 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:06:42.946 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:06:47.967 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:06:47.967 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:06:52.985 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:06:52.985 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:06:58.004 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:06:58.004 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:07:03.024 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:07:03.025 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:07:08.047 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:07:08.047 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:07:13.067 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:07:13.067 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:07:18.088 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:07:18.088 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:07:23.108 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:07:23.108 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:07:28.126 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:07:28.126 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:07:33.149 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:07:33.149 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:07:38.170 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:07:38.170 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:07:43.190 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:07:43.190 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:07:48.211 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:07:48.211 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:07:53.234 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:07:53.234 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:07:58.254 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:07:58.254 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:08:03.276 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:08:03.276 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:08:08.298 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:08:08.298 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:08:13.321 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:08:13.321 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:08:18.343 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:08:18.343 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:08:23.365 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:08:23.365 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:08:28.385 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:08:28.385 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:08:33.403 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:08:33.403 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:08:38.422 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:08:38.422 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:08:43.442 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:08:43.442 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:08:48.463 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:08:48.463 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:08:53.479 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:08:53.479 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:08:58.497 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:08:58.497 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:09:03.517 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:09:03.518 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:09:08.537 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:09:08.537 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:09:13.559 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:09:13.559 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:09:18.580 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:09:18.580 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:09:23.602 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:09:23.602 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:09:28.622 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:09:28.622 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:09:33.640 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:09:33.640 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:09:38.655 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:09:38.655 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:09:43.672 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:09:43.672 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:09:48.686 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:09:48.686 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:09:53.703 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:09:53.703 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:09:58.724 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:09:58.725 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:10:03.742 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:10:03.742 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:10:08.762 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:10:08.762 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:10:13.782 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:10:13.782 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:10:18.803 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:10:18.803 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:10:23.824 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:10:23.824 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:10:28.845 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:10:28.845 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:10:33.868 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:10:33.869 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:10:38.885 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:10:38.895 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:10:43.912 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:10:43.912 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:10:48.926 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:10:48.926 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:10:53.943 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:10:53.944 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:10:58.960 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:10:58.960 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:11:03.977 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:11:03.977 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:11:08.997 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:11:08.997 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:11:14.017 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:11:14.017 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:11:19.032 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:11:19.032 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:11:24.047 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:11:24.047 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:11:29.065 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:11:29.065 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:11:34.085 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:11:34.085 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:11:39.105 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:11:39.106 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:11:44.127 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:11:44.127 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:11:49.148 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:11:49.148 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:11:54.171 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:11:54.171 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:11:59.188 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:11:59.188 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:12:04.204 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:12:04.204 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:12:09.216 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:12:09.216 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:12:14.227 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:12:14.227 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:12:19.241 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:12:19.241 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:12:24.257 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:12:24.257 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:12:29.271 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:12:29.271 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:12:34.288 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:12:34.288 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:12:39.303 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:12:39.304 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:12:44.319 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:12:44.320 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:12:49.335 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:12:49.335 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:12:54.350 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:12:54.351 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:12:59.365 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:12:59.365 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:13:04.380 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:13:04.380 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:13:09.396 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:13:09.396 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:13:14.409 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:13:14.409 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:13:19.424 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:13:19.424 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:13:24.441 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:13:24.441 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:13:29.458 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:13:29.458 - 0 clients connected (0 slaves), 765960 bytes in use
+125206:M 12 Jul 18:13:34.477 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+125206:M 12 Jul 18:13:34.477 - 0 clients connected (0 slaves), 765960 bytes in use
