@@ -56,7 +56,7 @@ foreach(cgi ${CGI_BINARIES})
 endforeach()
 
 # 设置输出路径
-set(EXECUTABLE_OUTPUT_PATH ${CMAKE_SOURCE_DIR}/bin_cgi)
+set(EXECUTABLE_OUTPUT_PATH ${CMAKE_SOURCE_DIR}/build/bin)
 
 # 添加清理命令
 add_custom_target(clean-all
