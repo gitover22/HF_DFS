@@ -1,5 +1,5 @@
 /**
- * @file cfg.c
+ * @file config.c
  * @brief  读取json配置文件信息
  */
 
@@ -8,7 +8,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include "make_log.h"
-#include "cfg.h"
+#include "config.h"
 #include "cJSON.h"
 
 /**
@@ -22,7 +22,7 @@
  * @return
  *      0 succ, -1 fail
  */
-int get_cfg_value(const char *profile, char *title, char *key, char *value)
+int get_config_value(const char *profile, char *title, char *key, char *value)
 {
     int ret = 0;
     char *buf = NULL;
@@ -39,7 +39,7 @@ int get_cfg_value(const char *profile, char *title, char *key, char *value)
     if (fp == NULL) // 打开失败
     {
         perror("fopen");
-        LOG(CFG_LOG_MODULE, CFG_LOG_PROC, "fopen err\n");
+        LOG(CONFIG_LOG_MODULE, CONFIG_LOG_PROC, "fopen err\n");
         ret = -1;
         goto END;
     }
@@ -52,7 +52,7 @@ int get_cfg_value(const char *profile, char *title, char *key, char *value)
     if (buf == NULL)
     {
         perror("calloc");
-        LOG(CFG_LOG_MODULE, CFG_LOG_PROC, "calloc err\n");
+        LOG(CONFIG_LOG_MODULE, CONFIG_LOG_PROC, "calloc err\n");
         ret = -1;
         goto END;
     }
@@ -64,7 +64,7 @@ int get_cfg_value(const char *profile, char *title, char *key, char *value)
     cJSON *root = cJSON_Parse(buf);
     if (NULL == root)
     {
-        LOG(CFG_LOG_MODULE, CFG_LOG_PROC, "root err\n");
+        LOG(CONFIG_LOG_MODULE, CONFIG_LOG_PROC, "root err\n");
         ret = -1;
         goto END;
     }
@@ -73,7 +73,7 @@ int get_cfg_value(const char *profile, char *title, char *key, char *value)
     cJSON *father = cJSON_GetObjectItem(root, title);
     if (NULL == father)
     {
-        LOG(CFG_LOG_MODULE, CFG_LOG_PROC, "father err\n");
+        LOG(CONFIG_LOG_MODULE, CONFIG_LOG_PROC, "father err\n");
         ret = -1;
         goto END;
     }
@@ -81,12 +81,12 @@ int get_cfg_value(const char *profile, char *title, char *key, char *value)
     cJSON *son = cJSON_GetObjectItem(father, key);
     if (NULL == son)
     {
-        LOG(CFG_LOG_MODULE, CFG_LOG_PROC, "son err\n");
+        LOG(CONFIG_LOG_MODULE, CONFIG_LOG_PROC, "son err\n");
         ret = -1;
         goto END;
     }
 
-    // LOG(CFG_LOG_MODULE, CFG_LOG_PROC, "son->valuestring = %s\n", son->valuestring);
+    // LOG(CONFIG_LOG_MODULE, CONFIG_LOG_PROC, "son->valuestring = %s\n", son->valuestring);
     strcpy(value, son->valuestring); // 拷贝内容
 
     cJSON_Delete(root); // 删除json对象
@@ -108,21 +108,21 @@ END:
 
 int get_mysql_info(char *mysql_user, char *mysql_pwd, char *mysql_db)
 {
-    if (-1 == get_cfg_value(CFG_PATH, "mysql", "user", mysql_user))
+    if (-1 == get_config_value(CONFIG_PATH, "mysql", "user", mysql_user))
     {
-        LOG(CFG_LOG_MODULE, CFG_LOG_PROC, "mysql_user err\n");
+        LOG(CONFIG_LOG_MODULE, CONFIG_LOG_PROC, "mysql_user err\n");
         return -1;
     }
 
-    if (-1 == get_cfg_value(CFG_PATH, "mysql", "password", mysql_pwd))
+    if (-1 == get_config_value(CONFIG_PATH, "mysql", "password", mysql_pwd))
     {
-        LOG(CFG_LOG_MODULE, CFG_LOG_PROC, "mysql_pwd err\n");
+        LOG(CONFIG_LOG_MODULE, CONFIG_LOG_PROC, "mysql_pwd err\n");
         return -1;
     }
 
-    if (-1 == get_cfg_value(CFG_PATH, "mysql", "database", mysql_db))
+    if (-1 == get_config_value(CONFIG_PATH, "mysql", "database", mysql_db))
     {
-        LOG(CFG_LOG_MODULE, CFG_LOG_PROC, "mysql_db err\n");
+        LOG(CONFIG_LOG_MODULE, CONFIG_LOG_PROC, "mysql_db err\n");
         return -1;
     }
 

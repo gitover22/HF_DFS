@@ -12,7 +12,7 @@
 #include "util_cgi.h"
 #include "deal_mysql.h"
 #include "redis_op.h"
-#include "cfg.h"
+#include "config.h"
 #include "cJSON.h"
 #include "des.h"    //加密
 #include "base64.h" //base64
@@ -152,8 +152,8 @@ int set_token(char *user, char *token)
     char redis_port[10] = {0};
 
     // 读取redis配置信息
-    get_cfg_value(CFG_PATH, "redis", "ip", redis_ip);
-    get_cfg_value(CFG_PATH, "redis", "port", redis_port);
+    get_config_value(CONFIG_PATH, "redis", "ip", redis_ip);
+    get_config_value(CONFIG_PATH, "redis", "port", redis_port);
     LOG(LOGIN_LOG_MODULE, LOGIN_LOG_PROC, "redis:[ip=%s,port=%s]\n", redis_ip, redis_port);
 
     // 连接redis数据库

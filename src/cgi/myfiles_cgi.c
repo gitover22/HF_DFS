@@ -11,7 +11,7 @@
 #include "make_log.h" //日志头文件
 #include "util_cgi.h"
 #include "deal_mysql.h"
-#include "cfg.h"
+#include "config.h"
 #include "cJSON.h"
 #include <sys/time.h>
 
@@ -28,18 +28,14 @@ static char mysql_db[128] = {0};
 // static char redis_port[10] = {0};
 
 // 读取配置信息
-void read_cfg()
+void read_config()
 {
     // 读取mysql数据库配置信息
-    get_cfg_value(CFG_PATH, "mysql", "user", mysql_user);
-    get_cfg_value(CFG_PATH, "mysql", "password", mysql_pwd);
-    get_cfg_value(CFG_PATH, "mysql", "database", mysql_db);
+    get_config_value(CONFIG_PATH, "mysql", "user", mysql_user);
+    get_config_value(CONFIG_PATH, "mysql", "password", mysql_pwd);
+    get_config_value(CONFIG_PATH, "mysql", "database", mysql_db);
     LOG(MYFILES_LOG_MODULE, MYFILES_LOG_PROC, "mysql:[user=%s,pwd=%s,database=%s]", mysql_user, mysql_pwd, mysql_db);
 
-    // 读取redis配置信息
-    // get_cfg_value(CFG_PATH, "redis", "ip", redis_ip);
-    // get_cfg_value(CFG_PATH, "redis", "port", redis_port);
-    // LOG(MYFILES_LOG_MODULE, MYFILES_LOG_PROC, "redis:[ip=%s,port=%s]\n", redis_ip, redis_port);
 }
 
 // 解析的json包, 登陆token
@@ -477,7 +473,7 @@ int main()
     char token[TOKEN_LEN];
 
     // 读取数据库配置信息
-    read_cfg();
+    read_config();
 
     // 阻塞等待用户连接
     while (FCGI_Accept() >= 0)

@@ -1,9 +1,12 @@
-### 部署步骤:
-#### 根据你的环境修改相关配置文件
+### build steps:
+#### vim config files:
 ```
-cd build
-cmake ..
-make
+vim ./conf/config.json
+vim ./conf/*.conf
+```
+#### build:
+```
+./build.sh
 cd ../sh
 ./start.sh
 ```

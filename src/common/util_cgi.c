@@ -9,7 +9,7 @@
 #include <stdlib.h>
 #include "make_log.h"
 #include "cJSON.h"
-#include "cfg.h"
+#include "config.h"
 #include "util_cgi.h"
 #include "redis_op.h"
 
@@ -249,8 +249,8 @@ int verify_token(char *user, char *token)
     char redis_port[10] = {0};
 
     // 读取redis配置信息
-    get_cfg_value(CFG_PATH, "redis", "ip", redis_ip);
-    get_cfg_value(CFG_PATH, "redis", "port", redis_port);
+    get_config_value(CONFIG_PATH, "redis", "ip", redis_ip);
+    get_config_value(CONFIG_PATH, "redis", "port", redis_port);
 
     // 连接redis数据库
     redis_conn = rop_connectdb_nopwd(redis_ip, redis_port);

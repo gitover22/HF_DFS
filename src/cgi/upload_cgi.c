@@ -14,7 +14,7 @@
 #include "deal_mysql.h"
 #include "fcgi_stdio.h"
 #include "make_log.h" //日志头文件
-#include "cfg.h"
+#include "config.h"
 #include "util_cgi.h" //cgi后台通用接口，trim_space(), memstr()
 
 #define UPLOAD_LOG_MODULE "cgi"
@@ -30,18 +30,13 @@ static char mysql_db[128] = {0};
 // static char redis_port[10] = {0};
 
 // 读取配置信息
-void read_cfg()
+void read_config()
 {
     // 读取mysql数据库配置信息
-    get_cfg_value(CFG_PATH, "mysql", "user", mysql_user);
-    get_cfg_value(CFG_PATH, "mysql", "password", mysql_pwd);
-    get_cfg_value(CFG_PATH, "mysql", "database", mysql_db);
+    get_config_value(CONFIG_PATH, "mysql", "user", mysql_user);
+    get_config_value(CONFIG_PATH, "mysql", "password", mysql_pwd);
+    get_config_value(CONFIG_PATH, "mysql", "database", mysql_db);
     LOG(UPLOAD_LOG_MODULE, UPLOAD_LOG_PROC, "mysql:[user=%s,pwd=%s,database=%s]", mysql_user, mysql_pwd, mysql_db);
-
-    // 读取redis配置信息
-    // get_cfg_value(CFG_PATH, "redis", "ip", redis_ip);
-    // get_cfg_value(CFG_PATH, "redis", "port", redis_port);
-    // LOG(UPLOAD_LOG_MODULE, UPLOAD_LOG_PROC, "redis:[ip=%s,port=%s]\n", redis_ip, redis_port);
 }
 
 /* -------------------------------------------*/
@@ -316,7 +311,7 @@ int upload_to_dstorage(char *filename, char *fileid)
 
         // 读取fdfs client 配置文件的路径
         char fdfs_cli_conf_path[256] = {0};
-        get_cfg_value(CFG_PATH, "dfs_path", "client", fdfs_cli_conf_path);
+        get_config_value(CONFIG_PATH, "dfs_path", "client", fdfs_cli_conf_path);
 
         // 通过execlp执行fdfs_upload_file
         execlp("fdfs_upload_file", "fdfs_upload_file", fdfs_cli_conf_path, filename, NULL);
@@ -406,7 +401,7 @@ int make_file_url(char *fileid, char *fdfs_file_url)
 
         // 读取fdfs client 配置文件的路径
         char fdfs_cli_conf_path[256] = {0};
-        get_cfg_value(CFG_PATH, "dfs_path", "client", fdfs_cli_conf_path);
+        get_config_value(CONFIG_PATH, "dfs_path", "client", fdfs_cli_conf_path);
 
         execlp("fdfs_file_info", "fdfs_file_info", fdfs_cli_conf_path, fileid, NULL);
 
@@ -440,7 +435,7 @@ int make_file_url(char *fileid, char *fdfs_file_url)
 
         // 读取storage_web_server服务器的端口
         char storage_web_server_port[20] = {0};
-        get_cfg_value(CFG_PATH, "storage_web_server", "port", storage_web_server_port);
+        get_config_value(CONFIG_PATH, "storage_web_server", "port", storage_web_server_port);
         strcat(fdfs_file_url, "http://");
         strcat(fdfs_file_url, fdfs_file_host_name);
         strcat(fdfs_file_url, ":");
@@ -573,7 +568,7 @@ int main()
     char fdfs_file_url[FILE_URL_LEN] = {0}; // 文件所存放storage的host_name
 
     // 读取数据库配置信息
-    read_cfg();
+    read_config();
 
     while (FCGI_Accept() >= 0)
     {

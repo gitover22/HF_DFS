@@ -11,7 +11,7 @@
 #include "make_log.h" //日志头文件
 #include "util_cgi.h"
 #include "deal_mysql.h"
-#include "cfg.h"
+#include "config.h"
 #include "cJSON.h"
 #include <sys/time.h>
 
