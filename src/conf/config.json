@@ -1,10 +1,9 @@
 {
-	"redis":
+	"web_server":
 	{
-		"ip": "127.0.0.1",
-		"port": "6379"
+		"ip": "192.168.181.1",
+		"port": "80"
 	},
-	
 	"mysql":
 	{
 		"ip": "127.0.0.1",
@@ -13,18 +12,15 @@
 		"user": "huafeng",
 		"password": "huafeng"
 	},
-	
+	"redis":
+	{
+		"ip": "127.0.0.1",
+		"port": "6379"
+	},
 	"dfs_path":
 	{
 		"client": "/etc/fdfs/client.conf"
 	},
-	
-	"web_server":
-	{
-		"ip": "192.168.181.1",
-		"port": "80"
-	},
-	
 	"storage_web_server":
 	{
 		"ip": "192.168.181.1",
