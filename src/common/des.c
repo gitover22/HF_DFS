@@ -696,7 +696,6 @@ void CW_dataPadAdd(int tag, unsigned char *date, unsigned int dateLen,
 
 #define USER_PASSWORD_KEY "abcd1234"
 
-// 数据加密
 int DesEnc(
 	unsigned char *pInData,
 	int nInDataLen,
@@ -706,9 +705,9 @@ int DesEnc(
 	int rv;
 	unsigned char *padDate = NULL;
 	unsigned int padDateLen = 0;
-
+	// 对输入数据进行填充，以满足DES加密的要求。
 	CW_dataPadAdd(0, pInData, (unsigned int)nInDataLen, &padDate, &padDateLen);
-
+	// 调用自定义的DES加密函数，对填充后的数据进行加密。
 	rv = myic_DESEncrypt((unsigned char *)USER_PASSWORD_KEY, strlen(USER_PASSWORD_KEY),
 						 padDate, (int)padDateLen, pOutData, pOutDataLen);
 	if (rv != 0)

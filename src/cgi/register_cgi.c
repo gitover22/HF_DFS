@@ -1,14 +1,9 @@
-/**
- * @file reg_cgi.c
- * @brief  注册事件后CGI程序
- */
-
 #include "fcgi_config.h"
 #include "fcgi_stdio.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "make_log.h" //日志头文件
+#include "make_log.h"
 #include "util_cgi.h"
 #include "deal_mysql.h"
 #include "config.h"

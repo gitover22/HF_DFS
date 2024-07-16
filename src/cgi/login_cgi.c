@@ -1,14 +1,9 @@
-/**
- * @file login_cgi.c
- * @brief   登陆后台CGI程序
- */
-
 #include "fcgi_config.h"
 #include "fcgi_stdio.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "make_log.h" //日志头文件
+#include "make_log.h"
 #include "util_cgi.h"
 #include "deal_mysql.h"
 #include "redis_op.h"
@@ -22,14 +17,16 @@
 #define LOGIN_LOG_MODULE "cgi"
 #define LOGIN_LOG_PROC "login"
 
-// 解析用户登陆信息的json包login_buf
-// 用户名保存在user，密码保存在pwd
+/**
+ * @brief 从JSON字符串中获取登录信息
+ * @param login_buf [in] 包含登录信息的JSON字符串
+ * @param user [out] 用于存储用户名的字符数组
+ * @param pwd [out] 用于存储密码的字符数组
+ * @return 0表示成功，-1表示解析JSON失败
+ */
 int get_login_info(char *login_buf, char *user, char *pwd)
 {
     int ret = 0;
-
-    // 解析json包
-    // 解析一个json字符串为cJSON对象
     cJSON *root = cJSON_Parse(login_buf);
     if (NULL == root)
     {
@@ -77,8 +74,8 @@ END:
 /**
  * @brief  判断用户登陆情况
  *
- * @param user 		用户名
- * @param pwd 		密码
+ * @param user [in]		用户名
+ * @param pwd  [in]	    密码
  *
  * @returns
  *      成功: 0
@@ -134,8 +131,8 @@ int check_user_pwd(char *user, char *pwd)
 /**
  * @brief  生成token字符串, 保存redis数据库
  *
- * @param user 		用户名
- * @param token     生成的token字符串
+ * @param user 	[in]	用户名
+ * @param token  [out]   生成的token字符串
  *
  * @returns
  *      成功: 0
@@ -211,7 +208,7 @@ int set_token(char *user, char *token)
     }
 
     // redis保存此字符串，用户名：token, 有效时间为24小时
-    ret = rop_setex_string(redis_conn, user, 86400, token);
+    ret = rop_setex_string(redis_conn, user, 24*60*60, token);
     // ret = rop_setex_string(redis_conn, user, 30, token); //30秒
 
 END:
@@ -243,8 +240,6 @@ void return_login_status(char *status_num, char *token)
 
 int main()
 {
-
-    // 阻塞等待用户连接
     while (FCGI_Accept() >= 0)
     {
         char *contentLength = getenv("CONTENT_LENGTH");
