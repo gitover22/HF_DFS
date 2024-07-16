@@ -220,7 +220,12 @@ END:
     return ret;
 }
 
-// 返回前端情况
+/**
+ * @brief 发送登录状态响应
+ * 
+ * @param status_num [in] 登录状态码，通常表示登录是否成功。
+ * @param token [in] 用于后续请求验证的令牌值
+ */
 void return_login_status(char *status_num, char *token)
 {
     char *out = NULL;
@@ -233,8 +238,8 @@ void return_login_status(char *status_num, char *token)
 
     if (out != NULL)
     {
-        printf(out); // 给前端反馈信息
-        free(out);   // 记得释放
+        printf(out);
+        free(out);
     }
 }
 

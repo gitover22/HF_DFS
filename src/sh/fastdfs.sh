@@ -1,11 +1,10 @@
 #!/bin/bash
 
-# 关闭tracker 和 storage服务
 tracker_start()
 {
     ps aux | grep fdfs_trackerd | grep -v grep > /dev/null
     if [ $? -eq 0 ];then
-        echo "fdfs_trackerd 已经在运行中, 无需启动..."
+        echo "fdfs_trackerd running already ..."
     else
         sudo fdfs_trackerd  /etc/fdfs/tracker.conf
         if [ $? -ne 0 ];then
@@ -20,7 +19,7 @@ storage_start()
 {
     ps aux | grep fdfs_storaged | grep -v grep > /dev/null
     if [ $? -eq 0 ];then
-        echo "fdfs_storaged 已经在运行中, 无需启动..."
+        echo "fdfs_trackerd running already ..."
     else
         sudo fdfs_storaged  /etc/fdfs/storage.conf
         if [ $? -ne 0 ];then
@@ -48,7 +47,7 @@ case $1 in
     tracker)
         tracker_start
         ;;
-    all)
+    start)
         storage_start
         tracker_start
         ;;

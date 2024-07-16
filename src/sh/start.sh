@@ -1,28 +1,46 @@
 #!/bin/bash
-# 拷贝nginx的配置文件nginx.conf到默认目录
-echo ============= Copy nginx.conf =============
-sudo mv /usr/local/nginx/conf/nginx.conf /usr/local/nginx/conf/nginx.conf.old
-sudo cp ../conf/nginx.conf /usr/local/nginx/conf
 
-echo
-echo ============= fastdfs ==============
-# 关闭已启动的 tracker 和 storage
-./fastdfs.sh stop
-# 启动 tracker 和 storage
-./fastdfs.sh all
-# 重启所有的 cgi程序
-echo
-echo ============= fastCGI ==============
-./fcgi.sh
-# 关闭nginx
-echo
-echo ============= nginx ==============
-./nginx.sh stop
-# 启动nginx
-./nginx.sh start
-# 关闭redis
-echo
-echo ============= redis ==============
-./redis.sh stop
-# 启动redis
-./redis.sh start
+GREEN='\033[0;32m'
+NC='\033[0m' # No Color
+
+echo_color() {
+    echo -e "${GREEN}$1${NC}"
+}
+
+# restart
+restart_service() {
+    echo_color "restart $1"
+    ./$1.sh stop
+    ./$1.sh start
+    echo_color "$1 restart success"
+    echo
+}
+
+# copy
+update_nginx_config() {
+    echo_color "copy nginx.conf to /usr/local/nginx/conf"
+    sudo mv /usr/local/nginx/conf/nginx.conf /usr/local/nginx/conf/nginx.conf.old
+    sudo cp ../conf/nginx.conf /usr/local/nginx/conf
+    echo_color "cp nginx.conf success"
+    echo
+}
+show_logo() {
+    echo -e "${GREEN}"
+    echo "  _    _ _______ _____  _______  _____ "
+    echo " | |  | |  _____|  __ \|  _____|/ ____|"
+    echo " | |__| |  |__  | |  | |  |__  | (___  "
+    echo " |  __  |  |__| | |  | |  |__|  \___ \ "
+    echo " | |  | |  |    | |__| |  |     ____) |"
+    echo " |_|  |_|__|    |_____/|__|    |_____/  "
+    echo -e "${NC}"
+}
+main() {
+    clear
+    show_logo
+    update_nginx_config
+    restart_service "fastdfs"
+    restart_service "fcgi"
+    restart_service "nginx"
+    restart_service "redis"
+}
+main

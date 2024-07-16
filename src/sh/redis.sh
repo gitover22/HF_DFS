@@ -2,31 +2,28 @@
 
 NAME=../redis
 FILE=redis.pid
-# 判断redis目录是否存在, 如果不存在则创建
 is_directory()
 {
     if [ ! -d $1 ]; then
-        echo "$1 目录创建中..."
+        echo "mkdir: $1 "
         mkdir $1
         if [ $? -ne 0 ];then
-            echo "$1 目录创建失败, ~~~~(>_<)~~~~"
+            echo "mkdir $1 fail"
             exit 1
         fi
     fi
 }
 
 
-is_regfile()
+is_regular_file()
 {
     if [ ! -f $1 ]; then
-        #statements
         echo "$1 file not exist..."
         return 1
     fi
-    return 0
+    return 0 # true
 }
 
-# 根据参数设置redis状态
 if [[ $1 = "" ]];then
     echo "please input argument:"
     echo "  start: start redis server"
@@ -34,27 +31,23 @@ if [[ $1 = "" ]];then
     echo "  status: show the redis server status"
     exit 1
 fi
-
-# 函数调用
+# check redis directory
 is_directory $NAME
 
 case $1 in
     start)
-        # 判断 redis-server 进程是否已经启动...
         ps aux | grep "redis-server" | grep -v grep > /dev/null
         if [ $? -eq 0 ];then
             echo "Redis server is runing ..."
         else
-            # 删除$FILE 文件
             unlink "$NAME/$FILE"
 
             echo "Redis starting ..."
             redis-server ../conf/redis.conf
             if [ $? -eq 0 ];then
                 echo "Redis server start success!!!"
-                # 休眠1s, 等待pid文件被创建出来, 再进行后续判断
                 sleep 1
-                if is_regfile "$NAME/$FILE";then
+                if is_regular_file "$NAME/$FILE";then
                     printf "Redis server PID: [ %s ]\n" $(cat "$NAME/$FILE")
                     printf "Redis server PORT: [ %s ]\n" $(awk '/^port /{print $2}' "../conf/redis.conf")
                 fi
@@ -62,21 +55,17 @@ case $1 in
         fi
         ;;
     stop)
-        # 判断 redis-server 进程是否已经启动...
         ps aux | grep "redis-server" | grep -v grep > /dev/null
         if [ $? -ne 0 ];then
             echo "Redis server is not runing..."
             exit 1
         fi
         echo "Redis stopping ..."
-        # 判断pid文件是否存在
-        if is_regfile "$NAME/$FILE"; then
-            # 读进程文件
-            echo "### 通过 redis.pid文件 方式关闭进程 ###"
+        if is_regular_file "$NAME/$FILE"; then
+            echo "close process by redis.pid"
             PID=$(cat "$NAME/$FILE")
         else
-            # 查找进程ID
-            echo "### 通过 查找进程ID 方式关闭进程 ###"
+            echo "close process by pid"
             PID=$(ps aux | grep "redis-server" | grep -v grep | awk '{print $2}')
         fi
         echo Redis server pid = $PID

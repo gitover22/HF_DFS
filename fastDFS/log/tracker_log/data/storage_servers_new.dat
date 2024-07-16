@@ -14,9 +14,9 @@
 	subdir_count_per_path=256
 	upload_priority=10
 	total_mb=1031018
-	free_mb=966937
-	total_upload_count=8
-	success_upload_count=8
+	free_mb=966931
+	total_upload_count=9
+	success_upload_count=9
 	total_append_count=0
 	success_append_count=0
 	total_set_meta_count=0
@@ -31,8 +31,8 @@
 	success_create_link_count=0
 	total_delete_link_count=0
 	success_delete_link_count=0
-	total_upload_bytes=59211
-	success_upload_bytes=59211
+	total_upload_bytes=2103490
+	success_upload_bytes=2103490
 	total_append_bytes=0
 	success_append_bytes=0
 	total_download_bytes=6935
@@ -41,16 +41,16 @@
 	success_sync_in_bytes=0
 	total_sync_out_bytes=0
 	success_sync_out_bytes=0
-	total_file_open_count=9
-	success_file_open_count=9
+	total_file_open_count=10
+	success_file_open_count=10
 	total_file_read_count=1
 	success_file_read_count=1
-	total_file_write_count=8
-	success_file_write_count=8
-	last_source_update=1720504898
+	total_file_write_count=16
+	success_file_write_count=16
+	last_source_update=1721103748
 	last_sync_update=0
 	last_synced_timestamp=0
-	last_heart_beat_time=1721103391
+	last_heart_beat_time=1721117110
 	changelog_offset=0
 
 

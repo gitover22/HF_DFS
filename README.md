@@ -1,4 +1,6 @@
 # HF_DFS
+## Introduction
+![](resource/start.png)
 HF_DFS is a distributed file system that is built on fastDFS.
 
 ## overview
