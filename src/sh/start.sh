@@ -36,6 +36,7 @@ show_logo() {
 }
 main() {
     clear
+    sudo echo ""
     show_logo
     update_nginx_config
     restart_service "fastdfs"

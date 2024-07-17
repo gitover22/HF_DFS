@@ -1,9 +1,13 @@
+/**
+ * @file reg_cgi.c
+ * @brief 处理注册请求
+ */
 #include "fcgi_config.h"
 #include "fcgi_stdio.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "make_log.h"
+#include "make_log.h" 
 #include "util_cgi.h"
 #include "deal_mysql.h"
 #include "config.h"
@@ -13,23 +17,19 @@
 #define REG_LOG_MODULE "cgi"
 #define REG_LOG_PROC "reg"
 
-// 解析用户注册信息的json包
+/**
+ * @brief 从reg_buf(json字符串)中解析得到注册信息
+ * @param reg_buf [in] json字符串
+ * @param user [out] 用户名
+ * @param nick_name [out] 昵称
+ * @param pwd [out] 密码
+ * @param tel [out] 电话
+ * @param email [out] 邮箱
+ * @return 0 成功   -1 失败
+ */
 int get_reg_info(char *reg_buf, char *user, char *nick_name, char *pwd, char *tel, char *email)
 {
     int ret = 0;
-
-    /*json数据如下
-    {
-        userName:xxxx,
-        nickName:xxx,
-        firstPwd:xxx,
-        phone:xxx,
-        email:xxx
-    }
-    */
-
-    // 解析json包
-    // 解析一个json字符串为cJSON对象
     cJSON *root = cJSON_Parse(reg_buf);
     if (NULL == root)
     {
@@ -38,8 +38,6 @@ int get_reg_info(char *reg_buf, char *user, char *nick_name, char *pwd, char *te
         goto END;
     }
 
-    // 返回指定字符串对应的json对象
-    // 用户
     cJSON *child1 = cJSON_GetObjectItem(root, "userName");
     if (NULL == child1)
     {
@@ -101,7 +99,11 @@ END:
     return ret;
 }
 
-// 注册用户，成功返回0，失败返回-1, 该用户已存在返回-2
+/**
+ * @brief 注册用户
+ * @param reg_buf [in] 包含注册信息的json字符串
+ * @return 成功:0 失败:-1 该用户已存在:-2
+ */
 int user_register(char *reg_buf)
 {
     int ret = 0;
@@ -153,7 +155,7 @@ int user_register(char *reg_buf)
     ret2 = process_result_one(conn, sql_cmd, NULL); // 指向sql查询语句
     if (ret2 == 2)                                  // 如果存在
     {
-        LOG(REG_LOG_MODULE, REG_LOG_PROC, "【%s】该用户已存在\n");
+        LOG(REG_LOG_MODULE, REG_LOG_PROC, "[%s] 该用户已存在\n");
         ret = -2;
         goto END;
     }
@@ -161,7 +163,7 @@ int user_register(char *reg_buf)
     // 当前时间戳
     struct timeval tv;
     struct tm *ptm;
-    char time_str[128];
+    char time_str[128]; // 记录用户创建时间
 
     // 使用函数gettimeofday()函数来得到时间。它的精度可以达到微妙
     gettimeofday(&tv, NULL);
@@ -169,7 +171,6 @@ int user_register(char *reg_buf)
     // strftime() 函数根据区域设置格式化本地时间/日期，函数的功能将时间格式化，或者说格式化一个时间字符串
     strftime(time_str, sizeof(time_str), "%Y-%m-%d %H:%M:%S", ptm);
 
-    // sql 语句, 插入注册信息
     sprintf(sql_cmd, "insert into user (name, nickname, password, phone, createtime, email) values ('%s', '%s', '%s', '%s', '%s', '%s')", user, nick_name, pwd, tel, time_str, email);
 
     if (mysql_query(conn, sql_cmd) != 0)
@@ -182,7 +183,7 @@ int user_register(char *reg_buf)
 END:
     if (conn != NULL)
     {
-        mysql_close(conn); // 断开数据库连接
+        mysql_close(conn); 
     }
 
     return ret;
@@ -190,7 +191,6 @@ END:
 
 int main()
 {
-    // 阻塞等待用户连接
     while (FCGI_Accept() >= 0)
     {
         char *contentLength = getenv("CONTENT_LENGTH");
@@ -236,23 +236,24 @@ int main()
             ret = user_register(buf);
             if (ret == 0) // 登陆成功
             {
-                // 返回前端注册情况， 002代表成功
-                out = return_status("002"); // util_cgi.h
-            }
-            else if (ret == -1)
-            {
-                // 返回前端注册情况， 004代表失败
-                out = return_status("004"); // util_cgi.h
+                // 返回前端注册情况 002代表成功
+                out = return_status("002");
             }
             else if (ret == -2)
             {
-                out = return_status("003"); // util_cgi.h
+                // 003代表该用户已存在
+                out = return_status("003");
             }
-
+            else if (ret == -1)
+            {
+                // 004代表失败 
+                out = return_status("004"); 
+            }
+            
             if (out != NULL)
             {
-                printf(out); // 给前端反馈信息
-                free(out);   // 记得释放
+                printf(out);
+                free(out); 
             }
         }
     }
