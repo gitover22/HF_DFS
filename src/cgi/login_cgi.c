@@ -1,3 +1,7 @@
+/**
+ * @file login_cgi.c
+ * @brief 处理登入请求的cgi程序
+ */
 #include "fcgi_config.h"
 #include "fcgi_stdio.h"
 #include <stdio.h>
