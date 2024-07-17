@@ -14,6 +14,7 @@
 #include "config.h"
 #include "cJSON.h"
 #include <sys/time.h>
+#include <sys/types.h>
 
 #define MYFILES_LOG_MODULE "cgi"
 #define MYFILES_LOG_PROC "myfiles"
@@ -35,7 +36,6 @@ void read_config()
     get_config_value(CONFIG_PATH, "mysql", "password", mysql_pwd);
     get_config_value(CONFIG_PATH, "mysql", "database", mysql_db);
     LOG(MYFILES_LOG_MODULE, MYFILES_LOG_PROC, "mysql:[user=%s,pwd=%s,database=%s]", mysql_user, mysql_pwd, mysql_db);
-
 }
 
 // 解析的json包, 登陆token
