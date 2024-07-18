@@ -1,6 +1,6 @@
 /**
  * @file upload_cgi.c
- * @brief 上传文件后台CGI程序
+ * @brief 处理上传文件的CGI程序
  */
 
 #include <stdio.h>
@@ -13,23 +13,19 @@
 #include <sys/wait.h>
 #include "deal_mysql.h"
 #include "fcgi_stdio.h"
-#include "make_log.h" //日志头文件
+#include "make_log.h"
 #include "config.h"
-#include "util_cgi.h" //cgi后台通用接口，trim_space(), memstr()
+#include "util_cgi.h"
 
 #define UPLOAD_LOG_MODULE "cgi"
 #define UPLOAD_LOG_PROC "upload"
 
-// mysql 数据库配置信息 用户名， 密码， 数据库名称
 static char mysql_user[128] = {0};
 static char mysql_pwd[128] = {0};
 static char mysql_db[128] = {0};
-
-// redis 服务器ip、端口
-// static char redis_ip[30] = {0};
-// static char redis_port[10] = {0};
-
-// 读取配置信息
+/**
+ * @brief 从config.json读取mysql数据库配置信息
+ */
 void read_config()
 {
     // 读取mysql数据库配置信息
@@ -39,21 +35,19 @@ void read_config()
     LOG(UPLOAD_LOG_MODULE, UPLOAD_LOG_PROC, "mysql:[user=%s,pwd=%s,database=%s]", mysql_user, mysql_pwd, mysql_db);
 }
 
-/* -------------------------------------------*/
 /**
  * @brief  解析上传的post数据 保存到本地临时路径
  *         同时得到文件上传者、文件名称、文件大小
  *
- * @param len       (in)    post数据的长度
- * @param user      (out)   文件上传者
- * @param file_name (out)   文件的文件名
- * @param md5       (out)   文件的MD5码
- * @param p_size    (out)   文件大小
+ * @param len       [in]    post数据的长度
+ * @param user      [out]   文件上传者
+ * @param file_name [out]   文件的文件名
+ * @param md5       [out]   文件的MD5码
+ * @param p_size    [out]   文件大小
  *
  * @returns
  *          0 succ, -1 fail
  */
-/* -------------------------------------------*/
 int recv_save_file(long len, char *user, char *filename, char *md5, long *p_size)
 {
     int ret = 0;
@@ -104,8 +98,8 @@ int recv_save_file(long len, char *user, char *filename, char *md5, long *p_size
 
     // 拷贝分界线
     strncpy(boundary, begin, p - begin);
-    boundary[p - begin] = '\0'; // 字符串结束符
-    // LOG(UPLOAD_LOG_MODULE, UPLOAD_LOG_PROC,"boundary: [%s]\n", boundary);
+    boundary[p - begin] = '\0';
+    LOG(UPLOAD_LOG_MODULE, UPLOAD_LOG_PROC,"boundary: [%s]\n", boundary);
 
     p += 2; //\r\n
     // 已经处理了p-begin的长度
@@ -267,8 +261,8 @@ END:
 /**
  * @brief  将一个本地文件上传到 后台分布式文件系统中
  *
- * @param filename  (in) 本地文件的路径
- * @param fileid    (out)得到上传之后的文件ID路径
+ * @param filename  [in] 本地文件的路径
+ * @param fileid    [out] 得到上传之后的文件ID路径
  *
  * @returns
  *      0 succ, -1 fail
@@ -339,7 +333,7 @@ int upload_to_dstorage(char *filename, char *fileid)
             goto END;
         }
 
-        LOG(UPLOAD_LOG_MODULE, UPLOAD_LOG_PROC, "get [%s] succ!\n", fileid);
+        LOG(UPLOAD_LOG_MODULE, UPLOAD_LOG_PROC, "get [%s] success!\n", fileid);
 
         wait(NULL); // 等待子进程结束，回收其资源
         close(fd[0]);
@@ -353,8 +347,8 @@ END:
 /**
  * @brief  封装文件存储在分布式系统中的 完整 url
  *
- * @param fileid        (in)    文件分布式id路径
- * @param fdfs_file_url (out)   文件的完整url地址
+ * @param fileid        [in]    文件分布式id路径
+ * @param fdfs_file_url [out]   文件的完整url地址 like: http://192.168.1.1:8080/group1/M00/00/00/wKgZhVmZVVKAQ0jBAAAAAD_Y5zk01.jpg
  *
  * @returns
  *      0 succ, -1 fail
@@ -557,7 +551,6 @@ END:
     return ret;
 }
 
-//===============> 将该文件的FastDFS相关信息存入mysql中 <======
 int main()
 {
     char filename[FILE_NAME_LEN] = {0};     // 文件名
@@ -567,7 +560,6 @@ int main()
     char fileid[TEMP_BUF_MAX_LEN] = {0};    // 文件上传到fastDFS后的文件id
     char fdfs_file_url[FILE_URL_LEN] = {0}; // 文件所存放storage的host_name
 
-    // 读取数据库配置信息
     read_config();
 
     while (FCGI_Accept() >= 0)
@@ -580,7 +572,7 @@ int main()
 
         if (contentLength != NULL)
         {
-            len = strtol(contentLength, NULL, 10); // 字符串转long， 或者atol
+            len = strtol(contentLength, NULL, 10);
         }
         else
         {
@@ -602,7 +594,7 @@ int main()
                 goto END;
             }
 
-            LOG(UPLOAD_LOG_MODULE, UPLOAD_LOG_PROC, "%s成功上传[%s, 大小：%ld, md5码：%s]到本地\n", user, filename, size, md5);
+            LOG(UPLOAD_LOG_MODULE, UPLOAD_LOG_PROC, "%s成功上传[%s, 大小: %ld, md5码: %s]到本地\n", user, filename, size, md5);
 
             //===============> 将该文件存入fastDFS中,并得到文件的file_id <============
             if (upload_to_dstorage(filename, fileid) < 0)
@@ -653,8 +645,8 @@ int main()
 
             if (out != NULL)
             {
-                printf(out); // 给前端反馈信息
-                free(out);   // 记得释放
+                printf(out);
+                free(out);   
             }
         }
 
