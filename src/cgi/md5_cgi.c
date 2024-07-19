@@ -38,12 +38,12 @@ void read_config()
 }
 
 /**
- * 从JSON字符串中获取MD5相关信息
+ * @brief 从JSON字符串中获取MD5相关信息
  * @param buf [in] JSON字符串的缓冲区
- * @param user 用于存储解析出的用户信息
- * @param token 用于存储解析出的令牌信息
- * @param md5 用于存储解析出的MD5字符串
- * @param filename 用于存储解析出的文件名
+ * @param user [out] 用于存储解析出的用户信息
+ * @param token [out] 用于存储解析出的令牌信息
+ * @param md5 [out] 用于存储解析出的MD5字符串
+ * @param filename [out] 用于存储解析出的文件名
  * @return 0表示解析成功，-1表示解析失败
  */
 int get_md5_info(char *buf, char *user, char *token, char *md5, char *filename)
@@ -51,7 +51,7 @@ int get_md5_info(char *buf, char *user, char *token, char *md5, char *filename)
     int ret = 0;
     // 解析一个json字符串为cJSON对象
     cJSON *root = cJSON_Parse(buf);
-    if (NULL == root)
+    if (root == NULL)
     {
         LOG(MD5_LOG_MODULE, MD5_LOG_PROC, "cJSON_Parse err\n");
         ret = -1;
@@ -256,26 +256,26 @@ END:
     // 返回前端情况
     if (ret == 0)
     {
-        out = return_status("006"); // common.h
+        out = return_status("006");
     }
     else if (ret == -2)
     {
-        out = return_status("005"); // common.h
+        out = return_status("005");
     }
     else
     {
-        out = return_status("007"); // common.h
+        out = return_status("007");
     }
 
     if (out != NULL)
     {
-        printf(out); // 给前端反馈信息
-        free(out);   // 记得释放
+        printf(out);
+        free(out);  
     }
 
     if (conn != NULL)
     {
-        mysql_close(conn); // 断开数据库连接
+        mysql_close(conn);
     }
 
     return ret;
@@ -283,10 +283,8 @@ END:
 
 int main()
 {
-    // 读取数据库配置信息
     read_config();
 
-    // 阻塞等待用户连接
     while (FCGI_Accept() >= 0)
     {
         char *contentLength = getenv("CONTENT_LENGTH");
@@ -300,10 +298,10 @@ int main()
         }
         else
         {
-            len = atoi(contentLength); // 字符串转整型
+            len = atoi(contentLength);
         }
 
-        if (len <= 0) // 没有数据
+        if (len <= 0)
         {
             printf("No data from standard input.<p>\n");
             LOG(MD5_LOG_MODULE, MD5_LOG_PROC, "len = 0, No data from standard input\n");
@@ -323,7 +321,7 @@ int main()
 
             // 解析json中信息
             /*
-             * {
+              {
                 user:xxxx,
                 token: xxxx,
                 md5:xxx,
@@ -343,18 +341,17 @@ int main()
 
             LOG(MD5_LOG_MODULE, MD5_LOG_PROC, "user = %s, token = %s, md5 = %s, filename = %s\n", user, token, md5, filename);
 
-            // 验证登陆token，成功返回0，失败-1
-            ret = verify_token(user, token); // util_cgi.h
+            ret = verify_token(user, token);
             if (ret == 0)
             {
                 deal_md5(user, md5, filename); // 秒传处理
             }
             else
             {
-                char *out = return_status("111"); // token验证失败错误码
+                char *out = return_status("111"); 
                 if (out != NULL)
                 {
-                    printf(out); // 给前端反馈错误码
+                    printf(out);
                     free(out);
                 }
             }

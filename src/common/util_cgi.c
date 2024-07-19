@@ -261,7 +261,7 @@ int verify_token(char *user, char *token)
         goto END;
     }
 
-    // 获取user对应的value
+    // 获取user(key)对应的value
     ret = rop_get_string(redis_conn, user, tmp_token);
     if (ret == 0)
     {
