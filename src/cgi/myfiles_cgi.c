@@ -238,10 +238,14 @@ END:
     return ret;
 }
 
-// 获取用户文件列表
-// 获取用户文件信息 127.0.0.1:80/myfiles&cmd=normal
-// 按下载量升序 127.0.0.1:80/myfiles?cmd=pvasc
-// 按下载量降序127.0.0.1:80/myfiles?cmd=pvdesc
+/**
+ * @brief 根据用户请求获取特定条件下的文件列表
+ * @param cmd [in] 查询命令类型，决定查询的排序方式或筛选条件
+ * @param user [in] 查询的用户名称
+ * @param start [in] 查询结果的起始行号
+ * @param count [in] 查询结果的行数
+ * @return 返回0表示查询成功，其他值表示查询失败
+ */
 int get_user_filelist(char *cmd, char *user, int start, int count)
 {
     int ret = 0;
@@ -253,7 +257,6 @@ int get_user_filelist(char *cmd, char *user, int start, int count)
     char *out2 = NULL;
     MYSQL_RES *res_set = NULL;
 
-    // connect the database
     conn = msql_conn(mysql_user, mysql_pwd, mysql_db);
     if (conn == NULL)
     {
@@ -262,7 +265,6 @@ int get_user_filelist(char *cmd, char *user, int start, int count)
         goto END;
     }
 
-    // 设置数据库编码，主要处理中文编码问题
     mysql_query(conn, "set names utf8");
 
     // 多表指定行范围查询
@@ -304,7 +306,7 @@ int get_user_filelist(char *cmd, char *user, int start, int count)
     line = mysql_num_rows(res_set);
     if (line == 0) // 没有结果
     {
-        LOG(MYFILES_LOG_MODULE, MYFILES_LOG_PROC, "mysql_num_rows(res_set) failed：%s\n", mysql_error(conn));
+        LOG(MYFILES_LOG_MODULE, MYFILES_LOG_PROC, "mysql_num_rows(res_set) failed: %s\n", mysql_error(conn));
         ret = -1;
         goto END;
     }
@@ -510,8 +512,7 @@ int main()
             {
                 get_count_json_info(buf, user, token); // 通过json包获取用户名, token
 
-                // 验证登陆token，成功返回0，失败-1
-                ret = verify_token(user, token); // util_cgi.h
+                ret = verify_token(user, token);
 
                 get_user_files_count(user, ret); // 获取用户文件个数
             }
