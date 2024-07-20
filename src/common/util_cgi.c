@@ -84,11 +84,11 @@ char *memstr(char *full_data, int full_data_len, char *substr)
 }
 
 
-int query_parse_key_value(const char *query, const char *key, char *value, int *value_len_p)
+int query_parse_key_value(const char *query, const char *key, char *value, int *value_len)
 {
     char *temp = NULL;
     char *end = NULL;
-    int value_len = 0;
+    int len = 0;
 
     // 找到是否有key
     temp = strstr(query, key);
@@ -110,14 +110,14 @@ int query_parse_key_value(const char *query, const char *key, char *value, int *
         end++;
     }
 
-    value_len = end - temp;
+    len = end - temp;
 
-    strncpy(value, temp, value_len);
-    value[value_len] = '\0';
+    strncpy(value, temp, len);
+    value[len] = '\0';
 
-    if (value_len_p != NULL)
+    if (value_len != NULL)
     {
-        *value_len_p = value_len;
+        *value_len = len;
     }
 
     return 0;

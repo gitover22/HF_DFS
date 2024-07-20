@@ -30569,4 +30569,748 @@
 165566:M 18 Jul 22:36:04.292 - 0 clients connected (0 slaves), 765776 bytes in use
 165566:M 18 Jul 22:36:09.306 - 0 clients connected (0 slaves), 765776 bytes in use
 165566:M 18 Jul 22:36:14.318 - 0 clients connected (0 slaves), 765776 bytes in use
-                                                                                   
+                                                                                   13442:C 20 Jul 21:58:36.719 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+13442:C 20 Jul 21:58:36.720 # Redis version=4.0.8, bits=64, commit=4678a407, modified=1, pid=13442, just started
+13442:C 20 Jul 21:58:36.720 # Configuration loaded
+13443:M 20 Jul 21:58:36.721 * Running mode=standalone, port=6379.
+13443:M 20 Jul 21:58:36.721 # Server initialized
+13443:M 20 Jul 21:58:36.721 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+13443:M 20 Jul 21:58:36.721 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+13443:M 20 Jul 21:58:36.722 . Unrecognized RDB AUX field: 'redis-ver'
+13443:M 20 Jul 21:58:36.722 . Unrecognized RDB AUX field: 'redis-bits'
+13443:M 20 Jul 21:58:36.722 . Unrecognized RDB AUX field: 'ctime'
+13443:M 20 Jul 21:58:36.722 . Unrecognized RDB AUX field: 'used-mem'
+13443:M 20 Jul 21:58:36.722 . Unrecognized RDB AUX field: 'aof-preamble'
+13443:M 20 Jul 21:58:36.722 * DB loaded from disk: 0.000 seconds
+13443:M 20 Jul 21:58:36.722 * Ready to accept connections
+13443:M 20 Jul 21:58:36.722 - 0 clients connected (0 slaves), 765776 bytes in use
+13443:M 20 Jul 21:58:41.735 - 0 clients connected (0 slaves), 765776 bytes in use
+13443:M 20 Jul 21:58:46.747 - 0 clients connected (0 slaves), 765776 bytes in use
+13443:M 20 Jul 21:58:51.760 - 0 clients connected (0 slaves), 765776 bytes in use
+13443:M 20 Jul 21:58:56.773 - 0 clients connected (0 slaves), 765776 bytes in use
+13443:M 20 Jul 21:59:01.785 - 0 clients connected (0 slaves), 765776 bytes in use
+13443:M 20 Jul 21:59:06.799 - 0 clients connected (0 slaves), 765776 bytes in use
+13443:M 20 Jul 21:59:11.813 - 0 clients connected (0 slaves), 765776 bytes in use
+13443:M 20 Jul 21:59:16.826 - 0 clients connected (0 slaves), 765776 bytes in use
+13443:M 20 Jul 21:59:21.840 - 0 clients connected (0 slaves), 765776 bytes in use
+13443:M 20 Jul 21:59:26.853 - 0 clients connected (0 slaves), 765776 bytes in use
+13443:M 20 Jul 21:59:31.865 - 0 clients connected (0 slaves), 765776 bytes in use
+13443:M 20 Jul 21:59:36.878 - 0 clients connected (0 slaves), 765776 bytes in use
+13443:M 20 Jul 21:59:41.892 - 0 clients connected (0 slaves), 765776 bytes in use
+13443:M 20 Jul 21:59:46.903 - 0 clients connected (0 slaves), 765776 bytes in use
+13443:M 20 Jul 21:59:51.917 - 0 clients connected (0 slaves), 765776 bytes in use
+13443:M 20 Jul 21:59:56.929 - 0 clients connected (0 slaves), 765776 bytes in use
+13443:M 20 Jul 22:00:01.942 - 0 clients connected (0 slaves), 765776 bytes in use
+13443:M 20 Jul 22:00:06.955 - 0 clients connected (0 slaves), 765776 bytes in use
+13443:M 20 Jul 22:00:11.968 - 0 clients connected (0 slaves), 765776 bytes in use
+13443:M 20 Jul 22:00:16.982 - 0 clients connected (0 slaves), 765776 bytes in use
+13443:M 20 Jul 22:00:21.997 - 0 clients connected (0 slaves), 765776 bytes in use
+13443:M 20 Jul 22:00:27.008 - 0 clients connected (0 slaves), 765776 bytes in use
+13443:M 20 Jul 22:00:32.019 - 0 clients connected (0 slaves), 765776 bytes in use
+13443:M 20 Jul 22:00:37.032 - 0 clients connected (0 slaves), 765776 bytes in use
+13443:M 20 Jul 22:00:42.045 - 0 clients connected (0 slaves), 765776 bytes in use
+13443:M 20 Jul 22:00:44.155 - Accepted 127.0.0.1:39004
+13443:M 20 Jul 22:00:44.155 - Client closed connection
+13443:M 20 Jul 22:00:44.704 - Accepted 127.0.0.1:39020
+13443:M 20 Jul 22:00:44.704 - Client closed connection
+13443:M 20 Jul 22:00:44.709 - Accepted 127.0.0.1:39034
+13443:M 20 Jul 22:00:44.709 - Client closed connection
+13443:M 20 Jul 22:00:47.061 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:00:47.061 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:00:52.074 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:00:52.074 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:00:55.059 - Accepted 127.0.0.1:35614
+13443:M 20 Jul 22:00:55.059 - Client closed connection
+13443:M 20 Jul 22:00:55.080 - Accepted 127.0.0.1:35626
+13443:M 20 Jul 22:00:55.080 - Client closed connection
+13443:M 20 Jul 22:00:55.092 - Accepted 127.0.0.1:35636
+13443:M 20 Jul 22:00:55.092 - Client closed connection
+13443:M 20 Jul 22:00:57.084 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:00:57.084 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:01:02.096 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:01:02.096 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:01:03.392 - Accepted 127.0.0.1:51490
+13443:M 20 Jul 22:01:03.392 - Client closed connection
+13443:M 20 Jul 22:01:03.394 - Accepted 127.0.0.1:51500
+13443:M 20 Jul 22:01:03.394 - Client closed connection
+13443:M 20 Jul 22:01:07.109 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:01:07.109 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:01:12.123 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:01:12.123 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:01:17.135 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:01:17.135 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:01:22.147 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:01:22.147 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:01:27.160 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:01:27.160 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:01:32.173 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:01:32.174 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:01:37.187 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:01:37.187 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:01:42.201 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:01:42.201 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:01:47.215 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:01:47.215 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:01:52.228 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:01:52.228 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:01:57.241 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:01:57.241 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:02:02.252 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:02:02.252 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:02:07.266 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:02:07.266 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:02:12.279 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:02:12.279 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:02:17.292 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:02:17.292 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:02:22.305 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:02:22.305 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:02:27.317 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:02:27.317 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:02:32.331 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:02:32.331 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:02:37.345 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:02:37.345 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:02:42.359 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:02:42.359 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:02:47.374 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:02:47.374 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:02:52.385 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:02:52.385 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:02:57.398 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:02:57.398 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:03:02.411 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:03:02.411 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:03:07.424 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:03:07.424 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:03:12.437 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:03:12.437 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:03:17.450 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:03:17.450 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:03:22.463 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:03:22.463 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:03:27.475 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:03:27.475 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:03:32.488 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:03:32.488 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:03:37.500 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:03:37.500 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:03:42.515 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:03:42.515 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:03:47.529 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:03:47.529 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:03:52.542 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:03:52.542 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:03:57.556 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:03:57.556 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:04:02.571 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:04:02.571 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:04:07.586 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:04:07.586 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:04:12.599 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:04:12.599 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:04:17.612 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:04:17.612 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:04:22.627 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:04:22.627 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:04:27.641 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:04:27.641 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:04:32.655 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:04:32.655 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:04:37.668 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:04:37.668 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:04:42.683 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:04:42.688 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:04:47.702 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:04:47.702 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:04:52.717 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:04:52.717 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:04:57.731 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:04:57.731 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:05:02.745 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:05:02.745 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:05:07.760 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:05:07.760 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:05:12.774 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:05:12.774 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:05:17.788 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:05:17.788 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:05:22.802 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:05:22.802 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:05:27.814 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:05:27.814 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:05:32.828 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:05:32.828 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:05:37.842 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:05:37.842 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:05:42.855 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:05:42.855 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:05:47.870 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:05:47.870 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:05:52.885 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:05:52.885 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:05:57.900 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:05:57.900 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:06:02.913 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:06:02.913 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:06:07.927 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:06:07.927 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:06:12.943 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:06:12.943 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:06:17.958 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:06:17.959 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:06:22.972 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:06:22.972 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:06:27.984 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:06:27.984 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:06:32.999 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:06:32.999 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:06:38.016 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:06:38.016 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:06:43.031 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:06:43.031 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:06:48.045 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:06:48.045 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:06:53.060 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:06:53.060 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:06:58.073 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:06:58.073 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:07:03.084 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:07:03.084 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:07:08.095 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:07:08.095 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:07:13.108 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:07:13.108 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:07:18.122 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:07:18.122 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:07:23.136 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:07:23.136 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:07:28.150 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:07:28.150 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:07:33.164 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:07:33.164 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:07:38.178 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:07:38.178 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:07:43.194 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:07:43.194 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:07:48.207 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:07:48.207 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:07:53.221 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:07:53.221 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:07:58.234 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:07:58.234 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:08:03.247 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:08:03.247 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:08:08.260 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:08:08.260 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:08:13.274 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:08:13.274 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:08:18.287 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:08:18.287 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:08:23.300 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:08:23.300 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:08:28.315 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:08:28.315 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:08:33.330 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:08:33.330 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:08:38.344 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:08:38.344 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:08:43.356 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:08:43.356 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:08:48.369 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:08:48.369 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:08:53.381 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:08:53.381 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:08:58.395 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:08:58.395 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:09:03.409 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:09:03.409 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:09:08.422 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:09:08.422 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:09:13.436 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:09:13.436 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:09:18.450 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:09:18.450 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:09:23.465 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:09:23.465 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:09:28.477 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:09:28.477 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:09:33.492 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:09:33.492 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:09:38.507 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:09:38.507 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:09:43.522 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:09:43.522 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:09:48.538 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:09:48.538 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:09:53.554 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:09:53.554 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:09:58.569 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:09:58.569 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:10:03.584 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:10:03.584 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:10:08.599 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:10:08.599 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:10:13.613 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:10:13.614 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:10:18.629 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:10:18.629 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:10:23.644 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:10:23.644 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:10:28.659 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:10:28.659 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:10:33.674 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:10:33.674 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:10:38.689 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:10:38.690 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:10:43.705 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:10:43.705 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:10:48.720 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:10:48.720 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:10:53.736 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:10:53.736 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:10:58.750 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:10:58.750 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:11:03.765 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:11:03.765 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:11:08.777 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:11:08.777 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:11:13.793 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:11:13.794 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:11:18.809 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:11:18.809 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:11:23.825 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:11:23.825 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:11:28.839 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:11:28.839 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:11:33.853 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:11:33.853 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:11:38.868 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:11:38.868 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:11:43.882 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:11:43.882 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:11:48.897 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:11:48.897 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:11:53.911 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:11:53.911 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:11:58.926 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:11:58.926 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:12:03.940 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:12:03.940 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:12:08.955 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:12:08.955 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:12:13.969 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:12:13.970 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:12:18.984 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:12:18.984 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:12:23.997 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:12:23.997 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:12:29.013 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:12:29.013 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:12:34.027 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:12:34.027 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:12:39.039 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:12:39.039 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:12:44.051 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:12:44.051 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:12:49.065 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:12:49.065 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:12:54.080 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:12:54.081 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:12:59.095 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:12:59.095 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:13:04.108 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:13:04.108 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:13:09.121 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:13:09.121 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:13:14.137 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:13:14.138 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:13:19.151 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:13:19.151 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:13:24.163 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:13:24.163 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:13:29.177 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:13:29.177 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:13:34.191 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:13:34.191 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:13:37.099 * 1 changes in 900 seconds. Saving...
+13443:M 20 Jul 22:13:37.099 * Background saving started by pid 18957
+18957:C 20 Jul 22:13:37.113 * DB saved on disk
+18957:C 20 Jul 22:13:37.113 * RDB: 0 MB of memory used by copy-on-write
+13443:M 20 Jul 22:13:37.199 * Background saving terminated with success
+13443:M 20 Jul 22:13:39.204 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:13:39.204 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:13:44.215 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:13:44.216 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:13:49.229 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:13:49.229 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:13:54.239 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:13:54.239 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:13:59.250 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:13:59.250 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:14:04.264 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:14:04.264 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:14:09.276 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:14:09.276 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:14:14.288 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:14:14.288 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:14:19.302 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:14:19.303 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:14:24.318 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:14:24.318 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:14:29.332 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:14:29.332 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:14:34.347 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:14:34.347 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:14:39.360 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:14:39.360 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:14:44.374 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:14:44.374 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:14:49.388 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:14:49.388 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:14:54.401 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:14:54.401 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:14:59.415 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:14:59.416 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:15:04.430 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:15:04.430 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:15:09.445 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:15:09.445 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:15:14.459 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:15:14.459 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:15:19.473 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:15:19.473 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:15:24.488 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:15:24.488 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:15:29.504 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:15:29.504 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:15:34.517 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:15:34.517 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:15:39.532 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:15:39.532 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:15:44.545 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:15:44.545 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:15:49.559 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:15:49.569 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:15:54.583 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:15:54.583 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:15:59.597 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:15:59.597 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:16:04.612 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:16:04.612 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:16:09.627 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:16:09.628 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:16:14.643 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:16:14.643 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:16:19.658 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:16:19.658 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:16:24.672 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:16:24.672 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:16:29.687 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:16:29.687 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:16:34.701 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:16:34.701 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:16:39.715 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:16:39.716 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:16:44.731 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:16:44.731 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:16:49.744 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:16:49.744 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:16:54.758 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:16:54.758 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:16:59.771 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:16:59.771 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:17:04.784 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:17:04.784 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:17:09.798 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:17:09.798 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:17:14.813 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:17:14.814 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:17:19.828 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:17:19.828 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:17:24.844 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:17:24.844 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:17:29.859 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:17:29.859 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:17:34.875 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:17:34.875 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:17:39.889 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:17:39.889 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:17:44.903 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:17:44.903 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:17:49.919 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:17:49.919 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:17:54.935 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:17:54.935 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:17:59.951 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:17:59.951 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:18:04.967 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:18:04.967 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:18:09.982 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:18:09.982 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:18:14.998 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:18:14.998 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:18:20.015 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:18:20.015 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:18:25.028 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:18:25.028 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:18:30.043 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:18:30.043 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:18:35.058 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:18:35.058 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:18:40.073 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:18:40.073 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:18:45.087 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:18:45.087 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:18:50.101 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:18:50.101 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:18:55.115 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:18:55.115 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:19:00.130 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:19:00.130 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:19:05.143 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:19:05.143 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:19:10.159 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:19:10.159 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:19:15.175 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:19:15.175 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:19:20.188 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:19:20.188 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:19:25.202 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:19:25.202 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:19:30.217 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:19:30.217 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:19:35.234 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:19:35.234 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:19:40.250 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:19:40.251 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:19:45.264 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:19:45.264 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:19:50.279 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:19:50.279 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:19:55.293 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:19:55.293 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:20:00.306 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:20:00.306 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:20:05.320 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:20:05.320 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:20:10.335 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:20:10.335 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:20:15.349 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:20:15.349 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:20:20.361 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:20:20.361 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:20:25.375 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:20:25.375 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:20:30.389 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:20:30.389 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:20:35.403 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:20:35.403 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:20:40.419 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:20:40.419 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:20:45.435 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:20:45.435 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:20:50.449 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:20:50.449 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:20:55.461 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:20:55.461 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:21:00.476 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:21:00.476 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:21:05.489 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:21:05.489 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:21:10.503 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:21:10.503 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:21:15.517 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:21:15.517 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:21:20.532 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:21:20.532 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:21:25.546 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:21:25.546 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:21:30.559 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:21:30.559 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:21:35.574 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:21:35.574 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:21:40.589 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:21:40.589 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:21:45.603 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:21:45.603 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:21:50.616 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:21:50.616 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:21:55.629 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:21:55.629 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:22:00.643 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:22:00.644 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:22:05.659 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:22:05.659 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:22:10.673 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:22:10.673 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:22:15.687 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:22:15.687 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:22:20.701 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:22:20.701 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:22:25.715 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:22:25.715 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:22:30.729 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:22:30.729 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:22:35.743 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:22:35.743 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:22:40.756 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:22:40.756 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:22:45.771 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:22:45.771 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:22:50.786 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:22:50.786 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:22:55.800 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:22:55.800 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:23:00.812 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:23:00.812 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:23:05.824 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:23:05.824 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:23:10.839 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:23:10.839 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:23:15.853 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:23:15.853 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:23:20.868 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:23:20.868 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:23:25.882 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:23:25.882 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:23:30.896 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:23:30.897 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:23:35.912 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:23:35.913 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:23:40.928 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:23:40.928 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:23:45.943 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:23:45.943 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:23:50.958 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:23:50.958 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:23:55.973 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:23:55.973 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:24:00.988 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:24:00.988 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:24:06.003 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:24:06.003 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:24:11.018 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:24:11.018 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:24:16.031 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:24:16.031 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:24:21.045 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:24:21.045 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:24:26.060 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:24:26.060 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:24:31.074 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:24:31.074 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:24:36.089 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:24:36.089 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:24:41.101 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:24:41.101 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:24:46.116 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:24:46.116 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:24:51.129 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:24:51.129 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:24:56.143 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:24:56.143 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:25:01.155 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:25:01.155 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:25:06.171 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:25:06.171 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:25:11.185 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:25:11.185 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:25:16.201 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:25:16.201 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:25:21.215 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:25:21.215 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:25:26.230 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:25:26.230 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:25:31.245 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:25:31.245 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:25:36.260 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:25:36.260 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:25:41.276 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:25:41.276 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:25:46.292 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:25:46.292 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:25:51.308 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:25:51.308 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:25:56.323 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:25:56.323 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:26:01.338 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:26:01.338 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:26:06.352 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:26:06.352 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:26:11.369 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:26:11.369 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:26:16.385 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:26:16.385 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:26:21.401 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:26:21.401 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:26:26.418 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:26:26.418 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:26:31.432 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:26:31.432 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:26:36.446 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:26:36.446 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:26:41.462 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:26:41.462 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:26:46.478 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:26:46.478 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:26:51.494 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:26:51.495 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:26:56.511 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:26:56.511 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:27:01.527 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:27:01.527 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:27:06.542 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:27:06.542 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:27:11.555 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:27:11.555 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:27:16.571 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:27:16.571 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:27:21.586 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:27:21.586 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:27:26.602 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:27:26.602 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:27:31.618 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:27:31.618 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:27:36.632 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:27:36.632 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:27:41.648 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:27:41.648 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:27:46.663 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:27:46.663 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:27:51.679 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:27:51.679 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:27:56.695 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:27:56.695 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:28:01.710 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:28:01.711 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:28:06.726 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:28:06.726 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:28:11.739 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:28:11.739 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:28:16.753 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:28:16.753 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:28:21.768 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:28:21.768 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:28:26.781 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:28:26.781 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:28:31.797 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:28:31.797 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:28:36.811 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:28:36.811 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:28:41.826 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:28:41.826 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:28:46.838 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:28:46.838 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:28:51.850 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:28:51.850 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:28:56.865 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:28:56.865 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:29:01.880 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:29:01.880 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:29:06.894 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:29:06.894 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:29:11.909 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:29:11.909 - 0 clients connected (0 slaves), 765960 bytes in use
+13443:M 20 Jul 22:29:16.923 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+13443:M 20 Jul 22:29:16.923 - 0 clients connected (0 slaves), 765960 bytes in use

@@ -8,7 +8,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "make_log.h" //日志头文件
+#include "make_log.h"
 #include "util_cgi.h"
 #include "deal_mysql.h"
 #include "config.h"
@@ -16,29 +16,20 @@
 #include <sys/time.h>
 #include <sys/types.h>
 
-#define MYFILES_LOG_MODULE "cgi"
 #define MYFILES_LOG_PROC "myfiles"
+#define MYFILES_LOG_MODULE "cgi"
 
-// mysql 数据库配置信息 用户名， 密码， 数据库名称
 static char mysql_user[128] = {0};
 static char mysql_pwd[128] = {0};
 static char mysql_db[128] = {0};
-
-// redis 服务器ip、端口
-// static char redis_ip[30] = {0};
-// static char redis_port[10] = {0};
-
-// 读取配置信息
 void read_config()
 {
-    // 读取mysql数据库配置信息
     get_config_value(CONFIG_PATH, "mysql", "user", mysql_user);
     get_config_value(CONFIG_PATH, "mysql", "password", mysql_pwd);
     get_config_value(CONFIG_PATH, "mysql", "database", mysql_db);
     LOG(MYFILES_LOG_MODULE, MYFILES_LOG_PROC, "mysql:[user=%s,pwd=%s,database=%s]", mysql_user, mysql_pwd, mysql_db);
 }
 
-// 解析的json包, 登陆token
 int get_count_json_info(char *buf, char *user, char *token)
 {
     int ret = 0;
@@ -50,8 +41,6 @@ int get_count_json_info(char *buf, char *user, char *token)
     }
     */
 
-    // 解析json包
-    // 解析一个json字符串为cJSON对象
     cJSON *root = cJSON_Parse(buf);
     if (NULL == root)
     {
@@ -60,8 +49,6 @@ int get_count_json_info(char *buf, char *user, char *token)
         goto END;
     }
 
-    // 返回指定字符串对应的json对象
-    // 用户
     cJSON *child1 = cJSON_GetObjectItem(root, "user");
     if (NULL == child1)
     {
@@ -466,16 +453,12 @@ END:
 
 int main()
 {
-    // count 获取用户文件个数
-    // display 获取用户文件信息，展示到前端
     char cmd[20];
     char user[USER_NAME_LEN];
     char token[TOKEN_LEN];
 
-    // 读取数据库配置信息
     read_config();
 
-    // 阻塞等待用户连接
     while (FCGI_Accept() >= 0)
     {
 
@@ -483,6 +466,11 @@ int main()
         char *query = getenv("QUERY_STRING");
 
         // 解析命令
+        /**
+         * 命令格式：// 获取用户文件信息 127.0.0.1:80/myfiles&cmd=normal
+                    // 按下载量升序 127.0.0.1:80/myfiles?cmd=pvasc
+                    // 按下载量降序127.0.0.1:80/myfiles?cmd=pvdesc      
+         */
         query_parse_key_value(query, "cmd", cmd, NULL);
         LOG(MYFILES_LOG_MODULE, MYFILES_LOG_PROC, "cmd = %s\n", cmd);
 
@@ -497,7 +485,7 @@ int main()
         }
         else
         {
-            len = atoi(contentLength); // 字符串转整型
+            len = atoi(contentLength);
         }
 
         if (len <= 0)
@@ -527,9 +515,6 @@ int main()
 
                 get_user_files_count(user, ret); // 获取用户文件个数
             }
-            // 获取用户文件信息 127.0.0.1:80/myfiles&cmd=normal
-            // 按下载量升序 127.0.0.1:80/myfiles?cmd=pvasc
-            // 按下载量降序127.0.0.1:80/myfiles?cmd=pvdesc
             else
             {
                 int start;                                                 // 文件起点
@@ -537,8 +522,7 @@ int main()
                 get_fileslist_json_info(buf, user, token, &start, &count); // 通过json包获取信息
                 LOG(MYFILES_LOG_MODULE, MYFILES_LOG_PROC, "user = %s, token = %s, start = %d, count = %d\n", user, token, start, count);
 
-                // 验证登陆token，成功返回0，失败-1
-                ret = verify_token(user, token); // util_cgi.h
+                ret = verify_token(user, token);
                 if (ret == 0)
                 {
                     get_user_filelist(cmd, user, start, count); // 获取用户文件列表
