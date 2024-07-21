@@ -131,7 +131,6 @@ void get_user_files_count(char *user, int ret)
         goto END;
     }
 
-    // 设置数据库编码，主要处理中文编码问题
     mysql_query(conn, "set names utf8");
 
     sprintf(sql_cmd, "select count from user_file_count where user=\"%s\"", user);
@@ -144,7 +143,7 @@ void get_user_files_count(char *user, int ret)
         goto END;
     }
 
-    line = atol(tmp); // 字符串转长整形
+    line = atol(tmp);
 
 END:
     if (conn != NULL)
@@ -158,7 +157,14 @@ END:
     return_login_status(line, ret);
 }
 
-// 解析的json包
+/**
+ * @brief 解析json包中的数据
+ * @param buf [in] json字符串
+ * @param user [out] 用户名
+ * @param token [out] token
+ * @param p_start [out] 起点
+ * @param p_count [out] 个数
+ */
 int get_fileslist_json_info(char *buf, char *user, char *token, int *p_start, int *p_count)
 {
     int ret = 0;
@@ -499,7 +505,7 @@ int main()
         {
             char buf[4 * 1024] = {0};
             int ret = 0;
-            ret = fread(buf, 1, len, stdin); // 从标准输入(web服务器)读取内容
+            ret = fread(buf, 1, len, stdin);
             if (ret == 0)
             {
                 LOG(MYFILES_LOG_MODULE, MYFILES_LOG_PROC, "fread(buf, 1, len, stdin) err\n");

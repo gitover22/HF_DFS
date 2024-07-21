@@ -224,7 +224,11 @@ void str_replace(char *strSrc, char *strFind, char *strReplace)
             strSrc++;
     }
 }
-
+/**
+ * @brief  根据 status_num 构建json字符串
+ * @param  status_num [in] 状态码
+ * @return {"code":" status_num "}
+ */
 char *return_status(char *status_num)
 {
     char *out = NULL;
@@ -237,7 +241,12 @@ char *return_status(char *status_num)
     return out;
 }
 
-
+/**
+ * @brief  读取redis数据库,验证用户的token
+ * @param  user [in] 用户名
+ * @param  token [in] json中的token
+ * @return 0 成功, -1 失败
+ */
 int verify_token(char *user, char *token)
 {
     int ret = 0;
