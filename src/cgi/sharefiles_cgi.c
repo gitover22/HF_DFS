@@ -1,14 +1,9 @@
-/**
- * @file sharefiles_cgi.c
- * @brief  共享文件列表展示CGI程序
- */
-
 #include "fcgi_config.h"
 #include "fcgi_stdio.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "make_log.h" //日志头文件
+#include "make_log.h"
 #include "util_cgi.h"
 #include "deal_mysql.h"
 #include "redis_keys.h"
@@ -17,34 +12,34 @@
 #include "cJSON.h"
 #include <sys/time.h>
 
-#define SHAREFILES_LOG_MODULE       "cgi"
 #define SHAREFILES_LOG_PROC         "sharefiles"
+#define SHAREFILES_LOG_MODULE       "cgi"
 
-//mysql 数据库配置信息 用户名， 密码， 数据库名称
 static char mysql_user[128] = {0};
 static char mysql_pwd[128] = {0};
 static char mysql_db[128] = {0};
 
-//redis 服务器ip、端口
 static char redis_ip[30] = {0};
 static char redis_port[10] = {0};
 
-//读取配置信息
+/**
+ * @brief 读取mysql配置信息和redis配置信息并保存在全局变量中
+ */
 void read_config()
 {
-    //读取mysql数据库配置信息
     get_config_value(CONFIG_PATH, "mysql", "user", mysql_user);
     get_config_value(CONFIG_PATH, "mysql", "password", mysql_pwd);
     get_config_value(CONFIG_PATH, "mysql", "database", mysql_db);
     LOG(SHAREFILES_LOG_MODULE, SHAREFILES_LOG_PROC, "mysql:[user=%s,pwd=%s,database=%s]", mysql_user, mysql_pwd, mysql_db);
 
-    //读取redis配置信息
     get_config_value(CONFIG_PATH, "redis", "ip", redis_ip);
     get_config_value(CONFIG_PATH, "redis", "port", redis_port);
     LOG(SHAREFILES_LOG_MODULE, SHAREFILES_LOG_PROC, "redis:[ip=%s,port=%s]\n", redis_ip, redis_port);
 }
 
-//获取共享文件个数
+/**
+ * @brief 获取共享文件总数
+ */
 void get_share_files_count()
 {
     char sql_cmd[SQL_MAX_LEN] = {0};
@@ -59,7 +54,6 @@ void get_share_files_count()
         goto END;
     }
 
-    //设置数据库编码，主要处理中文编码问题
     mysql_query(conn, "set names utf8");
 
     sprintf(sql_cmd, "select count from user_file_count where user=\"%s\"", "xxx_share_xxx_file_xxx_list_xxx_count_xxx");
@@ -83,7 +77,12 @@ END:
     printf("%ld", line); //给前端反馈的信息
 }
 
-//解析的json包
+/**
+ * @brief 从buf中解析得到文件起点和请求个数
+ * @param buf [in] 从前端传过来的json字符串
+ * @param p_start [out] 文件起点
+ * @param p_count [out] 请求个数
+ */
 int get_fileslist_json_info(char *buf, int *p_start, int *p_count)
 {
     int ret = 0;
@@ -95,8 +94,6 @@ int get_fileslist_json_info(char *buf, int *p_start, int *p_count)
     }
     */
 
-    //解析json包
-    //解析一个json字符串为cJSON对象
     cJSON * root = cJSON_Parse(buf);
     if(NULL == root)
     {
@@ -130,7 +127,7 @@ int get_fileslist_json_info(char *buf, int *p_start, int *p_count)
 END:
     if(root != NULL)
     {
-        cJSON_Delete(root);//删除json对象
+        cJSON_Delete(root);
         root = NULL;
     }
 
@@ -159,7 +156,6 @@ int get_share_filelist(int start, int count)
         goto END;
     }
 
-    //设置数据库编码，主要处理中文编码问题
     mysql_query(conn, "set names utf8");
 
 
@@ -579,11 +575,8 @@ END:
 int main()
 {
     char cmd[20];
-
-    //读取数据库配置信息
     read_config();
 
-    //阻塞等待用户连接
     while (FCGI_Accept() >= 0)
     {
 
@@ -623,7 +616,7 @@ int main()
             {
                 char buf[4*1024] = {0};
                 int ret = 0;
-                ret = fread(buf, 1, len, stdin); //从标准输入(web服务器)读取内容
+                ret = fread(buf, 1, len, stdin);
                 if(ret == 0)
                 {
                     LOG(SHAREFILES_LOG_MODULE, SHAREFILES_LOG_PROC, "fread(buf, 1, len, stdin) err\n");
