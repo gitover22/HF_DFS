@@ -11,45 +11,7 @@
 
 #if 1
 
-// pthread_mutex_t lock;
-// pthread_mutex_init(lock);
-/*void *comm_log(void *p)
-{
-	pthread_mutex_lock(&lock);
-	pthread_mutex_unlock(&lock);
-}
-struct file_path{
-	char *module_name;
-	char *proc_name;
-	const char *filename;
-	int line;
-	const char *funcname;
-	char *fmt;
-
-};
-int lock_file(char *module, char *proc, const char *file,
-						int lines, const char *func, char *mt, ...)
-{
-	va_list ap;
-	struct file_path path;
-	path.module_name = module;
-	path.proc_name = proc;
-	path.filename = file;
-	path.line = lines;
-	path.funcname = func;
-	//path.fmt  = mt;
-	va_start(ap,mt);
-	vsprintf(path.fmt,mt,ap);
-	va_end(ap);
-	pthread_mutex_init(&lock,0);
-	pthread_t comm;
-		pthread_create(&comm,0,dumpmsg_to_file,&path);
-	pthread_join(comm,0);
-	pthread_mutex_destroy(&lock);
-}*/
-
 pthread_mutex_t ca_log_lock = PTHREAD_MUTEX_INITIALIZER;
-
 
 int dumpmsg_to_file(char *module_name, char *proc_name, const char *filename,
 					int line, const char *funcname, char *fmt, ...)
@@ -82,7 +44,7 @@ int dumpmsg_to_file(char *module_name, char *proc_name, const char *filename,
 int out_put_file(char *path, char *buf)
 {
 	int fd;
-	fd = open(path, O_RDWR | O_CREAT | O_APPEND, 0777);
+	fd = open(path, O_CREAT | O_APPEND | O_RDWR, 0777);
 
 	if (write(fd, buf, strlen(buf)) != (int)strlen(buf))
 	{
@@ -91,10 +53,8 @@ int out_put_file(char *path, char *buf)
 	}
 	else
 	{
-		// write(fd, "\n", 1);
 		close(fd);
 	}
-
 	return 0;
 }
 int make_path(char *path, char *module_name, char *proc_name)
