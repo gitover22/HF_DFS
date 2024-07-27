@@ -9,10 +9,9 @@ echo_color() {
 
 # restart
 restart_service() {
-    echo_color "restart $1"
+    echo_color "restart $1 :"
     ./$1.sh stop
     ./$1.sh start
-    echo_color "$1 restart success"
     echo
 }
 
@@ -44,4 +43,4 @@ main() {
     restart_service "nginx"
     restart_service "redis"
 }
-main
+main "$@"

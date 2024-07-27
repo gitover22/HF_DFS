@@ -32,15 +32,17 @@ start_process() {
         spawn-fcgi -a 127.0.0.1 -p "$port" -f "$path"
     done
 }
-
-case "$1" in
-    start)
-        start_process
-        ;;
-    stop)
-        stop_process
-        ;;
-    *)
-    echo "invalid args! use :'start' or 'stop'"
-        ;;
-esac
+main() {
+    case "$1" in
+        start)
+            start_process
+            ;;
+        stop)
+            stop_process
+            ;;
+        *)
+            echo "error argument"
+            ;;
+    esac
+}
+main "$@"
