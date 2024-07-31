@@ -2,7 +2,7 @@
  * @brief redis客户端程序示例
  */
 #include <stdio.h>
-#include <hiredis.h> // 引入hiredis头文件
+#include <hiredis.h> // 头文件
 #include <stdlib.h>
 #include <string.h>
 #include <unistd.h>
